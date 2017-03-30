@@ -481,6 +481,8 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="row-wrapper row-no-bottom-margin">
 <div class="row-container container row-full-width row-no-padding">
 <div class="row columns-equal-height columns-content-middle columns-no-margins">
+
+
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
@@ -492,6 +494,9 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 </div>
 </div>
 </div>
+
+
+
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423223527 col-has-fill">
 <div class="column-content">
