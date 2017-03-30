@@ -13,6 +13,11 @@ class Home extends MY_Controller {
 		$this->template->setPageTitle('HIV Self Test')->setPartial('home_v')->frontEndTemplate();
 	}
 
+	public function videos()
+	{
+		$this->template->setPageTitle('Videos')->setPartial('videos_v')->frontEndTemplate();
+	}
+
 }
 
 /* End of file Home.php */
