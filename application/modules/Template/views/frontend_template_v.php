@@ -74,10 +74,20 @@
 </div> -->
 <div class="site-header-container container">
 <div class="logo">
-<a href="index.html" rel="home">
-<img class="logo-default" src="<?= @$assets_url; ?>img/logo.png" alt="Azra">
+<a href="<?= @base_url('Home/');?>" rel="home">
+<img class="logo-default" src="<?= @$assets_url; ?>img/one.jpg" alt="One2One">
 </a>
 </div>
+
+<div class="logo">
+<a href="<?= @base_url('Home/');?>" rel="home">
+<img class="logo-default" src="<?= @$assets_url; ?>img/lvct.jpg" alt="LVCT">
+</a>
+
+</div>
+
+
+
 <!-- <div class="site-actions">
 <span class="header-cart-trigger site-action-trigger apalodi-icon-cart-7"> <span class="header-cart-count site-action-info">3</span></span>
 <span class="header-cart-close-trigger site-action-close slide-out-action-close"><span></span></span>
