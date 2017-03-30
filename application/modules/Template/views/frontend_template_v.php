@@ -99,135 +99,56 @@
 </div>
 <div class="site-navigation-wrapper">
 <nav class="main-navigation">
+
 <ul class="site-nav">
-<li class="menu-item menu-item-has-children menu-no-link mega-menu mm-col-2 mega-menu-center"><a><span><span class="menu-item-label">Home</span></span></a>
-<ul class="sub-menu">
-<li class="menu-item menu-item-has-children menu-no-link menu-no-label"><a><span></span></a>
-<ul class="sub-menu">
-<li class="menu-item"><a href="home-classic-business.html"><span><span class="menu-item-label">Home Classic Business</span></span></a></li>
-<li class="menu-item"><a href="home-modern-business.html"><span><span class="menu-item-label">Home Modern Business</span></span></a></li>
-<li class="menu-item"><a href="home-creative-agency.html"><span><span class="menu-item-label">Home Creative Agency</span></span></a></li>
-<li class="menu-item"><a href="home-minimal-agency.html"><span><span class="menu-item-label">Home Minimal Agency</span></span></a></li>
-<li class="menu-item"><a href="home-startup.html"><span><span class="menu-item-label">Home Startup</span></span></a></li>
+	<li class="menu-item menu-item-has-children menu-no-link mega-menu mm-col-2 mega-menu-center"><a><span><span class="menu-item-label">Home</span></span></a>
+	</li>
+
+	<li class="menu-item menu-item-has-children menu-no-link"><a href="#"><span><span class="menu-item-label">HIV Self-Test</span></span></a>
+		<!-- <ul class="sub-menu">
+			<li class="menu-item"><a href="blog/post.html"><span><span class="menu-item-label">FAQ</span></span></a></li>
+			<li class="menu-item"><a href="blog/post.html"><span><span class="menu-item-label">Blog Post</span></span></a></li>
+		</ul> -->
+	</li>
+
+	<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Conduct a Test</span></span></a>
+		<ul class="sub-menu">
+		<li class="menu-item"><a href="#"><span><span class="menu-item-label">Instructional Videos</span></span></a></li>
+		<li class="menu-item menu-description"><a href="#"><span><span class="menu-item-label">Upload IFU</span></span></a></li>
+		</ul>
+	</li>
+
+	<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Get a Kit</span></span></a>
+		<ul class="sub-menu">
+		<li class="menu-item menu-description"><a href="#"><span><span class="menu-item-label">Participating outlets</span></span></a></li>
+		<li class="menu-item"><a href="#"><span><span class="menu-item-label">Google Maps</span></span></a></li>
+		</ul>
+	</li>
+
+	<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Health Professionals</span></span></a>
+		<ul class="sub-menu">
+		
+		<li class="menu-item"><a href="#"><span><span class="menu-item-label">Referral sites</span></span></a></li>
+		<li class="menu-item menu-description"><a href="#"><span><span class="menu-item-label">PDFs</span></span></a></li>
+		<li class="menu-item"><a href="#"><span><span class="menu-item-label">Gozee</span></span></a></li>
+		</ul>
+	</li>
+
+	<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Resources</span></span></a>
+		<ul class="sub-menu">
+		
+		<li class="menu-item"><a href="blog/full-width-masonry.html"><span><span class="menu-item-label">What is a Prep</span></span></a></li>
+		<li class="menu-item"><a href="blog/post.html"><span><span class="menu-item-label">LVCT online</span></span></a></li>
+		<li class="menu-item"><a href="blog/post.html"><span><span class="menu-item-label">Manufacturer Website</span></span></a></li>
+		</ul>
+	</li>
+	
+
+
+
+<li class="menu-item menu-font-icon menu-button"><a target="_blank" href="#"><span><span class="menu-item-label">Login</span></span></a></li>
 </ul>
-</li>
-<li class="menu-item menu-item-has-children menu-no-link menu-no-label"><a><span></span></a>
-<ul class="sub-menu">
-<li class="menu-item"><a href="home-freelancer.html"><span><span class="menu-item-label">Home Freelancer</span></span></a></li>
-<li class="menu-item"><a href="home-minimal-shop.html"><span><span class="menu-item-label">Home Minimal Shop</span></span></a></li>
-<li class="menu-item"><a href="home-creative-shop.html"><span><span class="menu-item-label">Home Creative Shop</span></span></a></li>
-<li class="menu-item"><a href="index.html"><span><span class="menu-item-label">Home Landing</span></span></a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Pages</span></span></a>
-<ul class="sub-menu">
-<li class="menu-item"><a href="about-us.html"><span><span class="menu-item-label">About Us</span></span></a></li>
-<li class="menu-item"><a href="about-us-2.html"><span><span class="menu-item-label">About Us 2</span></span></a></li>
-<li class="menu-item"><a href="our-services.html"><span><span class="menu-item-label">Our Services</span></span></a></li>
-<li class="menu-item"><a href="our-process.html"><span><span class="menu-item-label">Our Process</span></span></a></li>
-<li class="menu-item"><a href="our-team.html"><span><span class="menu-item-label">Our Team</span></span></a></li>
-<li class="menu-item"><a href="pricing-options.html"><span><span class="menu-item-label">Pricing Options</span></span></a></li>
-<li class="menu-item"><a href="contact-us.html"><span><span class="menu-item-label">Contact Us</span></span></a></li>
-<li class="menu-item"><a href="contact-us-2.html"><span><span class="menu-item-label">Contact Us 2</span></span></a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-has-children menu-no-link menu-font-icon mega-menu mm-col-3 mega-menu-center"><a><span><i class="apalodi-icon-popup"></i><span class="menu-item-label">Elements</span></span></a>
-<ul class="sub-menu">
-<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Elements 1</span></span></a>
-<ul class="sub-menu">
-<li class="menu-item"><a href="elements/buttons.html"><span><span class="menu-item-label">Buttons</span></span></a></li>
-<li class="menu-item"><a href="elements/call-to-action.html"><span><span class="menu-item-label">Call To Action</span></span></a></li>
-<li class="menu-item"><a href="elements/tabs-tour.html"><span><span class="menu-item-label">Tabs &#038; Tour</span></span></a></li>
-<li class="menu-item"><a href="elements/accordion-toggle.html"><span><span class="menu-item-label">Accordion &#038; Toggle</span></span></a></li>
-<li class="menu-item"><a href="elements/before-after.html"><span><span class="menu-item-label">Before / After</span></span></a></li>
-<li class="menu-item"><a href="elements/content-carousel.html"><span><span class="menu-item-label">Content Carousel</span></span></a></li>
-<li class="menu-item"><a href="elements/content-masonry.html"><span><span class="menu-item-label">Content Masonry</span></span></a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Elements 2</span></span></a>
-<ul class="sub-menu">
-<li class="menu-item"><a href="elements/gallery.html"><span><span class="menu-item-label">Gallery</span></span></a></li>
-<li class="menu-item"><a href="elements/videos.html"><span><span class="menu-item-label">Videos</span></span></a></li>
-<li class="menu-item"><a href="elements/font-icons.html"><span><span class="menu-item-label">Font Icons</span></span></a></li>
-<li class="menu-item"><a href="elements/google-maps.html"><span><span class="menu-item-label">Google Maps</span></span></a></li>
-<li class="menu-item"><a href="elements/separators.html"><span><span class="menu-item-label">Separators</span></span></a></li>
-<li class="menu-item"><a href="elements/message-boxes.html"><span><span class="menu-item-label">Message Boxes</span></span></a></li>
-<li class="menu-item"><a href="elements/custom-headings.html"><span><span class="menu-item-label">Custom Headings</span></span></a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Elements 3</span></span></a>
-<ul class="sub-menu">
-<li class="menu-item"><a href="elements/counters.html"><span><span class="menu-item-label">Counters</span></span></a></li>
-<li class="menu-item"><a href="elements/pricing.html"><span><span class="menu-item-label">Pricing</span></span></a></li>
-<li class="menu-item"><a href="elements/progress-bar-circle.html"><span><span class="menu-item-label">Progress</span></span></a></li>
-<li class="menu-item"><a href="elements/services.html"><span><span class="menu-item-label">Services</span></span></a></li>
-<li class="menu-item"><a href="elements/team.html"><span><span class="menu-item-label">Team</span></span></a></li>
-<li class="menu-item"><a href="elements/testimonials.html"><span><span class="menu-item-label">Testimonials</span></span></a></li>
-<li class="menu-item"><a href="elements/documents.html"><span><span class="menu-item-label">Documents</span></span></a></li>
-</ul>
-</li>
-<li class="menu-separator menu-full-width"></li>
-<li class="menu-item menu-no-link menu-no-label menu-description menu-full-width menu-align-center"><a><span><span class="menu-item-description">Odio dignissim qui blandit praesent luptatum zzril</span></span></a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Portfolio</span></span></a>
-<ul class="sub-menu">
-<li class="menu-item menu-description menu-tooltip"><a href="portfolio/full-width.html"><span><span class="menu-item-label">Full Width</span><span class="menu-item-tooltip">Hot</span></span></a></li>
-<li class="menu-item menu-description"><a href="portfolio/layouts.html"><span><span class="menu-item-label">Portfolio Layouts</span><span class="menu-item-description">Choose from 3 types</span></span></a></li>
-<li class="menu-item menu-description"><a href="portfolio/ajax.html"><span><span class="menu-item-label">Portfolio Ajax</span><span class="menu-item-description">Choose from 3 types</span></span></a></li>
-<li class="menu-item menu-description"><a href="portfolio/paginations.html"><span><span class="menu-item-label">Portfolio Paginations</span><span class="menu-item-description">Choose from 3 types</span></span></a></li>
-<li class="menu-item menu-description"><a href="portfolio/filters.html"><span><span class="menu-item-label">Portfolio Filters</span><span class="menu-item-description">Choose from 3 types</span></span></a></li>
-<li class="menu-item"><a href="portfolio/widgets.html"><span><span class="menu-item-label">Portfolio Widgets</span></span></a></li>
-<li class="menu-item menu-item-has-children menu-no-link submenu-go-up mega-menu mm-col-2"><a><span><span class="menu-item-label">Project Types</span></span></a>
-<ul class="sub-menu">
-<li class="menu-item menu-item-has-children menu-no-link menu-no-label"><a><span></span></a>
-<ul class="sub-menu">
-<li class="menu-item"><a href="portfolio/project/gallery-slider.html"><span><span class="menu-item-label">Gallery Slider</span></span></a></li>
-<li class="menu-item"><a href="portfolio/project/gallery-stacked.html"><span><span class="menu-item-label">Gallery Stacked</span></span></a></li>
-<li class="menu-item"><a href="portfolio/project/gallery-grid.html"><span><span class="menu-item-label">Gallery Grid</span></span></a></li>
-<li class="menu-item"><a href="portfolio/project/gallery-carousel.html"><span><span class="menu-item-label">Gallery Carousel</span></span></a></li>
-<li class="menu-item"><a href="portfolio/project/video.html"><span><span class="menu-item-label">Video</span></span></a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-has-children menu-no-link menu-no-label"><a><span></span></a>
-<ul class="sub-menu">
-<li class="menu-item"><a href="portfolio/project/audio.html"><span><span class="menu-item-label">Audio</span></span></a></li>
-<li class="menu-item"><a href="portfolio/project/left-sidebar.html"><span><span class="menu-item-label">Left Sidebar</span></span></a></li>
-<li class="menu-item"><a href="portfolio/project/right-sidebar.html"><span><span class="menu-item-label">Right Sidebar</span></span></a></li>
-<li class="menu-item"><a href="portfolio/project/full-width.html"><span><span class="menu-item-label">Full Width</span></span></a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="menu-separator"></li>
-<li class="menu-item menu-no-link menu-no-label menu-description"><a><span><span class="menu-item-description">Odio dignissim qui blandit praesent luptatum zzril</span></span></a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Shop</span></span></a>
-<ul class="sub-menu">
-<li class="menu-item menu-description menu-tooltip"><a href="shop/with-sidebar.html"><span><span class="menu-item-label">Shop w/ Sidebar</span><span class="menu-item-tooltip">Top</span></span></a></li>
-<li class="menu-item"><a href="shop/full-width.html"><span><span class="menu-item-label">Shop Full Width</span></span></a></li>
-<li class="menu-item menu-description"><a href="shop/layouts.html"><span><span class="menu-item-label">Shop Layouts</span><span class="menu-item-description">Choose from 3 types</span></span></a></li>
-<li class="menu-item menu-description"><a href="shop/paginations.html"><span><span class="menu-item-label">Shop Paginations</span><span class="menu-item-description">Choose from 3 types</span></span></a></li>
-<li class="menu-separator"></li>
-<li class="menu-item"><a href="shop/product.html"><span><span class="menu-item-label">Product</span></span></a></li>
-<li class="menu-item"><a href="shop/cart.html"><span><span class="menu-item-label">Cart</span></span></a></li>
-<li class="menu-item"><a href="shop/checkout.html"><span><span class="menu-item-label">Checkout</span></span></a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Blog</span></span></a>
-<ul class="sub-menu">
-<li class="menu-item menu-description menu-tooltip"><a href="blog/with-sidebar.html"><span><span class="menu-item-label">Blog w/ Sidebar</span><span class="menu-item-tooltip">Top</span></span></a></li>
-<li class="menu-item"><a href="blog/full-width-masonry.html"><span><span class="menu-item-label">Blog Full Width Masonry</span></span></a></li>
-<li class="menu-item menu-description"><a href="blog/layouts.html"><span><span class="menu-item-label">Blog Layouts</span><span class="menu-item-description">Choose from 3 types</span></span></a></li>
-<li class="menu-item menu-description"><a href="blog/paginations.html"><span><span class="menu-item-label">Blog Paginations</span><span class="menu-item-description">Choose from 3 types</span></span></a></li>
-<li class="menu-item"><a href="blog/post.html"><span><span class="menu-item-label">Blog Post</span></span></a></li>
-</ul>
-</li>
-<li class="menu-item menu-font-icon menu-button"><a target="_blank" href="https://themeforest.net/item/azra-creative-multifunctional-html-template/19621991?ref=APALODI"><span><i class="apalodi-icon-right-circled-alt"></i><span class="menu-item-label">Purchase</span></span></a></li>
-</ul>
+
 </nav>
 </div>
 </div>
@@ -280,7 +201,7 @@
 </div>
 </footer>
 </div>
-<!-- <button class="button back-to-top"></button><div class="promo promo-wp"><a target="_blank" href="https://themeforest.net/item/azra-creative-multifunctional-theme/19569744?ref=APALODI"><img src="https://demo.apalodi.com/html/azra/<?= @$assets_url; ?>img/wp-logo.png"><span class="promo-content"><span class="promo-price"></span><span class="promo-title">Get the WordPress Version</span><span class="promo-desc">Check out Azra WordPress Theme</span></span></a></div><div class="promo"><a target="_blank" href="https://codecanyon.net/item/viba-portfolio-wordpress-plugin/9561599?ref=APALODI"><img src="https://demo.apalodi.com/html/azra/<?= @$assets_url; ?>img/viba-portfolio-logo.png"><span class="promo-content"><span class="promo-price"></span><span class="promo-title">Need a WordPress Portfolio?</span><span class="promo-desc">Check out Viba Portfolio</span></span></a></div> -->
+
 <link rel='stylesheet' href='<?= @$assets_url; ?>css/animate.min.css' type='text/css' media='all'/>
 <script type='text/javascript' src='<?= @$assets_url; ?>js/plugins.js'></script>
 <script type='text/javascript' src='<?= @$assets_url; ?>js/main.js'></script>
