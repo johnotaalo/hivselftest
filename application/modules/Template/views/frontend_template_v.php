@@ -12,7 +12,7 @@
 <script type='text/javascript' src='<?= @$assets_url; ?>js/vendor/jquery.js'></script>
 <script type='text/javascript' src='<?= @$assets_url; ?>js/vendor/jquery-migrate.min.js'></script>
 <script type='text/javascript' src='<?= @$assets_url; ?>js/vendor/modernizr.min.js'></script>
-<style type="text/css">.custom-css-1488423852758{padding-top:300px;}.custom-css-1488423872205{padding-top:50px;padding-right:12%;padding-bottom:50px;padding-left:12%;}.custom-css-1488422976635{padding-top:50px;padding-right:12%;padding-bottom:50px;padding-left:12%;background-color:#1e73be;}.custom-css-1488423931362{padding-top:200px;}.custom-css-1488423939872{padding-top:200px;}.custom-css-1488423223527{padding-top:50px;padding-right:12%;padding-bottom:50px;padding-left:12%;background-color:#9373de;}</style>
+<style type="text/css">.custom-css-1488423852758{padding-top:300px;}.custom-css-1488423872205{padding-top:50px;padding-right:12%;padding-bottom:50px;padding-left:12%;}.custom-css-1488422976635{padding-top:50px;padding-right:12%;padding-bottom:50px;padding-left:12%;background-color:#FFC107;}.custom-css-1488423931362{padding-top:200px;}.custom-css-1488423939872{padding-top:200px;}.custom-css-1488423223527{padding-top:50px;padding-right:12%;padding-bottom:50px;padding-left:12%;background-color:#9373de;}</style>
     <?= @$page_css; ?>
 </head>
 <body class="no-page-heading fluid-width no-top-content-padding no-bottom-content-padding">
