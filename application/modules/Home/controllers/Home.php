@@ -10,7 +10,12 @@ class Home extends MY_Controller {
 	
 	public function index()
 	{
-		echo "HOME PAGE LOADED";exit;
+		$this->template->setPageTitle('HIV Self Test')->setPartial('home_v')->frontEndTemplate();
+	}
+
+	public function videos()
+	{
+		$this->template->setPageTitle('Videos')->setPartial('videos_v')->frontEndTemplate();
 	}
 
 }
