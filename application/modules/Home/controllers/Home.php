@@ -10,6 +10,7 @@ class Home extends MY_Controller {
 	
 	public function index()
 	{
+		$this->template->setPageTitle('HIV Self Test')->setPartial('home_v')->frontEndTemplate();
 	}
 
 }
