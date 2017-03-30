@@ -18,6 +18,11 @@ class Home extends MY_Controller {
 		$this->template->setPageTitle('Videos')->setPartial('videos_v')->frontEndTemplate();
 	}
 
+	public function FAQ()
+	{
+		$this->template->setPageTitle('Videos')->setPartial('faq_v')->frontEndTemplate();
+	}
+
 }
 
 /* End of file Home.php */
