@@ -10,6 +10,7 @@ class Home extends MY_Controller {
 	
 	public function index()
 	{
+		echo "HOME PAGE LOADED";exit;
 	}
 
 }
