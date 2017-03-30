@@ -1,105 +1,105 @@
-
 <div id="content" class="site-content container">
 <div id="primary" class="content-area">
 <main id="main" class="site-main">
 <div class="content">
 <div class="row-wrapper row-no-bottom-margin row-full-height">
-<div class="row-container container row-full-width row-no-padding">
-<div class="row columns-equal-height columns-content-middle columns-no-margins">
-<div class="column col-sm-3 col-md-6">
-<div class="column-inner custom-css-1488423852758">
-<div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div class="bg-gallery"><div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/01/vvi59h_l0z4-shane-rounce-1200x1125.jpg"></div><div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/249H-1200x1200.jpg"></div></div>
-</div>
-</div>
-<div class="column-content">
-</div>
-</div>
-</div>
-<div class="column col-sm-9 col-md-6">
-<div class="column-inner custom-css-1488423872205">
-<div class="column-content">
-<div class="content-element heading-wrapper heading-align-left">
-<h4 data-animation="fadeInUp" class="subheading animate-element animate-stagger">About Us</h4>
-<h3 data-animation="fadeInUp" class="heading animate-element animate-stagger">Let us help shape your business. Kick back while we handle the details.</h3>
-<div data-animation="fadeInUp" class="separator heading-separator heading-below-separator animate-element animate-stagger">
-<span class="separator-line heading-separator-line separator-line-left"></span>
-<span class="separator-line heading-separator-line separator-line-right"></span>
-</div>
-</div>
-<div data-animation="fadeInUp" class="content-element animate-element animate-stagger"><p>Cras at ultrices erat, sed vulputate eros. Nunc at augue gravida est fermentum vulputate. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
-</div>
-<div class="empty-space clearfix" style="height:32px"></div>
-<div class="row-wrapper row-inner-wrapper">
-<div class="row row-inner">
-<div class="column col-sm-6">
-<div class="column-inner">
-<div class="column-content">
-<div data-animation="fadeInUp" class="content-element service-wrapper service-align-left service-meta-left animate-element animate-stagger">
-<div class="service-meta"><i class="icon apalodi-icon-puzzle"></i></div>
-<div class="service-info">
-<h3 class="service-title">Page Builder</h3>
-<span class="service-desc">Powered with Visual Composer</span>
-<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="column col-sm-6">
-<div class="column-inner">
-<div class="column-content">
-<div data-animation="fadeInUp" class="content-element service-wrapper service-align-left service-meta-left animate-element animate-stagger">
-<div class="service-meta"><i class="icon apalodi-icon-palette"></i></div>
-<div class="service-info">
-<h3 class="service-title">Powerful Portfolio</h3>
-<span class="service-desc">Powered with Viba Portfolio</span>
-<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="row-wrapper row-inner-wrapper">
-<div class="row row-inner">
-<div class="column col-sm-6">
-<div class="column-inner">
-<div class="column-content">
-<div data-animation="fadeInUp" class="content-element service-wrapper service-align-left service-meta-left animate-element animate-stagger">
-<div class="service-meta"><i class="icon apalodi-icon-gauge"></i></div>
-<div class="service-info">
-<h3 class="service-title">Fully Customizable</h3>
-<span class="service-desc">With powerful admin panel</span>
-<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="column col-sm-6">
-<div class="column-inner">
-<div class="column-content">
-<div data-animation="fadeInUp" class="content-element service-wrapper service-align-left service-meta-left animate-element animate-stagger">
-<div class="service-meta"><i class="icon apalodi-icon-magic"></i></div>
-<div class="service-info">
-<h3 class="service-title">Easy to Use</h3>
-<span class="service-desc">Intuitive options</span>
-<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim imperdiet</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+	<div class="row-container container row-full-width row-no-padding">
+		<div class="row columns-equal-height columns-content-middle columns-no-margins">
+			<div class="column col-sm-3 col-md-6">
+				<div class="column-inner custom-css-1488423852758">
+					<div class="bg-media">
+						<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
+							<div class="bg-gallery"><div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="http://d2sh4fq2xsdeg9.cloudfront.net/contentAsset/image/618211eb-8c39-42f6-9b12-02e95397e1dd/image/byInode/1/filter/Resize,Jpeg/jpeg_q/70/resize_w/1400"></div><div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/249H-1200x1200.jpg"></div>
+							</div>
+						</div>
+					</div>
+					<div class="column-content">
+					</div>
+				</div>
+			</div>
+			<div class="column col-sm-9 col-md-6">
+				<div class="column-inner custom-css-1488423872205">
+					<div class="column-content">
+						<div class="content-element heading-wrapper heading-align-left">
+							<h4 data-animation="fadeInUp" class="subheading animate-element animate-stagger">About Us</h4>
+							<h3 data-animation="fadeInUp" class="heading animate-element animate-stagger">Let us help shape your business. Kick back while we handle the details.</h3>
+							<div data-animation="fadeInUp" class="separator heading-separator heading-below-separator animate-element animate-stagger">
+								<span class="separator-line heading-separator-line separator-line-left"></span>
+								<span class="separator-line heading-separator-line separator-line-right"></span>
+							</div>
+						</div>
+						<div data-animation="fadeInUp" class="content-element animate-element animate-stagger"><p>Cras at ultrices erat, sed vulputate eros. Nunc at augue gravida est fermentum vulputate. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+						</div>
+						<div class="empty-space clearfix" style="height:32px"></div>
+						<div class="row-wrapper row-inner-wrapper">
+						<div class="row row-inner">
+						<div class="column col-sm-6">
+						<div class="column-inner">
+						<div class="column-content">
+						<div data-animation="fadeInUp" class="content-element service-wrapper service-align-left service-meta-left animate-element animate-stagger">
+						<div class="service-meta"><i class="icon apalodi-icon-puzzle"></i></div>
+						<div class="service-info">
+						<h3 class="service-title">Page Builder</h3>
+						<span class="service-desc">Powered with Visual Composer</span>
+						<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim</p>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						<div class="column col-sm-6">
+						<div class="column-inner">
+						<div class="column-content">
+						<div data-animation="fadeInUp" class="content-element service-wrapper service-align-left service-meta-left animate-element animate-stagger">
+						<div class="service-meta"><i class="icon apalodi-icon-palette"></i></div>
+						<div class="service-info">
+						<h3 class="service-title">Powerful Portfolio</h3>
+						<span class="service-desc">Powered with Viba Portfolio</span>
+						<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim</p>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						<div class="row-wrapper row-inner-wrapper">
+						<div class="row row-inner">
+						<div class="column col-sm-6">
+						<div class="column-inner">
+						<div class="column-content">
+						<div data-animation="fadeInUp" class="content-element service-wrapper service-align-left service-meta-left animate-element animate-stagger">
+						<div class="service-meta"><i class="icon apalodi-icon-gauge"></i></div>
+						<div class="service-info">
+						<h3 class="service-title">Fully Customizable</h3>
+						<span class="service-desc">With powerful admin panel</span>
+						<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim</p>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						<div class="column col-sm-6">
+						<div class="column-inner">
+						<div class="column-content">
+						<div data-animation="fadeInUp" class="content-element service-wrapper service-align-left service-meta-left animate-element animate-stagger">
+						<div class="service-meta"><i class="icon apalodi-icon-magic"></i></div>
+						<div class="service-info">
+						<h3 class="service-title">Easy to Use</h3>
+						<span class="service-desc">Intuitive options</span>
+						<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim imperdiet</p>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 <div class="row-wrapper row-no-bottom-margin row-full-height">
 <div class="row-container container row-full-width row-no-padding">

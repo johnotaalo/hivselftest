@@ -15,7 +15,7 @@
 <style type="text/css">.custom-css-1488423852758{padding-top:300px;}.custom-css-1488423872205{padding-top:50px;padding-right:12%;padding-bottom:50px;padding-left:12%;}.custom-css-1488422976635{padding-top:50px;padding-right:12%;padding-bottom:50px;padding-left:12%;background-color:#1e73be;}.custom-css-1488423931362{padding-top:200px;}.custom-css-1488423939872{padding-top:200px;}.custom-css-1488423223527{padding-top:50px;padding-right:12%;padding-bottom:50px;padding-left:12%;background-color:#9373de;}</style>
     <?= @$page_css; ?>
 </head>
-<body class="no-page-heading fluid-width no-top-content-padding no-bottom-content-padding">
+<body class="no-page-heading fluid-width no-top-content-padding no-bottom-content-padding" style="background-color: #f8f7f6 !important;">
 <div id="page" class="site">
 <header id="masthead" class="site-header header-resize">
 <div class="header-cart">
@@ -128,7 +128,7 @@
 	<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Health Professionals</span></span></a>
 		<ul class="sub-menu">
 		
-		<li class="menu-item"><a href="#"><span><span class="menu-item-label">Referral sites</span></span></a></li>
+		<li class="menu-item"><a href="<?= @base_url('Map'); ?>"><span><span class="menu-item-label">Referral sites</span></span></a></li>
 		<li class="menu-item menu-description"><a href="#"><span><span class="menu-item-label">PDFs</span></span></a></li>
 		<li class="menu-item"><a href="#"><span><span class="menu-item-label">Gozee</span></span></a></li>
 		</ul>
@@ -156,18 +156,7 @@
 </header>
 
 
-
-
-
-
-    
-        <?= $this->load->view($partial, $partialData); ?>
-  
-
-
-
-
-
+				<?= $this->load->view($partial, $partialData); ?>
   
     <footer id="colophon" class="site-footer">
 <div class="site-footer-container container">
@@ -207,5 +196,14 @@
 <script type='text/javascript' src='<?= @$assets_url; ?>js/main.js'></script>
 
     <?= @$page_js; ?>
+	<?php if(isset($javascript_file)) { ?>
+		<?php $this->load->view($javascript_file, $javascript_data); ?>
+	<?php } ?>
+	<?php
+		if($this->router->fetch_class() == "Map"){
+	?>
+		<script src="https://maps.googleapis.com/maps/api/js?key=<?= @$this->config->item('key'); ?>&callback=initMap" async defer></script>
+	<?php  } ?>
+
 </body>
 </html>
