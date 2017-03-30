@@ -16,8 +16,6 @@
     <?= @$page_css; ?>
 </head>
 <body class="no-page-heading fluid-width no-top-content-padding no-bottom-content-padding">
-
-
 <div id="page" class="site">
 <header id="masthead" class="site-header header-resize">
 <!-- <div class="header-cart">
@@ -126,7 +124,7 @@
 	<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Health Professionals</span></span></a>
 		<ul class="sub-menu">
 		
-		<li class="menu-item"><a href="#"><span><span class="menu-item-label">Referral sites</span></span></a></li>
+		<li class="menu-item"><a href="<?= @base_url('Map'); ?>"><span><span class="menu-item-label">Referral sites</span></span></a></li>
 		<li class="menu-item menu-description"><a href="#"><span><span class="menu-item-label">PDFs</span></span></a></li>
 		<li class="menu-item"><a href="#"><span><span class="menu-item-label">Gozee</span></span></a></li>
 		</ul>
@@ -154,18 +152,7 @@
 </header>
 
 
-
-
-
-
-    
-        <?= $this->load->view($partial, $partialData); ?>
-  
-
-
-
-
-
+				<?= $this->load->view($partial, $partialData); ?>
   
     <footer id="colophon" class="site-footer">
 <div class="site-footer-container container">
@@ -204,5 +191,14 @@
 <script type='text/javascript' src='<?= @$assets_url; ?>js/main.js'></script>
 
     <?= @$page_js; ?>
+	<?php if(isset($javascript_file)) { ?>
+		<?php $this->load->view($javascript_file, $javascript_data); ?>
+	<?php } ?>
+	<?php
+		if($this->router->fetch_class() == "Map"){
+	?>
+		<script src="https://maps.googleapis.com/maps/api/js?key=<?= @$this->config->item('key'); ?>&callback=initMap" async defer></script>
+	<?php  } ?>
+
 </body>
 </html>

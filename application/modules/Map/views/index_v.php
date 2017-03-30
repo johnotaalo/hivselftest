@@ -1,83 +1,95 @@
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
+<style type="text/css">.custom-css-1488398861560{padding-top:50px;padding-right:40px;padding-bottom:50px;padding-left:40px;background-color:#ffffff;}.custom-css-1488398881957{padding-top:50px;padding-right:40px;padding-bottom:50px;padding-left:40px;background-color:#9373de;}</style>
 <style type="text/css">
-	#map {
-		height: 90%;
+	.table {
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 1rem;
+	}
+
+	table{
+		border-collapse: collapse;
+		background-color: transparent;
+	}
+
+	.table thead th {
+		vertical-align: bottom;
+		border-bottom: 2px solid #eceeef;
+	}
+
+	.table td, .table th {
+		padding: .75rem;
+		vertical-align: top;
+		border-top: 1px solid #eceeef;
+	}
+
+	th {
+		text-align: left;
+		text-transform: uppercase;
+	}
+
+	.table-striped tbody tr:nth-of-type(odd) {
+		background-color: rgba(0,0,0,.05);
+	}
+
+	table thead th{
+		color: #555 !important;
 	}
 </style>
-<link rel="stylesheet" type="text/css" href="<?= @$this->config->item('assets_url'); ?>map-icons/css/map-icons.css">
-<script type="text/javascript" src="<?= @$this->config->item('assets_url'); ?>map-icons/js/map-icons.js"></script>
-<div id="demo"></div>
-<div id="map"></div>
-
-<script>
-	var map;
-	var x = document.getElementById("demo");
-	var markers = [];
-	function initMap() {
-		map = new google.maps.Map(document.getElementById('map'), {
-			center: {lat: -34.397, lng: 150.644},
-			zoom: 8
-		});
-
-		var infoWindow = new google.maps.InfoWindow({map: map});
-
-		// Try HTML5 geolocation.
-		if (navigator.geolocation) {
-			navigator.geolocation.getCurrentPosition(function(position) {
-				var pos = {
-					lat: position.coords.latitude,
-					lng: position.coords.longitude
-				};
-				var marker = new google.maps.Marker({
-					position: pos,
-					map: map,
-					title: 'Hello World!'
-				});
-				map.setCenter(pos);
-			}, function() {
-			handleLocationError(true, infoWindow, map.getCenter());
-			});
-		} else {
-		// Browser doesn't support Geolocation
-		handleLocationError(false, infoWindow, map.getCenter());
-		}
-
-		setMarkers(map);
-	}
-
-	function setMarkers(map){
-		$.get('<?= @base_url(); ?>Map/getPharmacies', function(res){
-			var contentString = [];
-			for(var i in res){
-				var pharmacy = res[i];
-				var iconBase = '<?= @$this->config->item("assets_url"); ?>icons/';
-
-				var location = new google.maps.LatLng(pharmacy.latitude, pharmacy.longitude);
-				var infowindow = new google.maps.InfoWindow();
-				contentString[i] = pharmacy.name;
-				var marker = new google.maps.Marker({
-					position : location,
-					map: map,
-					title: pharmacy.name,
-					icon: iconBase + "hospital.png"
-				});
-
-				google.maps.event.addListener(marker, 'click', (function(marker, i) {					
-					return function() {
-						map.setZoom(20);
-						map.setCenter(marker.getPosition());
-						infowindow.setContent(contentString[i]);
-						infowindow.open(map, marker);
-					}
-				})(marker, i));
-				markers.push(marker);
-			}
-		});
-	}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=<?= @$this->config->item('key'); ?>&callback=initMap"
-    async defer></script>
+<div id="content" class="site-content container">
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+			<div class="content">
+				<div class="row-wrapper">
+					<div class = "row-container container row-full-width row-no-padding">
+						<div class="row">
+							<div class="column col-sm-12">
+								<div class="column-inner">
+									<div class="column-content">
+										<div class="content-element google-map-wrapper">
+											<div id="map" class = "google-map gmap-ratio-4-1 is-ready" style="position: relative; overflow: hidden;"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row-wrapper">
+					<div class="row-container container">
+						<div class="row columns-equal-height columns-no-margins">
+							<div class="column col-sm-12">
+								<div class="column-inner custom-css-1488398861560 col-has-fill">
+									<div class="column-content">
+										<div data-animation="fadeInUp" class="animate-element animate-stagger is-animated fadeInUp">
+											<h4 class="heading" style="margin-bottom: 15px;">
+												Pharmacies List
+											</h4>
+											<div class="row">
+												<div class="col-sm-12">
+													<table class="table table-bodered" style="color: #555 !important;">
+														<thead>
+															<th>#</th>
+															<th>Pharmacy Name</th>
+															<th>Contact Person</th>
+															<th>Phone Number</th>
+															<th>Location</th>
+															<th>Region</th>
+														</thead>
+														<tbody>
+															<?= @$pharmacy_table; ?>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+</div>
 <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script> -->
