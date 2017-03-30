@@ -18,7 +18,7 @@
 <body class="no-page-heading fluid-width no-top-content-padding no-bottom-content-padding">
 <div id="page" class="site">
 <header id="masthead" class="site-header header-resize">
-<div class="header-cart">
+<!-- <div class="header-cart">
 <div class="mini-cart">
 <div class="mini-cart-content">
 <ul class="mini-cart-list">
@@ -71,7 +71,7 @@
 </div>
 </div>
 </div>
-</div>
+</div> -->
 <div class="site-header-container container">
 <div class="logo">
 <a href="index.html" rel="home">
@@ -101,10 +101,10 @@
 <nav class="main-navigation">
 
 <ul class="site-nav">
-	<li class="menu-item menu-item-has-children menu-no-link mega-menu mm-col-2 mega-menu-center"><a><span><span class="menu-item-label">Home</span></span></a>
+	<li class="menu-item menu-item-has-children menu-no-link mega-menu mm-col-2 mega-menu-center"><a href="<?= @base_url('Home/');?>"><span><span class="menu-item-label">Home</span></span></a>
 	</li>
 
-	<li class="menu-item menu-item-has-children menu-no-link"><a href="#"><span><span class="menu-item-label">HIV Self-Test</span></span></a>
+	<li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Home/FAQ/');?>"><span><span class="menu-item-label">HIV Self-Test</span></span></a>
 	</li>
 
 	<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Conduct a Test</span></span></a>
