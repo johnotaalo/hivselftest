@@ -16,6 +16,8 @@
     <?= @$page_css; ?>
 </head>
 <body class="no-page-heading fluid-width no-top-content-padding no-bottom-content-padding">
+
+
 <div id="page" class="site">
 <header id="masthead" class="site-header header-resize">
 <div class="header-cart">
@@ -24,7 +26,7 @@
 <ul class="mini-cart-list">
 <li class="mini-cart-item">
 <a href="#" class="remove">&times;</a>
-<a class="mini-cart-link" href="shop/product.html">
+<a class="mini-cart-link" href="#">
 <div class="image-thumbnail thumbnail-size">
 <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="mini-cart-image lazy-load-img" alt="photo-1436367050586-7c605120bf73" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/01/photo-1436367050586-7c605120bf73-150x150.jpg">
 </div>
@@ -36,7 +38,7 @@
 </li>
 <li class="mini-cart-item">
 <a href="#" class="remove">&times;</a>
-<a class="mini-cart-link" href="shop/product.html">
+<a class="mini-cart-link" href="#">
 <div class="image-thumbnail thumbnail-size">
 <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="mini-cart-image lazy-load-img" alt="Oldtimer" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/01/photo-1464219789935-c2d9d9aba644-150x150.jpg">
 </div>
@@ -78,14 +80,14 @@
 <img class="logo-default" src="<?= @$assets_url; ?>img/logo.png" alt="Azra">
 </a>
 </div>
-<div class="site-actions">
+<!-- <div class="site-actions">
 <span class="header-cart-trigger site-action-trigger apalodi-icon-cart-7"> <span class="header-cart-count site-action-info">3</span></span>
 <span class="header-cart-close-trigger site-action-close slide-out-action-close"><span></span></span>
 <span class="header-search-trigger site-action-trigger apalodi-icon-search-alt"><span></span></span>
 <span class="mobile-menu-trigger hamburger-menu"><span></span></span>
 <span class="mobile-menu-close-trigger site-action-close slide-out-action-close"><span></span></span>
 <span class="site-actions-overlay"></span>
-</div>
+</div> -->
 <div class="site-header-inner">
 <div class="header-search-form">
 <form role="search" method="get" class="search-form" action="/">
@@ -105,15 +107,11 @@
 	</li>
 
 	<li class="menu-item menu-item-has-children menu-no-link"><a href="#"><span><span class="menu-item-label">HIV Self-Test</span></span></a>
-		<!-- <ul class="sub-menu">
-			<li class="menu-item"><a href="blog/post.html"><span><span class="menu-item-label">FAQ</span></span></a></li>
-			<li class="menu-item"><a href="blog/post.html"><span><span class="menu-item-label">Blog Post</span></span></a></li>
-		</ul> -->
 	</li>
 
 	<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Conduct a Test</span></span></a>
 		<ul class="sub-menu">
-		<li class="menu-item"><a href="#"><span><span class="menu-item-label">Instructional Videos</span></span></a></li>
+		<li class="menu-item"><a href="<?= @base_url('Home/videos/');?>"><span><span class="menu-item-label">Instructional Videos</span></span></a></li>
 		<li class="menu-item menu-description"><a href="#"><span><span class="menu-item-label">Upload IFU</span></span></a></li>
 		</ul>
 	</li>
