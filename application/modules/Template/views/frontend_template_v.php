@@ -72,12 +72,6 @@
 </div>
 </div>
 </div> -->
-<div class="site-header-container container">
-<div class="logo">
-<a href="<?= @base_url('Home/');?>" rel="home">
-<img class="logo-default" src="<?= @$assets_url; ?>img/one.jpg" alt="One2One">
-</a>
-</div>
 
 <div class="logo">
 <a href="<?= @base_url('Home/');?>" rel="home">
@@ -85,6 +79,15 @@
 </a>
 
 </div>
+
+<div class="site-header-container container">
+<div class="logo">
+<a href="<?= @base_url('Home/');?>" rel="home">
+<img class="logo-default" src="<?= @$assets_url; ?>img/one.jpg" alt="One2One">
+</a>
+</div>
+
+
 
 
 
