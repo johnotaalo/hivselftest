@@ -177,23 +177,22 @@
 <div class="footer-content">
 <nav class="footer-menu">
 <ul>
-<li class="menu-item"><a href="about-us.html">Privacy</a></li>
-<li class="menu-item"><a href="our-process.html">Terms of Use</a></li>
+<li class="menu-item"><a href="about-us.html">Do you need information, counseling or someone friendly to talk to about HIV & AIDS, Sex, STIs, Contraceptives, sexual and Gender Based Violence and other health, Teen or Youth related issues? CALL/SMS: 1190 Free from Safaricom line (Everyday 8am-8pm )</a></li>
+<!-- <li class="menu-item"><a href="our-process.html">Terms of Use</a></li>
 <li class="menu-item"><a href="contact-us-2.html">Contact</a></li>
 <li class="menu-item"><a href="our-team.html">Carrers</a></li>
-<li class="menu-item"><a href="our-services.html">Services</a></li>
+<li class="menu-item"><a href="our-services.html">Services</a></li> -->
 </ul>
 </nav>
 <div class="copyright">
-<p>© <a href="https://themeforest.net/item/azra-creative-multifunctional-html-template/19621991?ref=APALODI" target="_blank">Azra - HTML Template</a> by <a href="https://themeforest.net/user/apalodi/portfolio?ref=APALODI" target="_blank">APALODI</a></p>
+<p>© <a href="http://www.one2onekenya.org" target="_blank">One 2 One</a> and <a href="" target="_blank">LVCTHealth</a></p>
 </div>
 </div>
 <div class="footer-social">
 <div class="social-icons">
-<a class="social-icon icon-facebook" href="https://facebook.com" target="_blank"><span>facebook</span></a>
-<a class="social-icon icon-twitter" href="https://twitter.com" target="_blank"><span>twitter</span></a>
-<a class="social-icon icon-instagram" href="https://instagram.com" target="_blank"><span>instagram</span></a>
-<a class="social-icon icon-gplus" href="https://plus.google.com" target="_blank"><span>gplus</span></a>
+<a class="social-icon icon-facebook" href="https://www.facebook.com/One2one-ke-144444975612410/?hc_location=ufi" target="_blank"><span>facebook</span></a>
+<a class="social-icon icon-twitter" href="https://twitter.com/one2oneke?lang=en" target="_blank"><span>twitter</span></a>
+<a class="social-icon icon-instagram" href="https://www.instagram.com/onetooneke/?hl=en" target="_blank"><span>instagram</span></a>
 </div>
 </div>
 </div>
