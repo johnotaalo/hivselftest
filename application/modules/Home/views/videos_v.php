@@ -17,7 +17,7 @@
 <div class="column-inner">
 <div class="column-content">
 <div class="content-element video-wrapper">
-<div class="iframe-wrapper iframe-video"><iframe src="https://www.youtube.com/watch?v=N4CAqsmN_6g&t=59s" allowfullscreen=""></iframe></div>
+<div class="iframe-wrapper iframe-video"><iframe src="https://www.youtube.com/embed/N4CAqsmN_6g" frameborder="0" allowfullscreen></iframe></div>
 </div>
 </div>
 </div>
@@ -26,7 +26,8 @@
 <div class="column-inner">
 <div class="column-content">
 <div class="content-element video-wrapper">
-<div class="iframe-wrapper iframe-video"><iframe src="https://www.youtube.com/watch?v=WdoMwzTguV0&t=49s" allowfullscreen=""></iframe></div>
+<div class="iframe-wrapper iframe-video"><iframe src="https://www.youtube.com/embed/WdoMwzTguV0" frameborder="0" allowfullscreen></iframe></div>
+<!-- width="854" height="480" -->
 </div>
 </div>
 </div>
