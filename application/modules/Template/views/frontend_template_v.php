@@ -77,15 +77,24 @@
 <a href="<?= @base_url('Home/');?>" rel="home">
 <img class="logo-default" src="<?= @$assets_url; ?>img/lvct.jpg" alt="LVCT">
 </a>
-
 </div>
 
+
+
 <div class="site-header-container container">
-<div class="logo">
+<!-- <div class="logo">
 <a href="<?= @base_url('Home/');?>" rel="home">
 <img class="logo-default" src="<?= @$assets_url; ?>img/one.jpg" alt="One2One">
 </a>
+</div> -->
+
+<div class="logo">
+<a href="<?= @base_url('Home/');?>" rel="home">
+<img class="logo-default" src="<?= @$assets_url; ?>img/ministry-of-health.png" alt="Ministry-of-Health">
+</a>
 </div>
+
+
 
 
 
