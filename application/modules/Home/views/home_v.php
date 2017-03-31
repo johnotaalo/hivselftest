@@ -1,3 +1,5 @@
+<?php $assets_url = $this->config->item('assets_url'); ?>
+
 <div id="content" class="site-content container">
 <div id="primary" class="content-area">
 <main id="main" class="site-main">
@@ -9,7 +11,15 @@
 				<div class="column-inner custom-css-1488423852758">
 					<div class="bg-media">
 						<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-							<div class="bg-gallery"><div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="http://d2sh4fq2xsdeg9.cloudfront.net/contentAsset/image/618211eb-8c39-42f6-9b12-02e95397e1dd/image/byInode/1/filter/Resize,Jpeg/jpeg_q/70/resize_w/1400"></div><div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/249H-1200x1200.jpg"></div>
+							<div class="bg-gallery">
+							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/pickone.png"></div>
+							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/picktwo.png"></div>
+							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/pickthree.png"></div>
+							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/pickfour.png"></div>
+							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/pickfive.png"></div>
+							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/picksix.png"></div>
+							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/pickseven.png"></div>
+							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/pickeight.png"></div>
 							</div>
 						</div>
 					</div>

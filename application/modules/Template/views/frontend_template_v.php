@@ -72,12 +72,34 @@
 </div>
 </div>
 </div> -->
-<div class="site-header-container container">
+
 <div class="logo">
-<a href="index.html" rel="home">
-<img class="logo-default" src="<?= @$assets_url; ?>img/ministry-of-health.png" alt="Azra">
+<a href="<?= @base_url('Home/');?>" rel="home">
+<img class="logo-default" src="<?= @$assets_url; ?>img/lvct.jpg" alt="LVCT">
 </a>
 </div>
+
+
+
+<div class="site-header-container container">
+<!-- <div class="logo">
+<a href="<?= @base_url('Home/');?>" rel="home">
+<img class="logo-default" src="<?= @$assets_url; ?>img/one.jpg" alt="One2One">
+</a>
+</div> -->
+
+<div class="logo">
+<a href="<?= @base_url('Home/');?>" rel="home">
+<img class="logo-default" src="<?= @$assets_url; ?>img/ministry-of-health.png" alt="Ministry-of-Health">
+</a>
+</div>
+
+
+
+
+
+
+
 <!-- <div class="site-actions">
 <span class="header-cart-trigger site-action-trigger apalodi-icon-cart-7"> <span class="header-cart-count site-action-info">3</span></span>
 <span class="header-cart-close-trigger site-action-close slide-out-action-close"><span></span></span>
@@ -116,8 +138,8 @@
 
 	<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Get a Kit</span></span></a>
 		<ul class="sub-menu">
-		<li class="menu-item menu-description"><a href="<?= @base_url('Outlets'); ?>"><span><span class="menu-item-label">Participating outlets</span></span></a></li>
-		<li class="menu-item"><a href="<?= @base_url('Map'); ?>"><span><span class="menu-item-label">Google Maps</span></span></a></li>
+		<li class="menu-item menu-description"><a href="#"><span><span class="menu-item-label">Participating outlets</span></span></a></li>
+		<li class="menu-item"><a href="#"><span><span class="menu-item-label">Google Maps</span></span></a></li>
 		</ul>
 	</li>
 
@@ -187,19 +209,18 @@
 </div>
 
 <link rel='stylesheet' href='<?= @$assets_url; ?>css/animate.min.css' type='text/css' media='all'/>
-<?= @$page_js; ?>
-<?php if(isset($javascript_file)) { ?>
-	<?php $this->load->view($javascript_file, $javascript_data); ?>
-<?php } ?>
-<?php
-	if($this->router->fetch_class() == "Map"){
-?>
-	<script src="https://maps.googleapis.com/maps/api/js?key=<?= @$this->config->item('key'); ?>&callback=initMap" async defer></script>
-<?php  } ?>
 <script type='text/javascript' src='<?= @$assets_url; ?>js/plugins.js'></script>
 <script type='text/javascript' src='<?= @$assets_url; ?>js/main.js'></script>
 
-    
+    <?= @$page_js; ?>
+	<?php if(isset($javascript_file)) { ?>
+		<?php $this->load->view($javascript_file, $javascript_data); ?>
+	<?php } ?>
+	<?php
+		if($this->router->fetch_class() == "Map"){
+	?>
+		<script src="https://maps.googleapis.com/maps/api/js?key=<?= @$this->config->item('key'); ?>&callback=initMap" async defer></script>
+	<?php  } ?>
 
 </body>
 </html>

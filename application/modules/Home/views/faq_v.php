@@ -1,3 +1,6 @@
+<?php $assets_url = $this->config->item('assets_url'); ?>
+
+
 <div id="page-heading" class="site-heading is-light site-heading-align-left">
 <div class="bg-media">
 <div class="bg-media-container skrollable skrollable-between" data-start="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,40%,0)" style="transform: translate3d(0px, 0%, 0px);">
@@ -39,7 +42,7 @@
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/girl-writing-on-the-sofa-picjumbo-com-1200x1200.jpg"></div>
+<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/selftesting.jpg"></div>
 </div>
 </div>
 <div class="column-content">
@@ -60,7 +63,7 @@
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/unrkg2jh1j0-olu-eletu-1200x1200.jpg"></div>
+<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/rightoption.jpg"></div>
 </div>
 </div>
 <div class="column-content">
@@ -100,7 +103,63 @@
 <span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
 <span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
 </div>
-<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">At present, there are two types of HIV self-test kits available, which detect the HIV virus using either a blood or oral fluid (saliva) sample. </div>
+	<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">At present, there are two types of HIV self-test kits available, which detect the HIV virus using either a blood or oral fluid (saliva) sample. </div>
+
+
+<span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
+<span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
+
+	<div data-animation="fadeInUp" class="separator heading-separator heading-below-separator animate-element animate-stagger">
+		<table>
+			<tr>
+				<td>
+					Name of Kit
+				</td>
+				<td>
+					INSTI
+				</td>
+				<td>
+					Oraquick
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					Sample used
+				</td>
+				<td>
+					Blood
+				</td>
+				<td>
+					Saliva
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					How samples are collected
+				</td>
+				<td>
+					Finger prick
+				</td>
+				<td>
+					Oral swab
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					Time to result interpretation
+				</td>
+				<td>
+					1 minute
+				</td>
+				<td>
+					20 minutes
+				</td>
+			</tr>
+		</table>
+	</div>
 </div>
 </div>
 </div>
@@ -109,7 +168,7 @@
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/girl-writing-on-the-sofa-picjumbo-com-1200x1200.jpg"></div>
+<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/available.jpg"></div>
 </div>
 </div>
 <div class="column-content">
@@ -130,7 +189,7 @@
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/unrkg2jh1j0-olu-eletu-1200x1200.jpg"></div>
+<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/oral.jpg"></div>
 </div>
 </div>
 <div class="column-content">
@@ -184,7 +243,7 @@ All the approved HIV self-test kits come with simple and clear instructions on h
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/girl-writing-on-the-sofa-picjumbo-com-1200x1200.jpg"></div>
+<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/conduct.jpg"></div>
 </div>
 </div>
 <div class="column-content">
@@ -205,7 +264,7 @@ All the approved HIV self-test kits come with simple and clear instructions on h
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/unrkg2jh1j0-olu-eletu-1200x1200.jpg"></div>
+<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/positive.jpg"></div>
 </div>
 </div>
 <div class="column-content">
@@ -258,7 +317,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/girl-writing-on-the-sofa-picjumbo-com-1200x1200.jpg"></div>
+<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/negative.jpg"></div>
 </div>
 </div>
 <div class="column-content">
@@ -279,7 +338,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/unrkg2jh1j0-olu-eletu-1200x1200.jpg"></div>
+<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/reliable.jpg"></div>
 </div>
 </div>
 <div class="column-content">
@@ -327,7 +386,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/girl-writing-on-the-sofa-picjumbo-com-1200x1200.jpg"></div>
+<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/kit.jpg"></div>
 </div>
 </div>
 <div class="column-content">
@@ -348,7 +407,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/unrkg2jh1j0-olu-eletu-1200x1200.jpg"></div>
+<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/quality.jpg"></div>
 </div>
 </div>
 <div class="column-content">
@@ -396,7 +455,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/girl-writing-on-the-sofa-picjumbo-com-1200x1200.jpg"></div>
+<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/partner.jpg"></div>
 </div>
 </div>
 <div class="column-content">
@@ -417,7 +476,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/unrkg2jh1j0-olu-eletu-1200x1200.jpg"></div>
+<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/forced.jpg"></div>
 </div>
 </div>
 <div class="column-content">
@@ -465,7 +524,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/girl-writing-on-the-sofa-picjumbo-com-1200x1200.jpg"></div>
+<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/know.jpg"></div>
 </div>
 </div>
 <div class="column-content">
@@ -487,7 +546,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/unrkg2jh1j0-olu-eletu-1200x1200.jpg"></div>
+<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/remember.jpg"></div>
 </div>
 </div>
 <div class="column-content">
