@@ -103,7 +103,63 @@
 <span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
 <span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
 </div>
-<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">At present, there are two types of HIV self-test kits available, which detect the HIV virus using either a blood or oral fluid (saliva) sample. </div>
+	<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">At present, there are two types of HIV self-test kits available, which detect the HIV virus using either a blood or oral fluid (saliva) sample. </div>
+
+
+<span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
+<span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
+
+	<div data-animation="fadeInUp" class="separator heading-separator heading-below-separator animate-element animate-stagger">
+		<table>
+			<tr>
+				<td>
+					Name of Kit
+				</td>
+				<td>
+					INSTI
+				</td>
+				<td>
+					Oraquick
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					Sample used
+				</td>
+				<td>
+					Blood
+				</td>
+				<td>
+					Saliva
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					How samples are collected
+				</td>
+				<td>
+					Finger prick
+				</td>
+				<td>
+					Oral swab
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					Time to result interpretation
+				</td>
+				<td>
+					1 minute
+				</td>
+				<td>
+					20 minutes
+				</td>
+			</tr>
+		</table>
+	</div>
 </div>
 </div>
 </div>
