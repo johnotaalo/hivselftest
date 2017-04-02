@@ -110,16 +110,16 @@
 <span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
 
 	<div data-animation="fadeInUp" class="separator heading-separator heading-below-separator animate-element animate-stagger">
-		<table>
+		<table style="width:450px;height:200px;">
 			<tr>
 				<td>
 					Name of Kit
 				</td>
 				<td>
-					INSTI
+					<img src="<?= @$assets_url; ?>img/insti.png" alt="INSTI" style="width:200px;height:50px;">
 				</td>
 				<td>
-					Oraquick
+					<img src="<?= @$assets_url; ?>img/quiki.png" alt="ORAQUICK" style="width:200px;height:50px;">
 				</td>
 			</tr>
 
