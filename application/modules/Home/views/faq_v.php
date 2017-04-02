@@ -307,7 +307,7 @@ All the approved HIV self-test kits come with simple and clear instructions on h
 
 If you continue to be at risk of HIV infection, you should continue to re-test every 3 months. You should also talk to your health provider about other HIV prevention options such as pre-exposure prophylaxis (PrEP). 
 
-You can contact a health provider or visit a health facility of VCT centre, or call toll free hot line number 1190 if you are unsure or need further information
+You can contact a health provider or visit a health facility of VCT centre, or call the <img src="<?= @$assets_url; ?>img/smone.png" alt="INSTI" style="width:80px;height:20px;"> toll free hot line number 1190 if you are unsure or need further information
 </div>
 </div>
 </div>
@@ -423,7 +423,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
 <span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
 </div>
-<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">If you have purchased an HIV self-test kit, you can determine its authenticity by calling the toll-free number 1190 of visiting <a href="http://www.besure.co.ke">www.besure.co.ke</a>. All HIV self-test kits available at any Green Cross or Pharmnet branded pharmacies are internationally approved and quality-assured. </div>
+<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">If you have purchased an HIV self-test kit, you can determine its authenticity by calling the <img src="<?= @$assets_url; ?>img/smone.png" alt="INSTI" style="width:80px;height:20px;"> toll-free number 1190 of visiting <a href="http://www.besure.co.ke">www.besure.co.ke</a>. All HIV self-test kits available at any Green Cross or Pharmnet branded pharmacies are internationally approved and quality-assured. </div>
 </div>
 </div>
 </div>
@@ -515,7 +515,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
 <span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
 </div>
-<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">You can visit the nearest health facility or call the toll free hotline number 1190</div>
+<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">You can visit the nearest health facility or call the <img src="<?= @$assets_url; ?>img/smone.png" alt="INSTI" style="width:80px;height:20px;"> toll free hotline number 1190</div>
 </div>
 </div>
 </div>
