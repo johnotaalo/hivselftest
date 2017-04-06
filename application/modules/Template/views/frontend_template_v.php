@@ -156,9 +156,9 @@
 	<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Resources</span></span></a>
 		<ul class="sub-menu">
 		
-		<li class="menu-item"><a href="blog/full-width-masonry.html"><span><span class="menu-item-label">What is a Prep</span></span></a></li>
-		<li class="menu-item"><a href="blog/post.html"><span><span class="menu-item-label">LVCT online</span></span></a></li>
-		<li class="menu-item"><a href="blog/post.html"><span><span class="menu-item-label">Manufacturer Website</span></span></a></li>
+		<li class="menu-item"><a href="#"><span><span class="menu-item-label">What is a Prep</span></span></a></li>
+		<li class="menu-item"><a href="#"><span><span class="menu-item-label">LVCT online</span></span></a></li>
+		<li class="menu-item"><a href="#"><span><span class="menu-item-label">Manufacturer Website</span></span></a></li>
 		</ul>
 	</li>
 	
