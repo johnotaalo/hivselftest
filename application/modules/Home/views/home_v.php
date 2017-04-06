@@ -17,6 +17,10 @@
 							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/pickthree.png"></div>
 							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/pickfour.png"></div>
 							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/pickfive.png"></div>
+
+							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/picksix.png"></div>
+							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/pickseven.png"></div>
+							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/pickeight.png"></div>
 							
 							</div>
 						</div>
@@ -159,7 +163,7 @@
 
 <!-- <div id="primary" class="content-area"> -->
 <!-- <main id="main" class="site-main"> -->
-<div class="content">
+<!-- <div class="content">
 <div class="row-wrapper row-no-bottom-margin">
 	<div class="row-container container row-full-width">
 	<div class="row columns-equal-height columns-no-margins">
@@ -167,7 +171,7 @@
 	<div class="column-inner custom-css-1488416167043 col-has-fill">
 	<div class="column-content">
 	<div class="content-element heading-wrapper heading-align-left">
-	<!-- <h4 class="subheading">01</h4> -->
+	<h4 class="subheading">01</h4>
 	<h3 class="heading">Countertop for Bronchures</h3>
 	<div class="separator heading-separator heading-below-separator">
 	<span class="separator-line heading-separator-line separator-line-left"></span>
@@ -210,7 +214,7 @@
 	<div class="column-inner custom-css-1488416167043 col-has-fill">
 	<div class="column-content">
 	<div class="content-element heading-wrapper heading-align-left">
-	<!-- <h4 class="subheading">02</h4> -->
+	<h4 class="subheading">02</h4>
 	<h3 class="heading">Dust Coat</h3>
 	<div class="separator heading-separator heading-below-separator">
 	<span class="separator-line heading-separator-line separator-line-left"></span>
@@ -231,7 +235,7 @@
 	<div class="column-inner custom-css-1488416167043 col-has-fill">
 	<div class="column-content">
 	<div class="content-element heading-wrapper heading-align-left">
-	<!-- <h4 class="subheading">01</h4> -->
+	<h4 class="subheading">01</h4>
 	<h3 class="heading">Badge</h3>
 	<div class="separator heading-separator heading-below-separator">
 	<span class="separator-line heading-separator-line separator-line-left"></span>
@@ -257,7 +261,7 @@
 	</div>
 </div>
 
-</div>
+</div> -->
 <!-- </main> -->
 <!-- </div> -->
 
