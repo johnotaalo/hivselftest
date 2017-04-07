@@ -75,7 +75,7 @@ class Template extends MX_Controller {
 
 		$data['javascript_file'] = $this->assets->javascript_file;
 		$data['javascript_data'] = $this->assets->javascript_data;
-		$this->load->view('Template/frontend_template_v', $data);
+		$this->load->view('Template/frontend_template_v_2', $data);
 	}
 
 	function createSideBar($selected = null){
