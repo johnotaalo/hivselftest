@@ -110,16 +110,16 @@
 <span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
 
 	<div data-animation="fadeInUp" class="separator heading-separator heading-below-separator animate-element animate-stagger">
-		<table>
+		<table style="width:450px;height:200px;">
 			<tr>
 				<td>
 					Name of Kit
 				</td>
 				<td>
-					INSTI
+					<img src="<?= @$assets_url; ?>img/insti.png" alt="INSTI" style="width:200px;height:50px;">
 				</td>
 				<td>
-					Oraquick
+					<img src="<?= @$assets_url; ?>img/quiki.png" alt="ORAQUICK" style="width:200px;height:50px;">
 				</td>
 			</tr>
 
@@ -233,7 +233,7 @@ HIV self-tests detect if your body has been previously exposed to HIV. If it has
 </div>
 <div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">For HIV self-tests using a blood sample, you will be required to conduct a quick finger-prick to obtain a blood sample and conduct the test according the manufacturer’s instructions found in the test pack. 
 For self-tests using a saliva sample, you will be required to swab your gums with the provided sample collection kit and conduct the test according to the manufacturer’s instructions found in the test pack. 
-All the approved HIV self-test kits come with simple and clear instructions on how to test yourself and interpret the results.  In case you are not sure of the instructions, you should contact the provider who issued you with the test kit or any health provider at nearest health facility. You can also view instructions on how to take either the blood or oral HIV self-test at insert webpage here
+All the approved HIV self-test kits come with simple and clear instructions on how to test yourself and interpret the results.  In case you are not sure of the instructions, you should contact the provider who issued you with the test kit or any health provider at nearest health facility. You can also view instructions on how to take either the blood or oral HIV self-test at <a href="http://www.besure.or.ke">www.besure.or.ke</a>
 </div>
 </div>
 </div>
@@ -280,7 +280,7 @@ All the approved HIV self-test kits come with simple and clear instructions on h
 <span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
 <span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
 </div>
-<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">If you interpret a HIV positive result, it is important that you have this result confirmed by a health provider before concluding that your HIV status is truly positive. You can visit the place you obtained the test kit who can refer you to a health facility or visit any health facility or VCT centre where a confirmatory test will be conducted. A list of sites that can conduct a confirmatory test is available at insert webpage here</div>
+<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">If you interpret a HIV positive result, it is important that you have this result confirmed by a health provider before concluding that your HIV status is truly positive. You can visit the place you obtained the test kit who can refer you to a health facility or visit any health facility or VCT centre where a confirmatory test will be conducted. A list of sites that can conduct a confirmatory test is available at <a href="http://www.besure.or.ke">www.besure.or.ke</a></div>
 </div>
 </div>
 </div>
@@ -307,7 +307,7 @@ All the approved HIV self-test kits come with simple and clear instructions on h
 
 If you continue to be at risk of HIV infection, you should continue to re-test every 3 months. You should also talk to your health provider about other HIV prevention options such as pre-exposure prophylaxis (PrEP). 
 
-You can contact a health provider or visit a health facility of VCT centre, or call toll free hot line number 1190 if you are unsure or need further information
+You can contact a health provider or visit a health facility of VCT centre, or call the <img src="<?= @$assets_url; ?>img/smone.png" alt="INSTI" style="width:80px;height:20px;"> toll free hot line number 1190 if you are unsure or need further information
 </div>
 </div>
 </div>
@@ -377,7 +377,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
 <span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
 </div>
-<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">Quality assured HIV self-test kits are available at selected pharmacies including Green Cross and Pharmnet branded pharmacies. You can also view a list of pharmacies online at: insert webpage here</div>
+<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">Quality assured HIV self-test kits are available at selected pharmacies including Green Cross and Pharmnet branded pharmacies. You can also view a list of pharmacies online at <a href="http://www.besure.or.ke">www.besure.or.ke</a></div>
 </div>
 </div>
 </div>
@@ -423,7 +423,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
 <span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
 </div>
-<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">If you have purchased an HIV self-test kit, you can determine its authenticity by calling the toll-free number 1190 of visiting insert webpage here. All HIV self-test kits available at any Green Cross or Pharmnet branded pharmacies are internationally approved and quality-assured. </div>
+<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">If you have purchased an HIV self-test kit, you can determine its authenticity by calling the <img src="<?= @$assets_url; ?>img/smone.png" alt="INSTI" style="width:80px;height:20px;"> toll-free number 1190 of visiting <a href="http://www.besure.or.ke">www.besure.or.ke</a>. All HIV self-test kits available at any Green Cross or Pharmnet branded pharmacies are internationally approved and quality-assured. </div>
 </div>
 </div>
 </div>
@@ -515,7 +515,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
 <span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
 </div>
-<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">You can visit the nearest health facility or call the toll free hotline number 1190</div>
+<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">You can visit the nearest health facility or call the <img src="<?= @$assets_url; ?>img/smone.png" alt="INSTI" style="width:80px;height:20px;"> toll free hotline number 1190</div>
 </div>
 </div>
 </div>

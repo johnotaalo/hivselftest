@@ -5,7 +5,7 @@ class Home extends MY_Controller {
 	public function __construct(){
 		parent::__construct();
 
-		$this->load->model('home_m');
+		$this->load->model('Home_m');
 	}
 	
 	public function index()
@@ -20,7 +20,7 @@ class Home extends MY_Controller {
 
 	public function FAQ()
 	{
-		$this->template->setPageTitle('Videos')->setPartial('faq_v')->frontEndTemplate();
+		$this->template->setPageTitle('FAQ')->setPartial('faq_v')->frontEndTemplate();
 	}
 
 }

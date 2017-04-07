@@ -17,9 +17,11 @@
 							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/pickthree.png"></div>
 							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/pickfour.png"></div>
 							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/pickfive.png"></div>
+
 							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/picksix.png"></div>
 							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/pickseven.png"></div>
 							<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;min-width: 100%;min-height: 100%;" class="preload-bg-image bg-image bg-gallery-item lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/pickeight.png"></div>
+							
 							</div>
 						</div>
 					</div>
@@ -154,141 +156,117 @@
 
 
 
-<!-- 
-<div class="row-wrapper row-no-bottom-margin row-full-height">
-<div class="row-container container row-full-width row-no-padding">
-<div class="row columns-equal-height columns-content-middle columns-no-margins">
-<div class="column col-sm-6">
-<div class="column-inner custom-css-1488422976635 col-has-fill">
-<div class="column-content">
-<div class="content-element heading-wrapper heading-align-left">
-<h3 data-animation="fadeInUp" class="heading animate-element animate-stagger" style="color:#fcfcfc">State of the art technology.</h3>
-<div data-animation="fadeInUp" class="separator heading-separator heading-below-separator animate-element animate-stagger">
-<span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
-<span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
-</div>
-<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">Cras at ultrices erat, sed vulputate eros. Nunc at augue gravida est fermentum vulputate. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</div>
-</div>
-<div class="row-wrapper row-inner-wrapper">
-<div class="row row-inner">
-<div class="column col-sm-6 col-xs-6">
-<div class="column-inner">
-<div class="column-content">
-<div data-animation="fadeInUp" class="content-element counter-wrapper counter-type-standard counter-align-left animate-element animate-stagger">
-<div class="counter counter-unit-after" style="color:#ffffff"><span class="counter-number" data-number="500">500</span><span class="counter-unit">+</span></div>
-<h4 class="counter-title" style="color:rgba(255,255,255,0.4)">Employees</h4>
-</div>
-</div>
-</div>
-</div>
-<div class="column col-sm-6 col-xs-6">
-<div class="column-inner">
-<div class="column-content">
-<div data-animation="fadeInUp" class="content-element counter-wrapper counter-type-standard counter-align-left animate-element animate-stagger">
-<div class="counter counter-unit-before" style="color:#ffffff"><span class="counter-unit">$</span><span class="counter-number" data-number="100">100</span></div>
-<h4 class="counter-title" style="color:rgba(255,255,255,0.4)">Millions Invested</h4>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="row-wrapper row-inner-wrapper">
-<div class="row row-inner">
-<div class="column col-sm-6 col-xs-6">
-<div class="column-inner">
-<div class="column-content">
-<div data-animation="fadeInUp" class="content-element counter-wrapper counter-type-standard counter-align-left animate-element animate-stagger">
-<div class="counter counter-unit-after" style="color:#ffffff"><span class="counter-number" data-number="43">43</span><span class="counter-unit"></span></div>
-<h4 class="counter-title" style="color:rgba(255,255,255,0.4)">Companies</h4>
-</div>
-</div>
-</div>
-</div>
-<div class="column col-sm-6 col-xs-6">
-<div class="column-inner">
-<div class="column-content">
-<div data-animation="fadeInUp" class="content-element counter-wrapper counter-type-standard counter-align-left animate-element animate-stagger">
-<div class="counter counter-unit-after" style="color:#ffffff"><span class="counter-number" data-number="99">99</span><span class="counter-unit">%</span></div>
-<h4 class="counter-title" style="color:rgba(255,255,255,0.4)">Success Rate</h4>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="column col-sm-6">
-<div class="column-inner custom-css-1488423931362">
-<div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/girl-writing-on-the-sofa-picjumbo-com-1200x1200.jpg"></div>
-</div>
-</div>
-<div class="column-content">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
 
 
 
-<div class="row-wrapper row-no-bottom-margin row-full-height">
-<div class="row-container container row-full-width row-no-padding">
-<div class="row columns-equal-height columns-content-middle columns-no-margins">
-<div class="column col-sm-6">
-<div class="column-inner custom-css-1488423939872">
-<div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/unrkg2jh1j0-olu-eletu-1200x1200.jpg"></div>
+
+
+<!-- <div id="primary" class="content-area"> -->
+<!-- <main id="main" class="site-main"> -->
+<!-- <div class="content">
+<div class="row-wrapper row-no-bottom-margin">
+	<div class="row-container container row-full-width">
+	<div class="row columns-equal-height columns-no-margins">
+	<div class="column col-sm-5">
+	<div class="column-inner custom-css-1488416167043 col-has-fill">
+	<div class="column-content">
+	<div class="content-element heading-wrapper heading-align-left">
+	<h4 class="subheading">01</h4>
+	<h3 class="heading">Countertop for Bronchures</h3>
+	<div class="separator heading-separator heading-below-separator">
+	<span class="separator-line heading-separator-line separator-line-left"></span>
+	<span class="separator-line heading-separator-line separator-line-right"></span>
+	</div>
+	<div class="heading-desc">Quisque euismod orci ut et lobortis aliquam. Aliquam in tortor enim. Donec posuere bibendum metus. Quisque gravida luctus volutpat. Mauris interdum.</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="column col-sm-7">
+	<div class="column-inner custom-css-1488416477503">
+	<div class="bg-media">
+	<div class="bg-media-container skrollable skrollable-after" data-bottom-top="transform: translate3d(0%,10%,0)" data-top-bottom="transform: translate3d(0,100%,0)" style="transform: translate3d(0px, 55%, 0px);">
+	<div style="background-image: url(&quot;<?= @$assets_url; ?>img/picksix.png&quot;); background-repeat:no-repeat;background-position:center center;background-size: 500px 600px;" class="preload-bg-image bg-image lazy-load-bg-img is-loaded is-ready" data-src="<?= @$assets_url; ?>img/picksix.png"></div>
+	</div>
+	</div>
+	<div class="column-content">
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+</div>
+<div class="row-wrapper row-no-bottom-margin">
+<div class="row-container container row-full-width">
+	<div class="row columns-equal-height columns-no-margins">
+	<div class="column col-sm-7">
+	<div class="column-inner custom-css-1488416346451">
+	<div class="bg-media">
+	<div class="bg-media-container skrollable skrollable-after" data-bottom-top="transform: translate3d(0,10%,0)" data-top-bottom="transform: translate3d(0,100%,0)" style="transform: translate3d(0px, 55%, 0px);">
+	<div style="background-image: url(&quot;<?= @$assets_url; ?>img/pickseven.png&quot;); background-repeat:no-repeat;background-position:center center;background-size: 500px 600px;" class="preload-bg-image bg-image lazy-load-bg-img is-loaded is-ready" data-src="<?= @$assets_url; ?>img/pickseven.png"></div>
+	</div>
+	</div>
+	<div class="column-content">
+	</div>
+	</div>
+	</div>
+	<div class="column col-sm-5">
+	<div class="column-inner custom-css-1488416167043 col-has-fill">
+	<div class="column-content">
+	<div class="content-element heading-wrapper heading-align-left">
+	<h4 class="subheading">02</h4>
+	<h3 class="heading">Dust Coat</h3>
+	<div class="separator heading-separator heading-below-separator">
+	<span class="separator-line heading-separator-line separator-line-left"></span>
+	<span class="separator-line heading-separator-line separator-line-right"></span>
+	</div>
+	<div class="heading-desc">Quisque euismod orci ut et lobortis aliquam. Aliquam in tortor enim. Donec posuere bibendum metus. Quisque gravida luctus volutpat. Mauris interdum.</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
 </div>
 </div>
-<div class="column-content">
+<div class="row-wrapper row-no-bottom-margin">
+	<div class="row-container container row-full-width">
+	<div class="row columns-equal-height columns-no-margins">
+	<div class="column col-sm-5">
+	<div class="column-inner custom-css-1488416167043 col-has-fill">
+	<div class="column-content">
+	<div class="content-element heading-wrapper heading-align-left">
+	<h4 class="subheading">01</h4>
+	<h3 class="heading">Badge</h3>
+	<div class="separator heading-separator heading-below-separator">
+	<span class="separator-line heading-separator-line separator-line-left"></span>
+	<span class="separator-line heading-separator-line separator-line-right"></span>
+	</div>
+	<div class="heading-desc">Quisque euismod orci ut et lobortis aliquam. Aliquam in tortor enim. Donec posuere bibendum metus. Quisque gravida luctus volutpat. Mauris interdum.</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="column col-sm-7">
+	<div class="column-inner custom-css-1488416477503">
+	<div class="bg-media">
+	<div class="bg-media-container skrollable skrollable-after" data-bottom-top="transform: translate3d(0,10%,0)" data-top-bottom="transform: translate3d(0,100%,0)" style="transform: translate3d(0px, 55%, 0px);">
+	<div style="background-image: url(&quot;<?= @$assets_url; ?>img/pickeight.png&quot;); background-repeat:no-repeat;background-position:center center;background-size: 500px 600px;" class="preload-bg-image bg-image lazy-load-bg-img is-loaded is-ready" data-src="<?= @$assets_url; ?>img/pickeight.png"></div>
+	</div>
+	</div>
+	<div class="column-content">
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
 </div>
-</div>
-</div>
-<div class="column col-sm-6">
-<div class="column-inner custom-css-1488423223527 col-has-fill">
-<div class="column-content">
-<div class="content-element heading-wrapper heading-align-left">
-<h3 data-animation="fadeInUp" class="heading animate-element animate-stagger" style="color:#fcfcfc">Great work comes from great inspiration.</h3>
-<div data-animation="fadeInUp" class="separator heading-separator heading-below-separator animate-element animate-stagger">
-<span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
-<span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
-</div>
-<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">Cras at ultrices erat, sed vulputate eros. Nunc at augue gravida est fermentum vulputate. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</div>
-</div>
-<div data-animation="fadeInUp" class="content-element progress-bar-wrapper animate-element animate-stagger">
-<div class="progress-bar">
-<span class="progress-bar-label" style="color:rgba(255,255,255,0.8)">Development <span class="progress-bar-unit">90%</span></span>
-<span class="progress-bar-line" style="background-color:rgba(255,255,255,0.8);width:90%"></span>
-<span class="progress-bar-background" style="background-color:rgba(255,255,255,0.2)"></span>
-</div>
-<div class="progress-bar">
-<span class="progress-bar-label" style="color:rgba(255,255,255,0.8)">Design <span class="progress-bar-unit">80%</span></span>
-<span class="progress-bar-line" style="background-color:rgba(255,255,255,0.8);width:80%"></span>
-<span class="progress-bar-background" style="background-color:rgba(255,255,255,0.2)"></span>
-</div>
-<div class="progress-bar">
-<span class="progress-bar-label" style="color:rgba(255,255,255,0.8)">Marketing <span class="progress-bar-unit">70%</span></span>
-<span class="progress-bar-line" style="background-color:rgba(255,255,255,0.8);width:70%"></span>
-<span class="progress-bar-background" style="background-color:rgba(255,255,255,0.2)"></span>
-</div>
-</div>
-<div data-animation="fadeInUp" class="content-element button-wrapper button-align-inline animate-element animate-stagger">
-<a href="our-services.html" title="" class="button button-secondary button-rounded button-size-md"><i class="icon apalodi-icon-star"></i><span class="button-text">View Services</span></a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
- -->
+
+</div> -->
+<!-- </main> -->
+<!-- </div> -->
+
+
+
 
 
 </div>
