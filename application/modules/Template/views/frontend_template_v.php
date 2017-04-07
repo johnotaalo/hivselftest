@@ -127,31 +127,43 @@
 	<li class="menu-item menu-item-has-children menu-no-link mega-menu mm-col-2 mega-menu-center"><a href="<?= @base_url('Home/');?>"><span><span class="menu-item-label">Home</span></span></a>
 	</li>
 
-	<li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Home/FAQ/');?>"><span><span class="menu-item-label">HIV Self-Test</span></span></a>
+	<li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Home/FAQ/');?>"><span><span class="menu-item-label">FAQs</span></span></a>
 	</li>
 
-	<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Conduct a Test</span></span></a>
+
+	<li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Home/videos/');?>"><span><span class="menu-item-label">Conduct a Test</span></span></a>
+	</li>
+
+	<!-- <li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Conduct a Test</span></span></a>
 		<ul class="sub-menu">
 		<li class="menu-item"><a href="<?= @base_url('Home/videos/');?>"><span><span class="menu-item-label">Instructional Videos</span></span></a></li>
 		<li class="menu-item menu-description"><a href="#"><span><span class="menu-item-label">Upload IFU</span></span></a></li>
 		</ul>
+	</li> -->
+
+	<li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Outlets'); ?>"><span><span class="menu-item-label">Get a Kit</span></span></a>
 	</li>
 
-	<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Get a Kit</span></span></a>
+	<!-- <li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Get a Kit</span></span></a>
 		<ul class="sub-menu">
 		<li class="menu-item menu-description"><a href="#"><span><span class="menu-item-label">Participating outlets</span></span></a></li>
 		<li class="menu-item"><a href="#"><span><span class="menu-item-label">Google Maps</span></span></a></li>
 		</ul>
+	</li> -->
+
+
+
+	<li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Map'); ?>"><span><span class="menu-item-label">Health Professionals</span></span></a>
 	</li>
 
-	<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Health Professionals</span></span></a>
+	<!-- <li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Health Professionals</span></span></a>
 		<ul class="sub-menu">
 		
 		<li class="menu-item"><a href="<?= @base_url('Map'); ?>"><span><span class="menu-item-label">Referral sites</span></span></a></li>
 		<li class="menu-item menu-description"><a href="#"><span><span class="menu-item-label">PDFs</span></span></a></li>
 		<li class="menu-item"><a href="#"><span><span class="menu-item-label">Gozee</span></span></a></li>
 		</ul>
-	</li>
+	</li> -->
 
 	<!-- <li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Resources</span></span></a>
 		<ul class="sub-menu">
