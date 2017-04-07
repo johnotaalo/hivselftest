@@ -153,13 +153,16 @@
 		</ul>
 	</li>
 
-	<li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Resources</span></span></a>
+	<!-- <li class="menu-item menu-item-has-children menu-no-link"><a><span><span class="menu-item-label">Resources</span></span></a>
 		<ul class="sub-menu">
 		
 		<li class="menu-item"><a href="#"><span><span class="menu-item-label">What is a Prep</span></span></a></li>
 		<li class="menu-item"><a href="#"><span><span class="menu-item-label">LVCT online</span></span></a></li>
 		<li class="menu-item"><a href="#"><span><span class="menu-item-label">Manufacturer Website</span></span></a></li>
 		</ul>
+	</li> -->
+
+	<li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Home/Resources/');?>"><span><span class="menu-item-label">Resources</span></span></a>
 	</li>
 	
 
