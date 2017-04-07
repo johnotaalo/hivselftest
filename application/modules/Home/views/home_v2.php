@@ -1,3 +1,8 @@
+<style type="text/css">
+	.custom-css-1487878467842{padding-top:100px;padding-bottom:100px;background-color:#fff}
+	.custom-css-1487873249987{padding:50px 40px}
+	.custom-css-1488431315627{padding-top:90px;padding-bottom:90px;background-color:#fff}
+</style>
 <div id="content" class="site-content container">
 <div id="primary" class="content-area">
 <main id="main" class="site-main">
@@ -227,6 +232,98 @@
 </div>
 </div>
 </div>
+
+<div class="row-wrapper custom-css-1487878467842 row-no-bottom-margin">
+<div class="row-container container">
+<div class="row">
+<div class="column col-sm-5 col-md-4">
+<div class="column-inner custom-css-1487873249987">
+<div class="bg-media">
+<div class="bg-media-container skrollable skrollable-between" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)" style="transform: translate3d(0px, 18.0898%, 0px);">
+<div style="background-image: url(&quot;https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/photo-1449247709967-d4461a6a6103-1-1600x1200.jpg&quot;); background-repeat: no-repeat; background-size: cover; background-position: center center;" class="preload-bg-image bg-image lazy-load-bg-img is-loaded is-ready" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/02/photo-1449247709967-d4461a6a6103-1-1600x1200.jpg"></div>
+</div>
+<div class="bg-media-overlay" style="background-color: rgba(255,255,255,0.4)"></div>
+</div>
+<div class="column-content">
+<div class="content-element heading-wrapper heading-align-left">
+<h3 data-animation="fadeInUp" class="heading animate-element animate-stagger is-animated fadeInUp" style="font-size:45px">With millions of happy customers, we've earned our reputation as the biggest name in the industry.</h3>
+</div>
+</div>
+</div>
+</div>
+<div class="column col-sm-7 col-md-offset-1">
+<div class="column-inner">
+<div class="column-content">
+<div class="row-wrapper row-inner-wrapper">
+<div class="row row-inner">
+<div class="column col-sm-6 col-xs-6">
+<div class="column-inner">
+<div class="column-content">
+<div data-animation="fadeInUp" class="content-element service-wrapper service-align-left service-meta-top animate-element animate-stagger is-animated fadeInUp">
+<div class="service-meta" style="font-size:80px"><i class="icon apalodi-icon-puzzle"></i></div>
+<div class="service-info">
+<h3 class="service-title">Page Builder</h3>
+<span class="service-desc">Powered with Visual Composer</span>
+<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="column col-sm-6 col-xs-6">
+<div class="column-inner">
+<div class="column-content">
+<div data-animation="fadeInUp" class="content-element service-wrapper service-align-left service-meta-top animate-element animate-stagger is-animated fadeInUp">
+<div class="service-meta" style="font-size:80px"><i class="icon apalodi-icon-palette"></i></div>
+<div class="service-info">
+<h3 class="service-title">Powerful Portfolio</h3>
+<span class="service-desc">Powered with Viba Portfolio</span>
+<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row-wrapper row-inner-wrapper">
+<div class="row row-inner">
+<div class="column col-sm-6 col-xs-6">
+<div class="column-inner">
+<div class="column-content">
+<div data-animation="fadeInUp" class="content-element service-wrapper service-align-left service-meta-top animate-element animate-stagger is-animated fadeInUp">
+<div class="service-meta" style="font-size:80px"><i class="icon apalodi-icon-gauge"></i></div>
+<div class="service-info">
+<h3 class="service-title">Fully Customizable</h3>
+<span class="service-desc">With powerful admin panel</span>
+<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="column col-sm-6 col-xs-6">
+<div class="column-inner">
+<div class="column-content">
+<div data-animation="fadeInUp" class="content-element service-wrapper service-align-left service-meta-top animate-element animate-stagger is-animated fadeInUp">
+<div class="service-meta" style="font-size:80px"><i class="icon apalodi-icon-magic"></i></div>
+<div class="service-info">
+<h3 class="service-title">Easy to Use</h3>
+<span class="service-desc">Intuitive options</span>
+<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim imperdiet</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <div class="row-wrapper custom-css-1488241484908 row-no-bottom-margin">
 <div class="bg-media">
 <div class="bg-media-container">
@@ -358,6 +455,53 @@
 </div>
 </div>
 </div>
+
+<div class="row-wrapper custom-css-1488431315627 row-no-bottom-margin">
+<div class="row-container container">
+<div class="row columns-equal-height columns-content-middle">
+<div class="column col-sm-6">
+<div class="column-inner">
+<div class="column-content">
+<figure data-animation="fadeInUp" style="max-width:800px" class="content-element image-wrapper alignnone animate-element animate-stagger is-animated fadeInUp">
+<div class="image-thumbnail is-transparent-bg" style="padding-bottom:88.75%">
+<img src="<?= @$this->config->item('assets_url'); ?>img/persons/Old-Lady.png" class="preload-image lazy-load-img is-loaded is-ready" alt="phone-screens" data-src="<?= @$this->config->item('assets_url'); ?>img/persons/Old-Lady.png">
+</div>
+</figure>
+</div>
+</div>
+</div>
+<div class="column col-sm-6">
+<div class="column-inner">
+<div class="column-content">
+<div class="content-element heading-wrapper heading-align-left">
+<h4 data-animation="fadeInRight" class="subheading animate-element animate-stagger is-animated fadeInRight">Time is Generous</h4>
+<div data-animation="fadeInRight" class="separator heading-separator heading-above-separator animate-element animate-stagger is-animated fadeInRight">
+<span class="separator-line heading-separator-line separator-line-left"></span>
+<span class="separator-line heading-separator-line separator-line-right"></span>
+</div>
+<h3 data-animation="fadeInRight" class="heading animate-element animate-stagger is-animated fadeInRight" style="font-size:30px">Be the First to Experience It</h3>
+<div data-animation="fadeInRight" class="heading-desc animate-element animate-stagger is-animated fadeInRight">Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Donec adipiscing ullamcorper viverra.</div>
+<div data-animation="fadeInRight" class="bg-heading-wrapper animate-element animate-stagger is-animated fadeInRight"><div class="bg-heading bg-heading-left-top"><i class="icon apalodi-icon-clock-alt"></i></div></div>
+</div>
+<div class="empty-space clearfix" style="height:32px"></div>
+<div class="content-element heading-wrapper heading-align-left">
+<h4 data-animation="fadeInRight" class="subheading animate-element animate-stagger is-animated fadeInRight">Get Ideas Fast</h4>
+<div data-animation="fadeInRight" class="separator heading-separator heading-above-separator animate-element animate-stagger is-animated fadeInRight">
+<span class="separator-line heading-separator-line separator-line-left"></span>
+<span class="separator-line heading-separator-line separator-line-right"></span>
+</div>
+<h3 data-animation="fadeInRight" class="heading animate-element animate-stagger is-animated fadeInRight" style="font-size:30px">All Functions Available</h3>
+<div data-animation="fadeInRight" class="heading-desc animate-element animate-stagger is-animated fadeInRight">Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Donec adipiscing ullamcorper viverra.</div>
+<div data-animation="fadeInRight" class="bg-heading-wrapper animate-element animate-stagger is-animated fadeInRight"><div class="bg-heading bg-heading-left-top"><i class="icon apalodi-icon-flash-2"></i></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
 <div class="row-wrapper custom-css-1488239830737 row-no-bottom-margin">
 <div class="row-container container row-full-width row-no-padding">
 <div class="row columns-equal-height columns-no-margins">
