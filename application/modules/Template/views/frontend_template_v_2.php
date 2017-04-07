@@ -35,9 +35,9 @@
 
 <style type="text/css">.custom-css-1488241484908{padding-top:90px;padding-bottom:90px}.custom-css-1488239830737{background-color:#fff;background-color:#fff}.custom-css-1488241938953{background-color:#28353d}.custom-css-1488244328363{padding:90px 20px 20px}.custom-css-1488245476729{padding-top:50px;padding-bottom:50px;background-color:#fff}.custom-css-1488041420143{background-color:#28353d;padding:80px 12%}.custom-css-1488041425297{padding:80px 12%}.custom-css-1488041385976{padding:80px 12%}.custom-css-1488239923758{border-color:#eee;border-style:solid;border-width:10px;padding:80px 12%}.custom-css-1488241686986{padding-top:200px}.custom-css-1488241607219{padding-top:200px}.custom-css-1488239923758{border-color:#eee;border-style:solid;border-width:10px;padding:80px 12%}.custom-css-1488242558389{padding:80px 12%}.custom-css-1488243026145{padding-top:200px}.custom-css-1488243053150{padding-top:200px}.custom-css-1488242590341{padding:80px 12%}.custom-css-1488245539123{background-color:rgba(255,255,255,0.01);*background-color:#fff;padding:0}</style>
 </head>
-<body class="header-transparent no-page-heading fluid-width no-top-content-padding no-bottom-content-padding">
+<body class="no-page-heading fluid-width no-top-content-padding no-bottom-content-padding">
 	<div id="page" class="site">
-		<header id="masthead" class="site-header header-resize is-light">
+		<header id="masthead" class="site-header header-resize">
 			<div class="site-header-container container">
 			<div class="logo">
 				<a href="<?= @base_url('Home/');?>" rel="home">
@@ -138,5 +138,13 @@
 	<script type="text/javascript" src="<?= @$assets_url; ?>js/main.js"></script>
 
 	<?= @$page_js; ?>
+	<?php if(isset($javascript_file)) { ?>
+		<?php $this->load->view($javascript_file, $javascript_data); ?>
+	<?php } ?>
+	<?php
+		if($this->router->fetch_class() == "Map"){
+	?>
+		<script src="https://maps.googleapis.com/maps/api/js?key=<?= @$this->config->item('key'); ?>&callback=initMap" async defer></script>
+	<?php  } ?>
 </body>
 </html>
