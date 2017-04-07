@@ -2,16 +2,23 @@
 <div id="primary" class="content-area">
 <main id="main" class="site-main">
 <div class="content">
+
+
+<!-- Slider Begin -->
 <div class="row-wrapper row-no-bottom-margin">
 <div class="row-container container row-full-width row-no-padding">
 <div class="row columns-no-margins">
 <div class="column col-sm-12">
 <div class="column-inner">
 <div class="column-content">
+
 <div class="aslider-wrapper aslider-home-modern has-animations is-light is-ready is-loaded" data-aslider-content-effects="{&quot;opacity&quot;:&quot;1&quot;,&quot;parallax&quot;:&quot;1&quot;}" data-aslider-media-effects="{&quot;opacity&quot;:&quot;0&quot;,&quot;parallax&quot;:&quot;1&quot;,&quot;zoom-in&quot;:&quot;0&quot;,&quot;zoom-out&quot;:&quot;0&quot;}" data-aslider-mobile-video="0" data-aslider-mobile-effects="0" data-aslider-autoplay-desktop="0" data-aslider-autoplay-mobile="0" data-aslider-mobile-animations="0" data-aslider-parallax="1" data-aslider-loop="1" data-aslider-html5-video="0">
 <div class="aslider-preloader-wrapper is-ready">
 <div class="aslider-preloader aslider-preloader-4"></div>
 </div>
+
+
+
 <div class="aslider-swiper-container swiper-container-horizontal" style="cursor: -webkit-grab;">
 <div class="aslider-swiper-wrapper" style="width: 5396px; transform: translate3d(-1349px, 0px, 0px); transition-duration: 0ms;"><div class="aslider-swiper-slide aslider-slide aslider-slide-1 animate-from-right aslider-position-center aslider-align-center aslider-style-light animation-stagger has-image aslider-swiper-slide-duplicate aslider-swiper-slide-prev swiper-slide-duplicate-next" data-aslider-slide="1" data-aslider-slide-style="light" data-swiper-slide-index="1" style="width: 1349px;">
 <div class="aslider-slide-inner" data-swiper-parallax-percentage="65" data-swiper-parallax="877" style="transform: translate3d(877px, 0px, 0px); transition-duration: 0ms;">
@@ -35,6 +42,9 @@
 </div>
 </div>
 </div>
+
+
+
 <div class="aslider-swiper-slide aslider-slide aslider-slide-0 animate-from-bottom aslider-position-center aslider-align-center aslider-style-light animation-stagger has-image aslider-swiper-slide-active" data-aslider-slide="0" data-aslider-slide-style="light" data-swiper-slide-index="0" style="width: 1349px;">
 <div class="aslider-slide-inner" data-swiper-parallax-percentage="65" data-swiper-parallax="877" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
 <div class="aslider-media-wrapper">
@@ -57,6 +67,9 @@
 </div>
 </div>
 </div>
+
+
+
 <div class="aslider-swiper-slide aslider-slide aslider-slide-1 animate-from-right aslider-position-center aslider-align-center aslider-style-light animation-stagger has-image is-aslider-hidden aslider-swiper-slide-next swiper-slide-duplicate-prev" data-aslider-slide="1" data-aslider-slide-style="light" data-swiper-slide-index="1" style="width: 1349px;">
 <div class="aslider-slide-inner" data-swiper-parallax-percentage="65" data-swiper-parallax="877" style="transform: translate3d(-877px, 0px, 0px); transition-duration: 0ms;">
 <div class="aslider-media-wrapper">
@@ -79,6 +92,9 @@
 </div>
 </div>
 </div>
+
+
+
 <div class="aslider-swiper-slide aslider-slide aslider-slide-0 animate-from-bottom aslider-position-center aslider-align-center aslider-style-light animation-stagger has-image aslider-swiper-slide-duplicate swiper-slide-duplicate-active" data-aslider-slide="0" data-aslider-slide-style="light" data-swiper-slide-index="0" style="width: 1349px;">
 <div class="aslider-slide-inner" data-swiper-parallax-percentage="65" data-swiper-parallax="877" style="transform: translate3d(-877px, 0px, 0px); transition-duration: 0ms;">
 <div class="aslider-media-wrapper">
@@ -106,12 +122,18 @@
 <div class="aslider-swiper-button aslider-swiper-button-prev aslider-parallax-controls" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale(1, 1);"></div>
 <div class="aslider-swiper-button aslider-swiper-button-next aslider-parallax-controls" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale(1, 1);"></div>
 </div>
+
+
 </div>
 </div>
 </div>
 </div>
 </div>
 </div>
+
+<!-- Slider End -->
+
+
 <div class="row-wrapper row-no-bottom-margin">
 <div class="row-container container row-full-width row-no-padding">
 <div class="row columns-equal-height columns-no-margins">
