@@ -10,7 +10,7 @@
 </div>
 <div class="site-heading-container container skrollable skrollable-between" data-start="transform: translate3d(0,0%,0); opacity:1" data-top-bottom="transform: translate3d(0,65%,0); opacity:0" style="transform: translate3d(0px, 0%, 0px); opacity: 1;">
 <div class="site-heading-inner">
-<h2 class="site-subtitle">HIV Self Testing</h2><h1 class="site-title">FAQ</h1>
+<h2 class="site-subtitle">HIV Self Testing</h2><h1 class="site-title">FAQs</h1>
 </div>
 </div>
 </div>

@@ -23,6 +23,11 @@ class Home extends MY_Controller {
 		$this->template->setPageTitle('FAQ')->setPartial('faq_v')->frontEndTemplate();
 	}
 
+	public function Resources()
+	{
+		$this->template->setPageTitle('Resources')->setPartial('resources_v')->frontEndTemplate();
+	}
+
 }
 
 /* End of file Home.php */
