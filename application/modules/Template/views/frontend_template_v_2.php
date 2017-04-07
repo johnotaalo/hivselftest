@@ -7,9 +7,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:700%7CUbuntu:400,500,700,400italic&amp;subset=latin" type="text/css" media="all">
 <link rel="stylesheet" href="<?= @$assets_url; ?>font-icons/fontello/css/apalodi-fontello.css" type="text/css" media="all">
 <link rel="stylesheet" href="<?= @$assets_url; ?>css/style.css" type="text/css" media="all">
-<link rel="stylesheet" href="<?= @$assets_url; ?>css/aslider.css" type="text/css" media="all">
-<link rel="stylesheet" href="<?= @$assets_url; ?>css/viba-portfolio.css" type="text/css" media="all">
-<link rel="stylesheet" href="<?= @$assets_url; ?>css/viba-portfolio-custom.css" type="text/css" media="all">
+<?= @$page_css; ?>
 <link rel="stylesheet" href="<?= @$assets_url; ?>css/style-custom.css" type="text/css" media="all">
 <script type="text/javascript" src="<?= @$assets_url; ?>js/vendor/jquery.js"></script>
 <script type="text/javascript" src="<?= @$assets_url; ?>js/vendor/jquery-migrate.min.js"></script>
@@ -39,11 +37,13 @@
 </head>
 <body class="header-transparent no-page-heading fluid-width no-top-content-padding no-bottom-content-padding">
 	<div id="page" class="site">
-		<header id="masthead" class="site-header header-resize is-light is-transparent">
+		<header id="masthead" class="site-header header-resize is-light">
 			<div class="site-header-container container">
 			<div class="logo">
 				<a href="<?= @base_url('Home/');?>" rel="home">
-					<img class="logo-default" src="<?= @$assets_url; ?>img/ministry-of-health.png" alt="Ministry-of-Health">
+					<img class="logo-default" src="<?= @$assets_url; ?>img/besure-logo.png" alt="Be Sure">
+					<img class="logo-light" src="<?= @$assets_url; ?>img/besure-logo-white.png" alt="Be Sure">
+					<img class="logo-dark" src="<?= @$assets_url; ?>img/besure-logo-grey.png" alt="Be Sure">
 				</a>
 			</div>
 			<div class="site-header-inner">
@@ -137,10 +137,6 @@
 	<script type="text/javascript" src="<?= @$assets_url; ?>js/plugins.js"></script>
 	<script type="text/javascript" src="<?= @$assets_url; ?>js/main.js"></script>
 
-	<script type="text/javascript" src="<?= @$assets_url; ?>js/vendor/jquery.swiper.min.js"></script>
-	<script type="text/javascript" src="<?= @$assets_url; ?>js/vendor/aslider.js"></script>
-	<script type="text/javascript" src="<?= @$assets_url; ?>js/vendor/viba-portfolio.js"></script>
-	<script type="text/javascript" src="<?= @$assets_url; ?>js/vendor/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="<?= @$assets_url; ?>js/vendor/isotope.pkgd.min.js"></script>
+	<?= @$page_js; ?>
 </body>
 </html>
