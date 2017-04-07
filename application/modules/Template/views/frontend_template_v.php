@@ -192,7 +192,7 @@
 
 				<?= $this->load->view($partial, $partialData); ?>
   
-    <footer id="colophon" class="site-footer">
+<footer id="colophon" class="site-footer">
 <div class="site-footer-container container">
 <div class="footer-logo">
 <a href="index.html" rel="home">
