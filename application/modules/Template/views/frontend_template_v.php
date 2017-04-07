@@ -76,7 +76,7 @@
 
 <div class="logo">
 <a href="<?= @base_url('Home/');?>" rel="home">
-<img class="logo-default" src="<?= @$assets_url; ?>img/lvct.jpg" alt="LVCT">
+<img class="logo-default" src="<?= @$assets_url; ?>img/besure-logo.png" alt="LVCT">
 </a>
 </div>
 
