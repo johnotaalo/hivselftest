@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HIV Self Test :: Home</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:700%7CUbuntu:400,500,700,400italic&amp;subset=latin" type="text/css" media="all">
 <link rel="stylesheet" href="<?= @$assets_url; ?>font-icons/fontello/css/apalodi-fontello.css" type="text/css" media="all">
 <link rel="stylesheet" href="<?= @$assets_url; ?>css/style.css" type="text/css" media="all">

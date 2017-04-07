@@ -1,7 +1,7 @@
 <style type="text/css">
 	.custom-css-1487878467842{padding-top:100px;padding-bottom:100px;background-color:#fff}
 	.custom-css-1487873249987{padding:50px 40px}
-	.custom-css-1488431315627{padding-top:90px;padding-bottom:90px;background-color:#fff}
+	.custom-css-1488431315627{padding-bottom:90px;background-color:#fff}
 </style>
 <div id="content" class="site-content container">
 <div id="primary" class="content-area">
@@ -260,7 +260,7 @@
 <div class="column-inner">
 <div class="column-content">
 <div data-animation="fadeInUp" class="content-element service-wrapper service-align-left service-meta-top animate-element animate-stagger is-animated fadeInUp">
-<div class="service-meta" style="font-size:80px"><i class="icon apalodi-icon-puzzle"></i></div>
+<div class="service-meta" style="font-size:80px"><i class="fa fa-location-arrow"></i></div>
 <div class="service-info">
 <h3 class="service-title">Page Builder</h3>
 <span class="service-desc">Powered with Visual Composer</span>
@@ -274,7 +274,7 @@
 <div class="column-inner">
 <div class="column-content">
 <div data-animation="fadeInUp" class="content-element service-wrapper service-align-left service-meta-top animate-element animate-stagger is-animated fadeInUp">
-<div class="service-meta" style="font-size:80px"><i class="icon apalodi-icon-palette"></i></div>
+<div class="service-meta" style="font-size:80px"><i class="fa fa-user-md"></i></div>
 <div class="service-info">
 <h3 class="service-title">Powerful Portfolio</h3>
 <span class="service-desc">Powered with Viba Portfolio</span>
@@ -292,7 +292,7 @@
 <div class="column-inner">
 <div class="column-content">
 <div data-animation="fadeInUp" class="content-element service-wrapper service-align-left service-meta-top animate-element animate-stagger is-animated fadeInUp">
-<div class="service-meta" style="font-size:80px"><i class="icon apalodi-icon-gauge"></i></div>
+<div class="service-meta" style="font-size:80px"><i class="fa fa-play"></i></div>
 <div class="service-info">
 <h3 class="service-title">Fully Customizable</h3>
 <span class="service-desc">With powerful admin panel</span>
@@ -306,7 +306,7 @@
 <div class="column-inner">
 <div class="column-content">
 <div data-animation="fadeInUp" class="content-element service-wrapper service-align-left service-meta-top animate-element animate-stagger is-animated fadeInUp">
-<div class="service-meta" style="font-size:80px"><i class="icon apalodi-icon-magic"></i></div>
+<div class="service-meta" style="font-size:80px"><i class="fa fa-shield"></i></div>
 <div class="service-info">
 <h3 class="service-title">Easy to Use</h3>
 <span class="service-desc">Intuitive options</span>
@@ -324,7 +324,7 @@
 </div>
 </div>
 </div>
-<div class="row-wrapper custom-css-1488241484908 row-no-bottom-margin">
+<!-- <div class="row-wrapper custom-css-1488241484908 row-no-bottom-margin">
 <div class="bg-media">
 <div class="bg-media-container">
 <div style="background-image:url(data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/01/photo-1464886538834-d92fb785bb03-1600x1125.jpg"></div>
@@ -454,7 +454,7 @@
 </div>
 </div>
 </div>
-</div>
+</div> -->
 
 <div class="row-wrapper custom-css-1488431315627 row-no-bottom-margin">
 <div class="row-container container">
