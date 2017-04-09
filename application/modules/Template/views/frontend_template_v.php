@@ -75,8 +75,10 @@
 </div> -->
 
 <div class="logo">
-<a href="<?= @base_url('Home/');?>" rel="home">
-<img class="logo-default" src="<?= @$assets_url; ?>img/besure-logo.png" alt="LVCT">
+<a href="<?= @base_url();?>" rel="home">
+	<img class="logo-default"  src="<?= @$assets_url; ?>img/psk-logo.png" alt="Besure-Logo">
+	<img class="logo-light"  src="<?= @$assets_url; ?>img/psk-logo.png" alt="Besure-Logo">
+	<img class="logo-dark"  src="<?= @$assets_url; ?>img/psk-logo.png" alt="Besure-Logo">
 </a>
 </div>
 
@@ -89,11 +91,11 @@
 </a>
 </div> -->
 
-<div class="logo">
+<!-- <div class="logo">
 <a href="<?= @base_url('Home/');?>" rel="home">
 <img class="logo-default" src="<?= @$assets_url; ?>img/ministry-of-health.png" alt="Ministry-of-Health">
 </a>
-</div>
+</div> -->
 
 
 
