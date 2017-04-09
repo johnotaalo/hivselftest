@@ -1,4 +1,4 @@
-<div id="page-heading" class="site-heading is-light site-heading-align-center">
+<div id="page-heading" class="site-heading is-light site-heading-align-center" style="margin-bottom: 20px;">
 	<div class="site-heading-container container skrollable skrollable-between" data-start="transform: translate3d(0,0%,0); opacity:1" data-top-bottom="transform: translate3d(0,65%,0); opacity:0" style="transform: translate3d(0px, 0%, 0px); opacity: 1;">
 		<div class="site-heading-inner">
 			<h1 class="site-title">Participating Outlets</h1>

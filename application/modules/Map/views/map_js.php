@@ -4,7 +4,7 @@
 	var markers = [];
 	function initMap() {
 		map = new google.maps.Map(document.getElementById('map'), {
-			center: {lat: -34.397, lng: 150.644},
+			center: {lat: -1.28333, lng: 36.81667},
 			zoom: 12
 		});
 
@@ -67,7 +67,8 @@
 
 	window.jQuery(document).ready(function(){
 		window.jQuery('body').removeClass("no-page-heading fluid-width no-top-content-padding no-bottom-content-padding");
-		window.jQuery('body').addClass("no-page-heading fluid-width no-top-content-padding");
+		window.jQuery('body').addClass("fluid-width");
+		window.jQuery('#masthead').removeClass('is-transparent');
 		// no-page-heading fluid-width no-top-content-padding
 	});
 </script>

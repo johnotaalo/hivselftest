@@ -25,9 +25,6 @@ class Outlets extends MY_Controller{
 		foreach ($pharmacies as $pharmacy) {
 			$string = '<div class="masonry-item column col-xs-12 col-sm-6 col-md-4 col-lg-4" style="">
 			<div class="content-element team-wrapper team-align-left team-boxed">
-			<div class="image-thumbnail" style="padding-bottom:100%">
-			<img src="%image%" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Headphones" data-src="%image%">
-			</div>
 			<div class="team-info">
 			<h5 class="team-name">%pharmacy_name%</h5>
 			<span class="team-desc">%pharmacy_location%</span>
