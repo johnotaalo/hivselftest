@@ -88,7 +88,7 @@
 								<li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Outlets'); ?>"><span><span class="menu-item-label">Get a Kit</span></span></a>
 								</li>
 
-								<li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Map'); ?>"><span><span class="menu-item-label">Health Professionals</span></span></a>
+								<li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Map'); ?>"><span><span class="menu-item-label">Referral Sites</span></span></a>
 								</li>
 
 								<li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Home/Resources/');?>"><span><span class="menu-item-label">Resources</span></span></a>
@@ -130,7 +130,7 @@
 							<a class="social-icon icon-twitter" href="https://twitter.com/one2oneke?lang=en" target="_blank"><span>twitter</span></a>
 							<a class="social-icon icon-instagram" href="https://www.instagram.com/onetooneke/?hl=en" target="_blank"><span>instagram</span></a>
 
-							<i class="social social-whatsapp x1.5"> 0700-121-121</i>
+							<i class="social social-whatsapp x1.5"> Whatsapp: 0700-121-121</i>
 
 						</div>
 					</div>
