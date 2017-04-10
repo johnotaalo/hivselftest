@@ -14,6 +14,7 @@
 				<div class="row-wrapper">
 					<div class="row-container container">
 						<div class="row">
+
 							<div class="column col-sm-4">
 								<div class="column-inner">
 									<div class="column-content">
@@ -22,9 +23,12 @@
 												<iframe width="560" height="315" src="https://www.youtube.com/embed/90s8raQPrhk" frameborder="0" allowfullscreen></iframe>
 											</div>
 										</div>
+										<div><h3>INSTI English Version</h3></div>
 									</div>
 								</div>
 							</div>
+
+
 							<div class="column col-sm-4">
 								<div class="column-inner">
 									<div class="column-content">
@@ -33,9 +37,12 @@
 												<iframe width="560" height="315" src="https://www.youtube.com/embed/dlldduI79ic" frameborder="0" allowfullscreen></iframe>
 											</div>
 										</div>
+										<div><h3>OraQuick English Version</h3></div>
 									</div>
 								</div>
 							</div>
+
+
 							<div class="column col-sm-4">
 								<div class="column-inner">
 									<div class="column-content">
@@ -44,9 +51,12 @@
 												<iframe width="560" height="315" src="https://www.youtube.com/embed/vv1LXV-s138" frameborder="0" allowfullscreen></iframe>
 											</div>
 										</div>
+										<div><h3>OraQuick Swahili Version</h3></div>
 									</div>
 								</div>
 							</div>
+
+
 						</div>
 					</div>
 				</div>
