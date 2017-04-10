@@ -41,8 +41,8 @@
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/selftesting.jpg"></div>
+<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size: cover; background-position:center center;background-size: 700px 500px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/selftest.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -62,8 +62,8 @@
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/rightoption.jpg"></div>
+<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 500px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/rightchoice.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -116,10 +116,10 @@
 					Name of Kit
 				</td>
 				<td>
-					<img src="<?= @$assets_url; ?>img/insti.png" alt="INSTI" style="width:200px;height:50px;">
+					<img src="<?= @$assets_url; ?>img/faq/insti.png" alt="INSTI" style="width:200px;height:50px;">
 				</td>
 				<td>
-					<img src="<?= @$assets_url; ?>img/quiki.png" alt="ORAQUICK" style="width:200px;height:50px;">
+					<img src="<?= @$assets_url; ?>img/faq/quiki.png" alt="ORAQUICK" style="width:200px;height:50px;">
 				</td>
 			</tr>
 
@@ -167,8 +167,8 @@
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/avail.jpg"></div>
+<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 700px 500px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/available.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -188,8 +188,8 @@
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/oral.jpg"></div>
+<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 500px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/saliva.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -242,8 +242,8 @@ All the approved HIV self-test kits come with simple and clear instructions on h
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/conduct.jpg"></div>
+<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/conduct.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -263,8 +263,8 @@ All the approved HIV self-test kits come with simple and clear instructions on h
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/positive.jpg"></div>
+<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 500px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/positive.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -307,7 +307,7 @@ All the approved HIV self-test kits come with simple and clear instructions on h
 
 If you continue to be at risk of HIV infection, you should continue to re-test every 3 months. You should also talk to your health provider about other HIV prevention options such as pre-exposure prophylaxis (PrEP). 
 
-You can contact a health provider or visit a health facility of VCT centre, or call the <img src="<?= @$assets_url; ?>img/smone.png" alt="INSTI" style="width:80px;height:20px;"> toll free hot line number 1190 if you are unsure or need further information
+You can contact a health provider or visit a health facility of VCT centre, or call the <img src="<?= @$assets_url; ?>img/faq/smone.png" alt="one2one" style="width:80px;height:20px;"> toll free hot line number 1190 if you are unsure or need further information
 </div>
 </div>
 </div>
@@ -316,8 +316,8 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/negative.jpg"></div>
+<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/negative.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -337,8 +337,8 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/reliable.jpg"></div>
+<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,35%,0)">
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/reliable.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -385,8 +385,8 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/kit.jpg"></div>
+<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 500px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/getkit.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -406,8 +406,8 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/quality.jpg"></div>
+<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 500px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/quality.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -423,7 +423,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
 <span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
 </div>
-<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">If you have purchased an HIV self-test kit, you can determine its authenticity by calling the <img src="<?= @$assets_url; ?>img/smone.png" alt="INSTI" style="width:80px;height:20px;"> toll-free number 1190 of visiting <a href="http://www.besure.or.ke">www.besure.or.ke</a>. All HIV self-test kits available at any Green Cross or Pharmnet branded pharmacies are internationally approved and quality-assured. </div>
+<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">If you have purchased an HIV self-test kit, you can determine its authenticity by calling the <img src="<?= @$assets_url; ?>img/faq/smone.png" alt="one2one" style="width:80px;height:20px;"> toll-free number 1190 of visiting <a href="http://www.besure.or.ke">www.besure.or.ke</a>. All HIV self-test kits available at any Green Cross or Pharmnet branded pharmacies are internationally approved and quality-assured. </div>
 </div>
 </div>
 </div>
@@ -454,8 +454,8 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/partner.jpg"></div>
+<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 700px 450px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/allfiveselftests.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -475,8 +475,8 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/forced.jpg"></div>
+<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 500px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/force.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -515,7 +515,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
 <span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
 </div>
-<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">You can visit the nearest health facility or call the <img src="<?= @$assets_url; ?>img/smone.png" alt="INSTI" style="width:80px;height:20px;"> toll free hotline number 1190</div>
+<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">You can visit the nearest health facility or call the <img src="<?= @$assets_url; ?>img/faq/smone.png" alt="one2one" style="width:80px;height:20px;"> toll free hotline number 1190</div>
 </div>
 </div>
 </div>
@@ -523,8 +523,8 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/know.jpg"></div>
+<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 500px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/info.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -545,8 +545,8 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/remember.jpg"></div>
+<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 700px 350px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/remeber.png"></div>
 </div>
 </div>
 <div class="column-content">
