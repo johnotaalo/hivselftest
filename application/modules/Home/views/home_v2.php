@@ -392,7 +392,7 @@
 
 										<div class="viba-portfolio-wrapper vp-style-default">
 											<ul class="viba-portfolio vp-visible-on-hover vp-neon vp-layout-grid vp-isotope vp-col-mp-1 vp-col-ml-2 vp-col-tp-3 vp-col-tl-3 vp-col-ds-4 vp-col-dl-4 vp-items-scale vp-margins vp-slide-overlay vp-overlay-on-hover vp-direction-aware vp-horizontal-align-left vp-cover-horizontal-align-center vp-vertical-align-middle vp-ajax vp-ajax-modal" data-ajax-width="1140" data-ajax-offset="10" data-ajax-animation="vp-modal-scale">
-												<li class="viba-portfolio-item vp-term-branding vp-term-collaboration vp-term-presentation vp-term-storytelling">
+												<!-- <li class="viba-portfolio-item vp-term-branding vp-term-collaboration vp-term-presentation vp-term-storytelling">
 													<div class="viba-portfolio-item-inner animate-element animate-stagger">
 														<div class="viba-portfolio-cover-wrapper">
 															<div class="viba-portfolio-media">
@@ -404,10 +404,7 @@
 
 															<div class="viba-portfolio-cover viba-portfolio-js-height">
 																<div class="viba-portfolio-cover-content">
-																	<!-- <div class="viba-portfolio-buttons-wrapper">
-																		<a class="viba-portfolio-item-button vp-zoom-button" href="https://demo.apalodi.com/azra/wp-content/uploads/sites/2/2017/01/c05kn4h8wkw-rawpixel-com.jpg" title="Workspace"><span>Zoom</span></a>
-																		<a class="viba-portfolio-item-button vp-link-button viba-portfolio-link"><span>Case Study</span></a>
-																	</div> -->
+																	
 																</div>
 															</div>
 														</div>
@@ -417,13 +414,16 @@
 															</h3>
 														</div>
 													</div>
-												</li>
-												<li class="viba-portfolio-item vp-term-branding vp-term-collaboration vp-term-presentation vp-term-storytelling">
+												</li> -->
+
+
+
+												<li style="width:20%;padding-left: 40px;padding-right: 40px; " class="viba-portfolio-item vp-term-branding vp-term-collaboration vp-term-presentation vp-term-storytelling">
 													<div class="viba-portfolio-item-inner animate-element animate-stagger">
 														<div class="viba-portfolio-cover-wrapper">
 															<div class="viba-portfolio-media">
 																<a class="image-thumbnail viba-portfolio-link">
-																	<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img" alt="c05kn4h8wkw-rawpixel-com" data-src="<?= @$this->config->item('assets_url'); ?>img/500x500/PSK-500X500.png">
+																	<img style="background-size: 50px 50px;" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img" alt="c05kn4h8wkw-rawpixel-com" data-src="<?= @$this->config->item('assets_url'); ?>img/500x500/PSK-500X500.png">
 																</a>
 															</div>
 															<span class="viba-portfolio-overlay"></span>
@@ -440,7 +440,33 @@
 														</div>
 													</div>
 												</li>
-												<li class="viba-portfolio-item vp-term-branding vp-term-collaboration vp-term-presentation vp-term-storytelling">
+
+
+												<li style="width:20%;padding-left: 40px;padding-right: 40px;" class="viba-portfolio-item vp-term-branding vp-term-collaboration vp-term-presentation vp-term-storytelling" ">
+													<div class="viba-portfolio-item-inner animate-element animate-stagger">
+														<div class="viba-portfolio-cover-wrapper">
+															<div class="viba-portfolio-media">
+																<a class="image-thumbnail viba-portfolio-link">
+																	<img style="background-size: 50px 50px;" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img" alt="c05kn4h8wkw-rawpixel-com" data-src="<?= @$this->config->item('assets_url'); ?>img/500x500/ONELVCT-500X500.png">
+																</a>
+															</div>
+															<span class="viba-portfolio-overlay"></span>
+
+															<div class="viba-portfolio-cover viba-portfolio-js-height">
+																<div class="viba-portfolio-cover-content">
+																</div>
+															</div>
+														</div>
+														<div class="viba-portfolio-content viba-portfolio-neon-content viba-portfolio-arrow">
+															<h3 class="viba-portfolio-title">
+																<a class="viba-portfolio-link">LVCT Health & One2One Kenya</a>
+															</h3>
+														</div>
+													</div>
+												</li>
+
+
+												<li style="width:20%;padding-left: 40px;padding-right: 40px;" class="viba-portfolio-item vp-term-branding vp-term-collaboration vp-term-presentation vp-term-storytelling">
 													<div class="viba-portfolio-item-inner animate-element animate-stagger">
 														<div class="viba-portfolio-cover-wrapper">
 															<div class="viba-portfolio-media">
@@ -462,28 +488,11 @@
 														</div>
 													</div>
 												</li>
-												<li class="viba-portfolio-item vp-term-branding vp-term-collaboration vp-term-presentation vp-term-storytelling">
-													<div class="viba-portfolio-item-inner animate-element animate-stagger">
-														<div class="viba-portfolio-cover-wrapper">
-															<div class="viba-portfolio-media">
-																<a class="image-thumbnail viba-portfolio-link">
-																	<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img" alt="c05kn4h8wkw-rawpixel-com" data-src="<?= @$this->config->item('assets_url'); ?>img/500x500/ONE2ONE-500X500.png">
-																</a>
-															</div>
-															<span class="viba-portfolio-overlay"></span>
 
-															<div class="viba-portfolio-cover viba-portfolio-js-height">
-																<div class="viba-portfolio-cover-content">
-																</div>
-															</div>
-														</div>
-														<div class="viba-portfolio-content viba-portfolio-neon-content viba-portfolio-arrow">
-															<h3 class="viba-portfolio-title">
-																<a class="viba-portfolio-link">One2One Kenya</a>
-															</h3>
-														</div>
-													</div>
-												</li>
+
+												
+
+
 											</ul>
 										</div>
 									</div>
