@@ -120,7 +120,7 @@
 							</ul>
 						</nav>
 						<div class="copyright">
-							<p>© <a href="http://www.one2onekenya.org" target="_blank">One 2 One</a> and <a href="" target="_blank">LVCTHealth</a></p>
+							<p>© <a href="http://www.one2onekenya.org/site/" target="_blank">One 2 One</a> and <a href="" target="_blank">LVCTHealth</a></p>
 						</div>
 					</div>
 					<div class="footer-social">
