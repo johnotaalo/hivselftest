@@ -168,7 +168,7 @@
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)">
-<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/available.jpg"></div>
+<div style="background-image:url(data:image/jpg;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/avail.jpg"></div>
 </div>
 </div>
 <div class="column-content">
@@ -377,7 +377,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
 <span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
 </div>
-<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">Quality assured HIV self-test kits are available at selected pharmacies including Green Cross and Pharmnet branded pharmacies. You can also view a list of pharmacies online at <a href="http://www.besure.or.ke">www.besure.or.ke</a></div>
+<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">Quality assured HIV self-test kits are available at selected pharmacies including Green Cross and Pharmnet branded pharmacies. You can also view a list of pharmacies online at <a href="http://www.besure.or.ke/Map">www.besure.or.ke</a></div>
 </div>
 </div>
 </div>

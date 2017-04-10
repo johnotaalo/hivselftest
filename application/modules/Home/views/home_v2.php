@@ -41,7 +41,7 @@
 																		<h1 class="aslider-title aslider-animation-element is-animated" data-aslider-element-delay="200"><span data-swiper-parallax-percentage="-3" data-swiper-parallax="-40" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">CALL OR SMS US ON 1190 FROM YOUR SAFARICOM LINE</span></h1>
 																		<p class="aslider-description aslider-animation-element is-animated" data-aslider-element-delay="300"><span data-swiper-parallax-percentage="-6" data-swiper-parallax="-81" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">ANY TIME FROM 8AM TO 8PM</span></p>
 																		<div class="aslider-buttons-wrapper aslider-animation-element is-animated" data-aslider-element-delay="400">
-																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a href="pages/our-services.html" class="button aslider-button aslider-button-primary"><span>Get Started</span></a></div>
+																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a href="<?= @base_url('Home/videos');?>" class="button aslider-button aslider-button-primary"><span>Get Started</span></a></div>
 																		</div>
 																	</div>
 																</div>
@@ -66,7 +66,7 @@
 																		<h1 class="aslider-title aslider-animation-element" data-aslider-element-delay="200"><span data-swiper-parallax-percentage="-3" data-swiper-parallax="-40" style="transform: translate3d(40px, 0px, 0px); transition-duration: 0ms;">Know your HIV status at your own comfort and in your own privacy</span></h1>
 																		<p class="aslider-description aslider-animation-element" data-aslider-element-delay="300"><span data-swiper-parallax-percentage="-6" data-swiper-parallax="-81" style="transform: translate3d(81px, 0px, 0px); transition-duration: 0ms;">Now available</span></p>
 																		<div class="aslider-buttons-wrapper aslider-animation-element" data-aslider-element-delay="400">
-																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(121px, 0px, 0px); transition-duration: 0ms;"><a href="pages/about-us.html" class="button aslider-button aslider-button-primary"><span>Discover More</span></a></div>
+																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(121px, 0px, 0px); transition-duration: 0ms;"><a href="<?= @base_url('Home/FAQ');?>" class="button aslider-button aslider-button-primary"><span>Discover More</span></a></div>
 																		</div>
 																	</div>
 																</div>
@@ -76,7 +76,7 @@
 
 
 
-													<div class="aslider-swiper-slide aslider-slide aslider-slide-2 animate-from-right aslider-position-center aslider-align-center aslider-style-light animation-stagger has-image is-aslider-hidden aslider-swiper-slide-next swiper-slide-duplicate-prev" data-aslider-slide="2" data-aslider-slide-style="light" data-swiper-slide-index="2" style="width: 1349px;">
+													<div class="aslider-swiper-slide aslider-slide aslider-slide-2 animate-from-right aslider-position-center aslider-align-center aslider-style-light animation-stagger has-image is-aslider-hidden aslider-swiper-slide-next swiper-slide-duplicate-prev" data-aslider-slide="3" data-aslider-slide-style="light" data-swiper-slide-index="3" style="width: 1349px;">
 														<div class="aslider-slide-inner" data-swiper-parallax-percentage="65" data-swiper-parallax="877" style="transform: translate3d(-877px, 0px, 0px); transition-duration: 0ms;">
 															<div class="aslider-media-wrapper">
 																<div class="aslider-media-container" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale(1, 1);">
@@ -91,7 +91,7 @@
 																		<h1 class="aslider-title aslider-animation-element" data-aslider-element-delay="200"><span data-swiper-parallax-percentage="-3" data-swiper-parallax="-40" style="transform: translate3d(40px, 0px, 0px); transition-duration: 0ms;">Be Self Sure</span></h1>
 																		<p class="aslider-description aslider-animation-element" data-aslider-element-delay="300"><span data-swiper-parallax-percentage="-6" data-swiper-parallax="-81" style="transform: translate3d(81px, 0px, 0px); transition-duration: 0ms;">Now available here</span></p>
 																		<div class="aslider-buttons-wrapper aslider-animation-element is-animated" data-aslider-element-delay="400">
-																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a href="pages/our-services.html" class="button aslider-button aslider-button-primary"><span>Get Started</span></a><a href="pages/about-us.html" class="button aslider-button aslider-button-secondary"><span>About Us</span></a></div>
+																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a href="<?= @base_url('Home/videos');?>" class="button aslider-button aslider-button-primary"><span>Get Started</span></a></div>
 																		</div>
 																	</div>
 																</div>
@@ -99,7 +99,7 @@
 														</div>
 													</div>
 
-													<div class="aslider-swiper-slide aslider-slide aslider-slide-3 animate-from-right aslider-position-center aslider-align-center aslider-style-light animation-stagger has-image is-aslider-hidden aslider-swiper-slide-next swiper-slide-duplicate-prev" data-aslider-slide="2" data-aslider-slide-style="light" data-swiper-slide-index="2" style="width: 1349px;">
+													<div class="aslider-swiper-slide aslider-slide aslider-slide-3 animate-from-right aslider-position-center aslider-align-center aslider-style-light animation-stagger has-image is-aslider-hidden aslider-swiper-slide-next swiper-slide-duplicate-prev" data-aslider-slide="4" data-aslider-slide-style="light" data-swiper-slide-index="4" style="width: 1349px;">
 														<div class="aslider-slide-inner" data-swiper-parallax-percentage="65" data-swiper-parallax="877" style="transform: translate3d(-877px, 0px, 0px); transition-duration: 0ms;">
 															<div class="aslider-media-wrapper">
 																<div class="aslider-media-container" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale(1, 1);">
@@ -114,7 +114,7 @@
 																		<h1 class="aslider-title aslider-animation-element" data-aslider-element-delay="200"><span data-swiper-parallax-percentage="-3" data-swiper-parallax="-40" style="transform: translate3d(40px, 0px, 0px); transition-duration: 0ms;">Know your HIV status at your own comfort and in your own privacy</span></h1>
 																		<p class="aslider-description aslider-animation-element" data-aslider-element-delay="300"><span data-swiper-parallax-percentage="-6" data-swiper-parallax="-81" style="transform: translate3d(81px, 0px, 0px); transition-duration: 0ms;">Now available</span></p>
 																		<div class="aslider-buttons-wrapper aslider-animation-element" data-aslider-element-delay="400">
-																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(121px, 0px, 0px); transition-duration: 0ms;"><a href="pages/about-us.html" class="button aslider-button aslider-button-primary"><span>Discover More</span></a></div>
+																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(121px, 0px, 0px); transition-duration: 0ms;"><a href="<?= @base_url('Home/FAQ');?>" class="button aslider-button aslider-button-primary"><span>Discover More</span></a></div>
 																		</div>
 																	</div>
 																</div>
@@ -122,7 +122,7 @@
 														</div>
 													</div>
 
-													<div class="aslider-swiper-slide aslider-slide aslider-slide-4 animate-from-right aslider-position-center aslider-align-center aslider-style-light animation-stagger has-image is-aslider-hidden aslider-swiper-slide-next swiper-slide-duplicate-prev" data-aslider-slide="2" data-aslider-slide-style="light" data-swiper-slide-index="2" style="width: 1349px;">
+													<div class="aslider-swiper-slide aslider-slide aslider-slide-4 animate-from-right aslider-position-center aslider-align-center aslider-style-light animation-stagger has-image is-aslider-hidden aslider-swiper-slide-next swiper-slide-duplicate-prev" data-aslider-slide="5" data-aslider-slide-style="light" data-swiper-slide-index="5" style="width: 1349px;">
 														<div class="aslider-slide-inner" data-swiper-parallax-percentage="65" data-swiper-parallax="877" style="transform: translate3d(-877px, 0px, 0px); transition-duration: 0ms;">
 															<div class="aslider-media-wrapper">
 																<div class="aslider-media-container" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale(1, 1);">
@@ -137,7 +137,7 @@
 																		<h1 class="aslider-title aslider-animation-element" data-aslider-element-delay="200"><span data-swiper-parallax-percentage="-3" data-swiper-parallax="-40" style="transform: translate3d(40px, 0px, 0px); transition-duration: 0ms;">Be Self Sure</span></h1>
 																		<p class="aslider-description aslider-animation-element" data-aslider-element-delay="300"><span data-swiper-parallax-percentage="-6" data-swiper-parallax="-81" style="transform: translate3d(81px, 0px, 0px); transition-duration: 0ms;">Now available here</span></p>
 																		<div class="aslider-buttons-wrapper aslider-animation-element is-animated" data-aslider-element-delay="400">
-																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a href="pages/our-services.html" class="button aslider-button aslider-button-primary"><span>Get Started</span></a><a href="pages/about-us.html" class="button aslider-button aslider-button-secondary"><span>About Us</span></a></div>
+																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a href=""<?= @base_url('Home/videos');?>" class="button aslider-button aslider-button-primary"><span>Get Started</span></a></div>
 																		</div>
 																	</div>
 																</div>
