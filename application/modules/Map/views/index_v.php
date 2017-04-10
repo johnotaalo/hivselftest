@@ -61,9 +61,11 @@
 								<div class="column-inner custom-css-1488398861560 col-has-fill">
 									<div class="column-content">
 										<div data-animation="fadeInUp" class="animate-element animate-stagger is-animated fadeInUp">
+										<p>Contact phone at <a href="http://www.haltons.co.ke/"> Haltons Pharmacy</a></p>
 											<h4 class="heading" style="margin-bottom: 15px;">
 												Pharmacies List
 											</h4>
+
 											<div class="row">
 												<div class="col-sm-12">
 													<table class="table table-bodered" style="color: #555 !important;">
@@ -71,7 +73,7 @@
 															<th>#</th>
 															<th>Pharmacy Name</th>
 															<th>Contact Person</th>
-															<th>Phone Number</th>
+															<!-- <th>Phone Number</th> -->
 															<th>Location</th>
 															<th>Region</th>
 														</thead>
