@@ -83,6 +83,8 @@
 								<li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Home/videos/');?>"><span><span class="menu-item-label">Conduct a Test</span></span></a>
 								</li>
 
+
+
 								
 
 								<li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Outlets'); ?>"><span><span class="menu-item-label">Get a Kit</span></span></a>
@@ -91,8 +93,30 @@
 								<li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Map'); ?>"><span><span class="menu-item-label">Referral Sites</span></span></a>
 								</li>
 
-								<li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Home/Resources/');?>"><span><span class="menu-item-label">Resources</span></span></a>
-								</li>
+								<!-- <li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Home/Resources/');?>"><span><span class="menu-item-label">Resources</span></span></a></li> -->
+
+								<li class="menu-item menu-item-has-children menu-no-link mega-menu mm-col-2 mega-menu-center is-mega-menu-centered"><a><span><span class="menu-item-label">Resources</span></span><i class="mobile-sub-menu-trigger apalodi-icon-right-circled-alt"></i></a>
+									<ul class="sub-menu">
+									<li class="menu-item menu-item-has-children menu-no-link menu-no-label"><a><span></span><i class="mobile-sub-menu-trigger apalodi-icon-right-circled-alt"></i></a>
+									<ul class="sub-menu">
+										<li class="menu-item"><a href="https://www.avert.org/"><span><span class="menu-item-label">Avert</span></span></a></li>
+										<li class="menu-item"><a href="http://www.one2onekenya.org/site/"><span><span class="menu-item-label">Onetoone Kenya</span></span></a></li>
+										<li class="menu-item"><a href="http://nephak.or.ke/"><span><span class="menu-item-label">Nephak</span></span></a></li>
+										<li class="menu-item"><a href="http://nacc.or.ke/"><span><span class="menu-item-label">Nacc</span></span></a></li>
+									</ul>
+									</li>
+									<li class="menu-item menu-item-has-children menu-no-link menu-no-label"><a><span></span><i class="mobile-sub-menu-trigger apalodi-icon-right-circled-alt"></i></a>
+									<ul class="sub-menu">
+										<li class="menu-item"><a href="http://www.biolytical.com/"><span><span class="menu-item-label">Manufacturer Websites</span></span></a></li>
+										<li class="menu-item"><a href="http://www.nascop.or.ke/"><span><span class="menu-item-label">Nascop</span></span></a></li>
+										<li class="menu-item"><a href="http://whatisprep.org/"><span><span class="menu-item-label">Whatisprep</span></span></a></li>
+									</ul>
+									</li>
+									</ul>
+									</li>
+
+
+
 								<li class="menu-item menu-font-icon menu-button"><a target="_blank" href="#"><span><span class="menu-item-label">Login</span></span></a></li>
 							</ul>
 
