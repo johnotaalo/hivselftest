@@ -149,12 +149,13 @@
 					</div>
 					<div class="footer-social">
 						<div class="social-icons">
-							<a class="social-icon icon-facebook" href="https://www.facebook.com/One2one-ke-144444975612410/?hc_location=ufi" target="_blank"><span>facebook</span></a>
+							<p><a class="social-icon icon-facebook" href="https://www.facebook.com/One2one-ke-144444975612410/?hc_location=ufi" target="_blank"><span>facebook</span>&nbsp;&nbsp;Facebook</a></p>
 
-							<a class="social-icon icon-twitter" href="https://twitter.com/one2oneke?lang=en" target="_blank"><span>twitter</span></a>
-							<a class="social-icon icon-instagram" href="https://www.instagram.com/onetooneke/?hl=en" target="_blank"><span>instagram</span></a>
+							<p><a class="social-icon icon-twitter" href="https://twitter.com/one2oneke?lang=en" target="_blank"><span>twitter</span>&nbsp;&nbsp;Twitter</a></p>
 
-							<i class="social social-whatsapp x1.5"> Whatsapp: 0700-121-121</i>
+							<p><a class="social-icon icon-instagram" href="https://www.instagram.com/onetooneke/?hl=en" target="_blank"><span>instagram</span>&nbsp;&nbsp;Instagram</a></p>
+
+							<p><a class="social-icon" href="#" target="_blank"><span>instagram</span>&nbsp;&nbsp;Whatsapp: 0700-121-121</</a></p>
 
 						</div>
 					</div>
