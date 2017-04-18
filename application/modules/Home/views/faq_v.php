@@ -264,7 +264,7 @@ All the approved HIV self-test kits come with simple and clear instructions on h
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/positive.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 700px 550px;margin-top: 80px;margin-right:150px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/positive.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -317,7 +317,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/negative.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 700px 550px;margin-top: 80px;margin-right:150px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/negative.png"></div>
 </div>
 </div>
 <div class="column-content">
