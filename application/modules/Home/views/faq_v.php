@@ -42,7 +42,7 @@
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size: cover; background-position:center center;background-size: 700px 500px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/selftest.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size: cover; background-position:center center;background-size: 700px 500px;margin-top: 30px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/selftest.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -63,7 +63,7 @@
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 500px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/rightchoice.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;background-size: 800px 550px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/rightchoice.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -168,7 +168,7 @@
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 700px 500px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/available.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center;background-size: 700px 550px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/available.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -189,7 +189,7 @@
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 500px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/saliva.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/saliva.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -243,7 +243,7 @@ All the approved HIV self-test kits come with simple and clear instructions on h
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/conduct.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;margin-top: 60px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/conduct.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -264,7 +264,7 @@ All the approved HIV self-test kits come with simple and clear instructions on h
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 500px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/positive.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/positive.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -317,7 +317,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/negative.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/negative.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -338,7 +338,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,35%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/reliable.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;margin-top: 50px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/reliable.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -386,7 +386,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 500px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/getkit.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/getkit.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -407,7 +407,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 500px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/quality.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/quality.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -455,7 +455,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 700px 450px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/allfiveselftests.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 700px 450px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/allfiveselftests.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -476,7 +476,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 500px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/force.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/force.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -524,7 +524,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 500px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/info.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/info.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -546,7 +546,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 700px 350px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/remeber.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 700px 350px;margin-top: 40px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/remeber.png"></div>
 </div>
 </div>
 <div class="column-content">

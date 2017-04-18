@@ -22,6 +22,7 @@ class Home extends MY_Controller {
 				->addJs('js/vendor/isotope.pkgd.min.js')
 				->addJs('js/vendor/jquery-3.2.1.min.js')
 				->addJs('dist/js/bootstrap.min.js')
+				->addJs('js/vendor/jquery.validate.js')
 				->addJs('js/vendor/jquery.swiper.min.js')
                 ->addJs("plugin/sweetalert/sweetalert.min.js");
 		$this->assets->setJavascript('Home/survey_js');

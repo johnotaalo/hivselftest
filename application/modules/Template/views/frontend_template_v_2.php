@@ -1,5 +1,5 @@
 <?php $assets_url = $this->config->item('assets_url'); ?>
-
+<!DOCTYPE html>
 <html lang="en-US" class="js flexbox no-flexboxtweener skrollr skrollr-desktop">
 	<head>
 		<meta charset="UTF-8">
@@ -130,64 +130,67 @@
 
 
 <!-- Modal -->
+<form method='POST' id="survey-form">
+
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
+
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Please take your time to fill in this quick survey</h4>
+        <h4 class="modal-title" id="myModalLabel">Please take your time to fill in this quick survey about yourself</h4>
       </div>
-      <div class="modal-body">
-        <form method='POST' id="survey-form">
+  	<div class="modal-body">
+        
 		  	<div class="form-group">
 			    <label for="age">Age</label>
-			    <input type="text" class="form-control" name="age" id="age" placeholder="Age">
+			    <input type="text" class="form-control" name="age" id="age" placeholder="Age" required="required"  />
 	 	 	</div>
 
 	 	 	<div class="form-group"> <label>Gender</label>
-		  	<select name="gender" id="gender" class="form-control">
-		  	<option value="">Select your gender</option>
-			  <option value="male">Male</option>
-			  <option value="female">Female</option>
-			  <option value="other">Other</option>
-			</select>
+			  	<select name="gender" id="gender" class="form-control" required />
+		  			<option value="">Select your gender</option>
+			  		<option value="Male">Male</option>
+			  		<option value="Female">Female</option>
+			  		<option value="Other">Other</option>
+				</select>
 			</div>
 
 			<div class="form-group">
 			  <label>Kit intersted / Tested on</label>
-		  	<div class="checkbox">
-			  <label> 
-			    <input type="checkbox" name="kit[]" value="Oral">
-			    &nbsp;&nbsp;
-			    Oral
-			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			  </label>
-			  </div>
+			  	<div class="checkbox">
+				  <label> 
+				    <input type="checkbox" name="kit[]" value="Oral">
+				    &nbsp;&nbsp;
+				    Oral
+				    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				  </label>
+				  </div>
 
-		  	<div class="checkbox">
-			  <label>
-			    <input type="checkbox" name="kit[]" value="Blood">
-			    &nbsp;&nbsp;
-			    Blood
-			    &nbsp;&nbsp;&nbsp;&nbsp;
-			  </label>    
-			</div>
+			  	<div class="checkbox">
+				  <label>
+				    <input type="checkbox" name="kit[]" value="Blood">
+				    &nbsp;&nbsp;
+				    Blood
+				    &nbsp;&nbsp;&nbsp;&nbsp;
+				  </label>    
+				</div>
 			</div>
 
 			<div class="form-group">
-			<label>Comments</label>
+				<label>Comments</label>
 				<textarea name="comments" class="form-control" rows="3"></textarea>
 			</div>
+  		</div>
+		<div class="modal-footer">
+		  	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		    <input type="submit" id="survey-submit" value="Submit" class="btn btn-primary">
+		</div>
 
-		</form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="submit" id="survey-submit" class="btn btn-primary">Submit</button>
-      </div>
     </div>
   </div>
 </div>
+</form>
 
 
 			<?= $this->load->view($partial, $partialData); ?>
@@ -245,7 +248,7 @@
 		</script>
 		<script type="text/javascript" src="<?= @$assets_url; ?>js/plugins.js"></script>
 		<script type="text/javascript" src="<?= @$assets_url; ?>js/main.js"></script>
-		
+
 
 		<?= @$page_js; ?>
 

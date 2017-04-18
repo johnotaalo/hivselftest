@@ -7,42 +7,36 @@
 
 		$('#myModal').modal('show');
 
+		$('#survey-form').validate({
+			rules: {
+				age: {
+					required: true
+				},
+				gender: {
+					required: true
+				},
+				kit: {
+					required: true
+				}
+			},
+			messages : {
+				age: {
+					required: "Please enter your Age"
+				},
+				gender: {
+					required: "Please select your Gender"
+				},
+				kit: {
+					required: "Please select at least one kit"
+				}
+			}
+		});
+
 		$('#survey-submit').click(function (e) { 
-			// alert("clicked");
+			// alert(e);
 		 	e.preventDefault();
 	  		var formData = $('#survey-form').serialize();
 
-  // 		$('#ptround-form').validate({
-		// 	rules: {
-		// 		question_1: {
-		// 			required: true
-		// 		},
-		// 		question_2: {
-		// 			required: true
-		// 		},
-		// 		question_3: {
-		// 			required: true
-		// 		},
-		// 		question_5: {
-		// 			required: true
-		// 		}
-		// 	},
-		// 	messages : {
-		// 		question_1: {
-		// 			required: "Please select answer for Question 1"
-		// 		},
-		// 		question_2: {
-		// 			required: "Please select answer for Question 2"
-		// 		},
-		// 		question_3: {
-		// 			required: "Please select answer for Question 3"
-		// 		},
-		// 		question_5: {
-		// 			required: "Please select answer for Question 5"
-		// 		}
-		// 	}
-		// });
-			
 			surveySubmit(formData);
 	});
 
@@ -64,7 +58,7 @@
 		   },
 		   beforeSend:function()
 		   {
-			swal({title: "Loading",text: "Sending your data",showConfirmButton: true});
+			// swal({title: "Loading",text: "Sending your data",showConfirmButton: true});
 		   }
 	  	});
 	}
