@@ -12,18 +12,15 @@
 
 		<title>HIV Self Test :: Home</title>
 
+		<link rel="stylesheet" href="<?= @$assets_url; ?>dist/css/bootstrap.min.css" type="text/css" media="all">
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:700%7CUbuntu:400,500,700,400italic&amp;subset=latin" type="text/css" media="all">
 		<link rel="stylesheet" href="<?= @$assets_url; ?>font-icons/fontello/css/apalodi-fontello.css" type="text/css" media="all">
 		<link rel="stylesheet" href="<?= @$assets_url; ?>css/style.css" type="text/css" media="all">
 		<link rel="stylesheet" href="<?= @$assets_url; ?>css/style-custom.css" type="text/css" media="all">
 		<?= @$page_css; ?>
-		<script type="text/javascript" src="<?= @$assets_url; ?>js/vendor/jquery.js"></script>
-		<script type="text/javascript" src="<?= @$assets_url; ?>js/vendor/jquery-migrate.min.js"></script>
-		<script type="text/javascript" src="<?= @$assets_url; ?>js/vendor/modernizr.min.js"></script>
-		<script type="text/javascript">
-			var base_url = "<?= @base_url(); ?>";
-		</script>
+		
+		
 		<style type="text/css">
 		.aslider-home-modern .aslider-swiper-wrapper{min-height:95vh}.aslider-home-modern{background-color:#28353D}.aslider-home-modern .aslider-preloader-4{background-color:#9373DE}.aslider-home-modern .aslider-preloader-4::before{background-color:#28353D}.aslider-home-modern .aslider-no-slides{color:#9373DE}.aslider-home-modern .aslider-content{max-width:1180px}
 
@@ -118,6 +115,9 @@
 
 
 								<li class="menu-item menu-font-icon menu-button"><a target="_blank" href="#"><span><span class="menu-item-label">Login</span></span></a></li>
+								<!-- <li>
+									<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Launch demo modal</button>
+							  	</li> -->
 							</ul>
 
 							</nav>
@@ -125,6 +125,69 @@
 					</div>
 				</div>
 			</header>
+
+			<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Please take your time to fill in this quick survey</h4>
+      </div>
+      <div class="modal-body">
+        <form method='POST' id="survey-form">
+		  	<div class="form-group">
+			    <label for="age">Age</label>
+			    <input type="text" class="form-control" name="age" id="age" placeholder="Age">
+	 	 	</div>
+
+	 	 	<div class="form-group"> <label>Gender</label>
+		  	<select name="gender" id="gender" class="form-control">
+		  	<option value="">Select your gender</option>
+			  <option value="male">Male</option>
+			  <option value="female">Female</option>
+			  <option value="other">Other</option>
+			</select>
+			</div>
+
+			<div class="form-group">
+			  <label>Kit intersted / Tested on</label>
+		  	<div class="checkbox">
+			  <label> 
+			    <input type="checkbox" name="kit[]" value="Oral">
+			    &nbsp;&nbsp;
+			    Oral
+			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  </label>
+			  </div>
+
+		  	<div class="checkbox">
+			  <label>
+			    <input type="checkbox" name="kit[]" value="Blood">
+			    &nbsp;&nbsp;
+			    Blood
+			    &nbsp;&nbsp;&nbsp;&nbsp;
+			  </label>    
+			</div>
+			</div>
+
+			<div class="form-group">
+			<label>Comments</label>
+				<textarea name="comments" class="form-control" rows="3"></textarea>
+			</div>
+
+		</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="submit" id="survey-submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 			<?= $this->load->view($partial, $partialData); ?>
@@ -140,7 +203,7 @@
 					<div class="footer-content">
 						<nav class="footer-menu">
 							<ul>
-							<li class="menu-item"><a href="about-us.html">Do you need information, counseling or someone friendly to talk to about HIV & AIDS, Sex, STIs, Contraceptives, sexual and Gender Based Violence and other health, Teen or Youth related issues? CALL/SMS: 1190 Free from Safaricom line (Everyday 8am-8pm )</a></li>
+							<li class="menu-item"><a href="about-us.html">Do you need information, counseling or someone friendly to talk to about HIV & AIDS, Sex, STIs, Contraceptives, sexual and Gender Based Violence and other health, Teen or Youth related issues? SMS/CALL THE HELPLINE: 1190 Free from Safaricom line (Everyday 8am-8pm )</a></li>
 							</ul>
 						</nav>
 						<div class="copyright">
@@ -172,18 +235,29 @@
 		<button class="button back-to-top"></button>
 
 		<link rel="stylesheet" href="<?= @$assets_url; ?>css/animate.min.css" type="text/css" media="all">
+
+		<script type="text/javascript" src="<?= @$assets_url; ?>js/vendor/jquery.js"></script>
+		<script type="text/javascript" src="<?= @$assets_url; ?>js/vendor/jquery-migrate.min.js"></script>
+		<!-- <script type="text/javascript" src="<?= @$assets_url; ?>dist/js/bootstrap.min.js"></script> -->
+		<script type="text/javascript" src="<?= @$assets_url; ?>js/vendor/modernizr.min.js"></script>
+		<script type="text/javascript">
+			var base_url = "<?= @base_url(); ?>";
+		</script>
 		<script type="text/javascript" src="<?= @$assets_url; ?>js/plugins.js"></script>
 		<script type="text/javascript" src="<?= @$assets_url; ?>js/main.js"></script>
+		
 
 		<?= @$page_js; ?>
-			<?php if(isset($javascript_file)) { ?>
-				<?php $this->load->view($javascript_file, $javascript_data); ?>
-			<?php } ?>
-			<?php
-				if($this->router->fetch_class() == "Map"){
-			?>
-				<script src="https://maps.googleapis.com/maps/api/js?key=<?= @$this->config->item('key'); ?>&callback=initMap" async defer></script>
-			<?php  } ?>
+
+		<?php if(isset($javascript_file)) { ?>
+			<?php $this->load->view($javascript_file, $javascript_data); ?>
+		<?php } ?>
+
+		<?php
+			if($this->router->fetch_class() == "Map"){
+		?>
+			<script src="https://maps.googleapis.com/maps/api/js?key=<?= @$this->config->item('key'); ?>&callback=initMap" async defer></script>
+		<?php  } ?>
 
 	</body>
 </html>

@@ -13,13 +13,18 @@ class Home extends MY_Controller {
 		$this->assets
 				->addCss('css/aslider.css')
 				->addCss('css/viba-portfolio.css')
-				->addCss('css/viba-portfolio-custom.css');
+				->addCss('css/viba-portfolio-custom.css')
+				->addCss("plugin/sweetalert/sweetalert.css");
 		$this->assets
-				->addJs('js/vendor/jquery.swiper.min.js')
 				->addJs('js/vendor/aslider.js')
 				->addJs('js/vendor/viba-portfolio.js')
 				->addJs('js/vendor/owl.carousel.min.js')
-				->addJs('js/vendor/isotope.pkgd.min.js');
+				->addJs('js/vendor/isotope.pkgd.min.js')
+				->addJs('js/vendor/jquery-3.2.1.min.js')
+				->addJs('dist/js/bootstrap.min.js')
+				->addJs('js/vendor/jquery.swiper.min.js')
+                ->addJs("plugin/sweetalert/sweetalert.min.js");
+		$this->assets->setJavascript('Home/survey_js');
 		$this->template->setPageTitle('BeSure::HIV Self Test')->setPartial('home_v2')->frontEndTemplate();
 	}
 
@@ -36,6 +41,47 @@ class Home extends MY_Controller {
 	public function Resources()
 	{
 		$this->template->setPageTitle('Resources')->setPartial('resources_v')->frontEndTemplate();
+	}
+
+	public function Survey()
+	{
+		if($this->input->post()){
+			$age = $this->input->post('age');
+			$gender = $this->input->post('gender');
+			$kit = $this->input->post('kit');
+			$comments = $this->input->post('comments');
+
+			$kits = implode(', ', $kit);
+
+			// echo "<pre>";print_r($kits);echo "</pre>";die();
+
+			$survey_insert = [
+				'age'			=>	$age,
+				'gender'			=>	$gender,
+				'kits'			=>	$kits,
+				'comments'	=>	$comments
+			];
+
+			$this->db->insert('survey', $survey_insert);
+
+
+			$json_data = [
+				"type"				=>	"success",
+				"title"				=>	"Survey Sent",
+             	"message"			=>	"Thank you for carrying out the survey"
+           	];
+		}else{
+			$json_data = [
+				"type"				=>	"error",
+				"title"				=>	"Survey Error",
+             	"message"			=>	"There was a problem submitting the survey"
+           	];
+		}
+
+
+		return $this->output->set_content_type('application/json')->set_output(json_encode($json_data));
+
+		
 	}
 
 }
