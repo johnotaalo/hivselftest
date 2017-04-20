@@ -132,8 +132,8 @@
 <!-- Modal -->
 <form method='POST' id="survey-form">
 
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
+<div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
     <div class="modal-content">
 
       <div class="modal-header">
@@ -218,7 +218,7 @@
 
 							
 
-							<p><a class="social-icon icon-facebook" href="https://www.facebook.com/One2one-ke-144444975612410/?hc_location=ufi" target="_blank"><span>facebook</span>&nbsp;&nbsp;Facebook</a></p>
+							<p><a class="social-icon icon-facebook" href="https://www.facebook.com/One2one-ke-144444975612410/?hc_location=ufi" target="_blank"><span>facebook</span>&nbsp;&nbsp;Facebook: www.facebook.com</a></p>
 
 							<p><a class="social-icon icon-twitter" href="https://twitter.com/one2oneke?lang=en" target="_blank"><span>twitter</span>&nbsp;&nbsp;Twitter</a></p>
 
