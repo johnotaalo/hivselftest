@@ -391,13 +391,13 @@
 										</div>
 
 										<div class="viba-portfolio-wrapper vp-style-default">
-											<ul class="viba-portfolio vp-visible-on-hover vp-neon vp-layout-grid vp-isotope vp-col-mp-1 vp-col-ml-2 vp-col-tp-3 vp-col-tl-3 vp-col-ds-4 vp-col-dl-4 vp-items-scale vp-margins vp-slide-overlay vp-overlay-on-hover vp-direction-aware vp-horizontal-align-left vp-cover-horizontal-align-center vp-vertical-align-middle vp-ajax vp-ajax-modal" data-ajax-width="1140" data-ajax-offset="10" data-ajax-animation="vp-modal-scale">
+											<ul class="viba-portfolio vp-visible-on-hover vp-neon vp-layout-grid vp-isotope vp-col-mp-1 vp-col-ml-2 vp-col-tp-4 vp-col-tl-4 vp-col-ds-4 vp-col-dl-4 vp-items-scale vp-margins vp-slide-overlay vp-overlay-on-hover vp-direction-aware vp-horizontal-align-left vp-cover-horizontal-align-center vp-vertical-align-middle vp-ajax vp-ajax-modal" data-ajax-width="1140" data-ajax-offset="10" data-ajax-animation="vp-modal-scale">
 
 
 
 
 
-												<li style="width:20%;padding-left: 40px;padding-right: 40px; " class="viba-portfolio-item vp-term-branding vp-term-collaboration vp-term-presentation vp-term-storytelling">
+												<li style="margin-left:100px; width:20%;padding-left: 40px;padding-right: 40px; " class="viba-portfolio-item vp-term-branding vp-term-collaboration vp-term-presentation vp-term-storytelling">
 													<div class="viba-portfolio-item-inner animate-element animate-stagger">
 														<div class="viba-portfolio-cover-wrapper">
 															<div class="viba-portfolio-media">
@@ -445,7 +445,7 @@
 												</li>
 
 
-												<li style="width:20%;padding-left: 40px;padding-right: 40px;" class="viba-portfolio-item vp-term-branding vp-term-collaboration vp-term-presentation vp-term-storytelling">
+												<li style="margin-left:140px; width:20%;padding-left: 40px;padding-right: 40px;" class="viba-portfolio-item vp-term-branding vp-term-collaboration vp-term-presentation vp-term-storytelling">
 													<div class="viba-portfolio-item-inner animate-element animate-stagger">
 														<div class="viba-portfolio-cover-wrapper">
 															<div class="viba-portfolio-media">
