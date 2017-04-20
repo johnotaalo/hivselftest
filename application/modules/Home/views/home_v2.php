@@ -181,7 +181,7 @@
 												<span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.5)"></span>
 												<span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.5)"></span>
 											</div>
-											<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,1)">You can get a kit from one of our many outlets in the country. Simply click on the get a kit menu item</div>
+											<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,1)">You can get a kit from one of our many outlets in the country. Simply click on the <a href="<?= @base_url('Outlets');?>">get a kit</a> menu item</div>
 										</div>
 									</div>
 								</div>
@@ -392,29 +392,8 @@
 
 										<div class="viba-portfolio-wrapper vp-style-default">
 											<ul class="viba-portfolio vp-visible-on-hover vp-neon vp-layout-grid vp-isotope vp-col-mp-1 vp-col-ml-2 vp-col-tp-3 vp-col-tl-3 vp-col-ds-4 vp-col-dl-4 vp-items-scale vp-margins vp-slide-overlay vp-overlay-on-hover vp-direction-aware vp-horizontal-align-left vp-cover-horizontal-align-center vp-vertical-align-middle vp-ajax vp-ajax-modal" data-ajax-width="1140" data-ajax-offset="10" data-ajax-animation="vp-modal-scale">
-												<!-- <li class="viba-portfolio-item vp-term-branding vp-term-collaboration vp-term-presentation vp-term-storytelling">
-													<div class="viba-portfolio-item-inner animate-element animate-stagger">
-														<div class="viba-portfolio-cover-wrapper">
-															<div class="viba-portfolio-media">
-																<a class="image-thumbnail viba-portfolio-link">
-																	<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img" alt="c05kn4h8wkw-rawpixel-com" data-src="<?= @$this->config->item('assets_url'); ?>img/500x500/LVCT-500X500.png">
-																</a>
-															</div>
-															<span class="viba-portfolio-overlay"></span>
 
-															<div class="viba-portfolio-cover viba-portfolio-js-height">
-																<div class="viba-portfolio-cover-content">
-																	
-																</div>
-															</div>
-														</div>
-														<div class="viba-portfolio-content viba-portfolio-neon-content viba-portfolio-arrow">
-															<h3 class="viba-portfolio-title">
-																<a class="viba-portfolio-link">LVCT Health</a>
-															</h3>
-														</div>
-													</div>
-												</li> -->
+
 
 
 

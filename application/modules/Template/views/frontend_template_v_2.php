@@ -97,7 +97,7 @@
 									<li class="menu-item menu-item-has-children menu-no-link menu-no-label"><a><span></span><i class="mobile-sub-menu-trigger apalodi-icon-right-circled-alt"></i></a>
 									<ul class="sub-menu">
 										<li class="menu-item"><a href="https://www.avert.org/"><span><span class="menu-item-label">Avert</span></span></a></li>
-										<li class="menu-item"><a href="http://www.one2onekenya.org/site/"><span><span class="menu-item-label">Onetoone Kenya</span></span></a></li>
+										<li class="menu-item"><a href="http://www.one2onekenya.org/site/"><span><span class="menu-item-label">One2one Kenya</span></span></a></li>
 										<li class="menu-item"><a href="http://nephak.or.ke/"><span><span class="menu-item-label">Nephak</span></span></a></li>
 										<li class="menu-item"><a href="http://nacc.or.ke/"><span><span class="menu-item-label">Nacc</span></span></a></li>
 									</ul>
@@ -216,15 +216,14 @@
 					<div class="footer-social">
 						<div class="social-icons">
 
-							
+							<p><a class="social-icon" href="<?= @$assets_url; ?>img/whatsapp.png" target="_blank"><img style="width:30px; height:30px;" src="<?= @$assets_url; ?>img/whatsapp.png"/>&nbsp;&nbsp;Whatsapp: 0700-121-121</a></p>
 
-							<p><a class="social-icon icon-facebook" href="https://www.facebook.com/One2one-ke-144444975612410/?hc_location=ufi" target="_blank"><span>facebook</span>&nbsp;&nbsp;Facebook: www.facebook.com</a></p>
+							<p><a class="social-icon" href="https://www.facebook.com/One2one-ke-144444975612410/?hc_location=ufi" target="_blank"><img style="width:30px; height:30px;" src="<?= @$assets_url; ?>img/facebook.png"/>&nbsp;&nbsp;Facebook: One2one ke</a></p>
 
-							<p><a class="social-icon icon-twitter" href="https://twitter.com/one2oneke?lang=en" target="_blank"><span>twitter</span>&nbsp;&nbsp;Twitter</a></p>
+							<p><a class="social-icon" href="https://twitter.com/one2oneke?lang=en" target="_blank"><img style="width:30px; height:30px;" src="<?= @$assets_url; ?>img/twitter.png"/>&nbsp;&nbsp;Twitter: @one2oneKE</a></p>
 
-							<p><a class="social-icon icon-instagram" href="https://www.instagram.com/onetooneke/?hl=en" target="_blank"><span>instagram</span>&nbsp;&nbsp;Instagram</a></p>
+							<p><a class="social-icon" href="https://www.instagram.com/onetooneke/?hl=en" target="_blank"><img style="width:30px; height:30px;" src="<?= @$assets_url; ?>img/instagram.png"/>&nbsp;&nbsp;Instagram: Onetoone Ke</a></p>
 
-							<p><img style="width:30px; height:30px;" src="<?= @$assets_url; ?>img/whatsapp.png"/><a class="social-icon" href="#" target="_blank">&nbsp;&nbsp;Whatsapp: 0700-121-121</</a></p>
 
 						</div>
 					</div>
