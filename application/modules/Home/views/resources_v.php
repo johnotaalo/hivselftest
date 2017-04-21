@@ -29,12 +29,14 @@
 	<div class="column col-sm-3">
 	<div class="column-inner">
 	<div class="column-content">
+
+	<a href="https://www.avert.org/">
 	<div class="content-element team-wrapper team-align-left team-boxed">
 	<div class="image-thumbnail" style="padding-bottom:100%">
 	<img src="<?= @$this->config->item('assets_url'); ?>img/resources/avert.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Avert" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
 	</div>
 	<div class="team-info">
-	<a href="https://www.avert.org/"><h5 class="team-name">Avert</h5></a>
+	<h5 class="team-name">Avert</h5></a>
 	<!-- <span class="team-desc">Designer</span>
 	<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Mattis purus sit amet fermentum.</p>
 	<div class="team-icons">
@@ -50,12 +52,14 @@
 	<div class="column col-sm-3">
 	<div class="column-inner">
 	<div class="column-content">
+
+	<a href="http://www.one2onekenya.org/site/">
 	<div class="content-element team-wrapper team-align-left team-boxed">
 	<div class="image-thumbnail" style="padding-bottom:100%">
 	<img src="<?= @$this->config->item('assets_url'); ?>img/resources/one2one.png" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="One2one Kenya" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
 	</div>
 	<div class="team-info">
-	<a href="http://www.one2onekenya.org/site/"><h5 class="team-name">One2one Kenya</h5></a>
+	<h5 class="team-name">One2one Kenya</h5></a>
 	<!-- <span class="team-desc">Developer</span>
 	<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Mattis purus sit amet fermentum.</p>
 	<div class="team-icons">
@@ -72,12 +76,14 @@
 	<div class="column col-sm-3">
 	<div class="column-inner">
 	<div class="column-content">
+
+	<a href="http://nephak.or.ke/">
 	<div class="content-element team-wrapper team-align-left team-boxed">
 	<div class="image-thumbnail" style="padding-bottom:100%">
 	<img style="margin-top:40%;height:30%;" src="<?= @$this->config->item('assets_url'); ?>img/resources/nephak.PNG" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Whatisprep" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
 	</div>
 	<div class="team-info">
-	<a href="http://whatisprep.org/"><h5 class="team-name">Nephak</h5></a>
+	<h5 class="team-name">Nephak</h5></a>
 	<!-- <span class="team-desc">Developer</span>
 	<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Mattis purus sit amet fermentum.</p>
 	<div class="team-icons">
@@ -93,6 +99,8 @@
 	<div class="column col-sm-3">
 	<div class="column-inner">
 	<div class="column-content">
+
+	<a href="http://nacc.or.ke/">
 	<div class="content-element team-wrapper team-align-left team-boxed">
 	<div class="image-thumbnail" style="padding-bottom:100%">
 	<img style="margin-top:40%;height:30%;" src="<?= @$this->config->item('assets_url'); ?>img/resources/nacc.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Nacc" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
@@ -114,12 +122,14 @@
 	<div class="column col-sm-3">
 	<div class="column-inner">
 	<div class="column-content">
+
+	<a href="http://www.biolytical.com/">
 	<div class="content-element team-wrapper team-align-left team-boxed">
 	<div class="image-thumbnail" style="padding-bottom:100%">
 	<img style="margin-top:40%;height:30%;" src="<?= @$this->config->item('assets_url'); ?>img/resources/biolytical.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Manufacturer Websites" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
 	</div>
 	<div class="team-info">
-	<a href="http://www.biolytical.com/"><h5 class="team-name">Manufacturer Websites</h5></a>
+	<h5 class="team-name">Manufacturer Websites</h5></a>
 	<!-- <span class="team-desc">Developer</span>
 	<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Mattis purus sit amet fermentum.</p>
 	<div class="team-icons">
@@ -135,12 +145,14 @@
 	<div class="column col-sm-3">
 	<div class="column-inner">
 	<div class="column-content">
+
+	<a href="http://www.nascop.or.ke/">
 	<div class="content-element team-wrapper team-align-left team-boxed">
 	<div class="image-thumbnail" style="padding-bottom:100%">
 	<img style="margin-top:30%;height:54%;" src="<?= @$this->config->item('assets_url'); ?>img/resources/nascop.PNG" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Nascop" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
 	</div>
 	<div class="team-info">
-	<a href="http://www.nascop.or.ke/"><h5 class="team-name">Nascop</h5></a>
+	<h5 class="team-name">Nascop</h5></a>
 	<!-- <span class="team-desc">Developer</span>
 	<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Mattis purus sit amet fermentum.</p>
 	<div class="team-icons">
@@ -156,12 +168,14 @@
 	<div class="column col-sm-3">
 	<div class="column-inner">
 	<div class="column-content">
+
+	<a href="http://whatisprep.org/">
 	<div class="content-element team-wrapper team-align-left team-boxed">
 	<div class="image-thumbnail" style="padding-bottom:100%">
 	<img style="margin-top:40%;height:30%;" style="background-size: center center" src="<?= @$this->config->item('assets_url'); ?>img/resources/whatisprep.PNG" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Whatisprep" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
 	</div>
 	<div class="team-info">
-	<a href="http://whatisprep.org/"><h5 class="team-name">Whatisprep</h5></a>
+	<h5 class="team-name">Whatisprep</h5></a>
 	<!-- <span class="team-desc">Developer</span>
 	<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Mattis purus sit amet fermentum.</p>
 	<div class="team-icons">
