@@ -2,6 +2,16 @@
 <!DOCTYPE html>
 <html lang="en-US" class="js flexbox no-flexboxtweener skrollr skrollr-desktop">
 	<head>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-97849436-1', 'auto');
+			ga('send', 'pageview');
+
+		</script>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta property="og:url"           content="http://<?= @$_SERVER['SERVER_NAME']; ?>/" />
@@ -84,10 +94,12 @@
 
 								
 
-								<li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Outlets'); ?>"><span><span class="menu-item-label">Get a Kit</span></span></a>
+								<li class="menu-item menu-item-has-children menu-no-link">
+									<a href="<?= @base_url('Map'); ?>"><span><span class="menu-item-label">Get a Kit</span></span></a>
 								</li>
 
-								<li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Map'); ?>"><span><span class="menu-item-label">Referral Sites</span></span></a>
+								<li class="menu-item menu-item-has-children menu-no-link">
+									<a href="<?= @base_url('Referrals'); ?>"><span><span class="menu-item-label">Referral Sites</span></span></a>
 								</li>
 
 								<!-- <li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Home/Resources/');?>"><span><span class="menu-item-label">Resources</span></span></a></li> -->
@@ -114,7 +126,7 @@
 
 
 
-								<li class="menu-item menu-font-icon menu-button"><a target="_blank" href="#"><span><span class="menu-item-label">Login</span></span></a></li>
+								<li class="menu-item menu-font-icon menu-button"><a target="_blank" href="<?= @base_url('Dashboard'); ?>"><span><span class="menu-item-label">Login</span></span></a></li>
 								<!-- <li>
 									<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Launch demo modal</button>
 							  	</li> -->
@@ -247,8 +259,6 @@
 		</script>
 		<script type="text/javascript" src="<?= @$assets_url; ?>js/plugins.js"></script>
 		<script type="text/javascript" src="<?= @$assets_url; ?>js/main.js"></script>
-
-
 		<?= @$page_js; ?>
 
 		<?php if(isset($javascript_file)) { ?>
@@ -256,9 +266,10 @@
 		<?php } ?>
 
 		<?php
-			if($this->router->fetch_class() == "Map"){
+			if($this->router->fetch_class() == "Map" || $this->router->fetch_class() == "Referrals"){
 		?>
 			<script src="https://maps.googleapis.com/maps/api/js?key=<?= @$this->config->item('key'); ?>&callback=initMap" async defer></script>
+			<script type="text/javascript" src = "<?= @$assets_url; ?>custom/markerclusterer.js"></script>
 		<?php  } ?>
 
 	</body>

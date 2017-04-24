@@ -21,8 +21,8 @@ class Template extends MX_Controller {
 		$data['page_css'] = $this->assets->css;
 		$data['page_js'] = $this->assets->js;
 
-		$this->load->model('Auth/auth_m');
-		$user_details = $this->auth_m->findUserByIdentifier('uuid', $this->session->userdata('uuid'));
+		// $this->load->model('Auth/auth_m');
+		$user_details = $this->db->get_where('user', ['uuid'	=>	$this->session->userdata('user_id')])->row();
 		if($user_details){
 			$data['javascript_file'] = $this->assets->javascript_file;
 			$data['javascript_data'] = $this->assets->javascript_data;
@@ -37,7 +37,7 @@ class Template extends MX_Controller {
 			$data['partialData'] = $this->contentViewData;
 		}else{
 			$this->load->module('Auth');
-			$this->auth->logout();
+			$this->auth->signout();
 		}
 
 		$this->load->view('Template/backend_template_v', $data);
@@ -84,9 +84,36 @@ class Template extends MX_Controller {
 		$menus = [];
 		$menu_list = "";
 
+		$menus = [
+			'dashboard'	=> [
+				'text'	=>	'Dashboard',
+				'link'	=>	'Dashboard'
+			],
+			'surveys'	=>	[
+				'text'	=>	'Surveys',
+				'link'	=>	'Dashboard/Surveys'
+			],
+			'pharmacies'	=> [
+				'text'	=>	'Pharmacies',
+				'link'	=>	'Dashboard/Sites/pharmacies'
+			],
+			'referral_sites'	=> [
+				'text'	=>	'Referral Sites',
+				'link'	=>	'Dashboard/Sites/referrals'
+			],
+			'profile'	=>	[
+				'text'	=>	'My Profile',
+				'link'	=>	'Dashboard/User/profile'
+			],
+			'logout'	=>	[
+				'text'	=>	'Logout',
+				'link'	=>	'Auth/signout'
+			]
+		];
+
 		if (count($menus) > 0) {
 			foreach ($menus as $key => $item) {
-				if(in_array($this->session->userdata('type'), $item['users'])){
+				// if(in_array($this->session->userdata('type'), $item['users'])){
 					$active = "";
 					if ($key == strtolower($class)) {
 						$active = "active";
@@ -101,7 +128,7 @@ class Template extends MX_Controller {
 						foreach($item['sublist'] as $sub_item){
 							$menu_list .= "
 								<li class = 'nav-item'>
-									<a class = 'nav-link' href = '".base_url($sub_item['link'])."'><i class = '{$sub_item['icon']}'></i> {$sub_item['text']}</a>
+									<a class = 'nav-link' href = '".base_url($sub_item['link'])."'>{$sub_item['text']}</a>
 								</li>
 							";
 						}
@@ -109,10 +136,10 @@ class Template extends MX_Controller {
 					}
 					else{
 					$menu_list .= "<li class = 'nav-item'>
-						<a class = 'nav-link' href = '".base_url($item['link'])."'><i class = '{$item['icon']}'></i> {$item['text']}</a>
+						<a class = 'nav-link' href = '".base_url($item['link'])."'>{$item['text']}</a>
 					</li>";
 					}
-				}
+				// }
 			}
 		}
 
