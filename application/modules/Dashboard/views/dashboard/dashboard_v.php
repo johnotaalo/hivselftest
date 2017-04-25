@@ -1,6 +1,68 @@
 <div class="row">
+<div class="pull-right">
+	<a class="btn btn-default btn-xs" id="add-user" data-toggle="modal" data-target="#myModal15">Add User</a>
+</div>
+
+
+<div class="modal fade hmodal-danger" id="myModal15" tabindex="-1" role="dialog"  aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<form class = "form-horizontal" action = "<?= @base_url('Dashboard/addUser/'); ?>" method = "POST">
+				<!-- <div class="color-line"></div> -->
+				<div class="modal-header">
+					<h4 class="modal-title">Add User</h4>
+					<small class="font-bold">Add a new user as an admin</small>
+				</div>
+				<div class="modal-body">
+					<div class="form-group">
+						<label class="control-label" for="first_name">First Name</label>
+						<div class="input-group m-b">
+							<span class="input-group-addon"><i class = "fa fa-user"></i></span>
+							<input class="form-control" id = "first_name" name = "first_name"></input>
+						</div>						
+					</div>
+
+					<div class="form-group">
+						<label class = "control-label" for = "last_name">Last Name</label>
+						<div class="input-group m-b">
+							<span class="input-group-addon"><i class = "fa fa-user"></i></span>
+							<input class="form-control" id = "last_name" name = "last_name"></input>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class = "control-label" for = "email">Email</label>
+						<div class="input-group m-b">
+							<span class="input-group-addon"><i class = "fa fa-phone"></i></span>
+							<input class="form-control" id = "email" name = "email"></input>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class = "control-label" for = "password">Password</label>
+						<div class="input-group m-b">
+							<span class="input-group-addon"><i class = "fa fa-globe"></i></span>
+							<input class="form-control" id = "password" name = "password"></input>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a type="button" class="btn btn-default" data-dismiss="modal">Close</a>
+					<button class="btn btn-primary">Save changes</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+
+
+
 	<div class="col-lg-12">
+
 		<div class="hpanel">
+		
 			<div class="panel-heading">
 				<div class="panel-tools">
 					<a class="showhide"><i class="fa fa-chevron-up"></i></a>
