@@ -402,7 +402,7 @@
 														<div class="viba-portfolio-cover-wrapper">
 															<div class="viba-portfolio-media">
 																<a class="image-thumbnail viba-portfolio-link">
-																	<img style="background-size: 50px 50px;" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img" alt="c05kn4h8wkw-rawpixel-com" data-src="<?= @$this->config->item('assets_url'); ?>img/500x500/PSK-500X500.png">
+																	<img style="background-size: 50px 50px;" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img" alt="c05kn4h8wkw-rawpixel-com" data-src="<?= @$this->config->item('assets_url'); ?>img/500x500/PSK-500X500_2.png">
 																</a>
 															</div>
 															<span class="viba-portfolio-overlay"></span>
@@ -426,7 +426,7 @@
 														<div class="viba-portfolio-cover-wrapper">
 															<div class="viba-portfolio-media">
 																<a class="image-thumbnail viba-portfolio-link">
-																	<img style="background-size: 50px 50px;" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img" alt="c05kn4h8wkw-rawpixel-com" data-src="<?= @$this->config->item('assets_url'); ?>img/500x500/ONELVCT-500X500.png">
+																	<img style="background-size: 50px 50px;" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img" alt="c05kn4h8wkw-rawpixel-com" data-src="<?= @$this->config->item('assets_url'); ?>img/500x500/ONELVCT-500X500_2.png">
 																</a>
 															</div>
 															<span class="viba-portfolio-overlay"></span>
@@ -450,7 +450,7 @@
 														<div class="viba-portfolio-cover-wrapper">
 															<div class="viba-portfolio-media">
 																<a class="image-thumbnail viba-portfolio-link">
-																	<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img" alt="c05kn4h8wkw-rawpixel-com" data-src="<?= @$this->config->item('assets_url'); ?>img/500x500/MOH-500X500.png">
+																	<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img" alt="c05kn4h8wkw-rawpixel-com" data-src="<?= @$this->config->item('assets_url'); ?>img/500x500/MOH-500X500_2.png">
 																</a>
 															</div>
 															<span class="viba-portfolio-overlay"></span>
