@@ -181,7 +181,7 @@
 												<span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.5)"></span>
 												<span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.5)"></span>
 											</div>
-											<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,1)">You can get a kit from one of our many outlets in the country. Simply click on the <a href="<?= @base_url('Outlets');?>">get a kit</a> menu item</div>
+											<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,1)">You can get a kit from any of our outlets in the country. Click <a href="<?= @base_url('Map');?>">Here</a> to View Listing</div>
 										</div>
 									</div>
 								</div>
@@ -203,7 +203,7 @@
 												<span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.5)"></span>
 												<span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.5)"></span>
 											</div>
-											<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:#ffffff">Conduct the test by yourself with the help of videos in the Conduct A Test section</div>
+											<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:#ffffff">Conduct the test by yourself with the help of videos in the Conduct A Test section. Click <a style="color:#FFC107;" href="<?= @base_url('Home/videos');?>">Here</a> to View Videos</div>
 										</div>
 									</div>
 								</div>
@@ -225,7 +225,7 @@
 												<span class="separator-line heading-separator-line separator-line-left"></span>
 												<span class="separator-line heading-separator-line separator-line-right"></span>
 											</div>
-											<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color: #ffffff;">After knowing your status, you can visit any professional from the Health Professionals Section</div>
+											<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color: #ffffff;">After knowing your status, you can visit any professional from the Referral Sites Section. Click <a href="<?= @base_url('Referrals');?>">Here</a> to View Listing</div>
 										</div>
 									</div>
 								</div>
