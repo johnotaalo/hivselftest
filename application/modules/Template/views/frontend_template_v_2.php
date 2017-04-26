@@ -168,7 +168,7 @@
 			</div>
 
 			<div class="form-group">
-			  <label>Kit intersted / Tested on</label>
+			  <label>Kit interested / Tested on</label>
 			  	<div class="checkbox">
 				  <label> 
 				    <input type="checkbox" name="kit[]" value="Oral">
