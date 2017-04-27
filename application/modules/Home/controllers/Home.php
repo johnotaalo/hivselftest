@@ -49,21 +49,40 @@ class Home extends MY_Controller {
 		if($this->input->post()){
 			$age = $this->input->post('age');
 			$gender = $this->input->post('gender');
-			$kit = $this->input->post('kit');
 			$comments = $this->input->post('comments');
 
-			$kits = implode(', ', $kit);
+			//$kits = implode(', ', $kit);
 
-			// echo "<pre>";print_r($kits);echo "</pre>";die();
+			
+
+			
 
 			$survey_insert = [
 				'age'			=>	$age,
 				'gender'			=>	$gender,
-				'kits'			=>	$kits,
 				'comments'	=>	$comments
 			];
 
 			$this->db->insert('survey', $survey_insert);
+			$id = $this->db->insert_id();
+
+			$kits = $this->input->post('kit');
+			//echo "<pre>";print_r($kits);echo "</pre>";die();
+
+			$kit_insert = [];
+			if($kits){
+				foreach ($kits as $kit_id) {
+					$kit_insert[] = [
+						'id'	=>	$id,
+						'kit_id'		=>	$kit_id
+					];
+				}
+
+				$this->db->insert_batch('user_kit_results', $kit_insert);
+			}
+			
+
+			
 
 
 			$json_data = [

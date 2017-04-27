@@ -162,30 +162,18 @@
 	 	 	<div class="form-group"> <label>Gender</label>
 			  	<select name="gender" id="gender" class="form-control" required />
 		  			<option value="">Select your gender</option>
-			  		<option value="Male">Male</option>
-			  		<option value="Female">Female</option>
+			  		<!-- <option value="Male">Male</option>
+			  		<option value="Female">Female</option> -->
+
+			  		<?= @$gender; ?>
 				</select>
 			</div>
 
 			<div class="form-group">
 			  <label>Kit interested / Tested on</label>
-			  	<div class="checkbox">
-				  <label> 
-				    <input type="checkbox" name="kit[]" value="Oral">
-				    &nbsp;&nbsp;
-				    Oral
-				    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				  </label>
-				  </div>
 
-			  	<div class="checkbox">
-				  <label>
-				    <input type="checkbox" name="kit[]" value="Blood">
-				    &nbsp;&nbsp;
-				    Blood
-				    &nbsp;&nbsp;&nbsp;&nbsp;
-				  </label>    
-				</div>
+				<?= @$kits; ?>
+
 			</div>
 
 			<div class="form-group">
