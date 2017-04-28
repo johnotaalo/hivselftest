@@ -31,6 +31,10 @@
 			}
 		};
 
+		var barOptions = {
+			responsive:true
+		};
+
 		$.ajax({
 			url: "<?= @base_url('Dashboard/Surveys/getAnalyticsData'); ?>",
 			type: "POST",
