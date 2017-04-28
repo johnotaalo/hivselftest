@@ -26,7 +26,7 @@ class Surveys extends DashboardController{
 		// get number of users grouped by gender
 		$this->db->select('g.gender, g.color, count(s.age) as age');
 		$this->db->from('survey s');
-		$this->db->join('gender g', 'g.gender=s.gender', 'right');
+		$this->db->join('gender g', 'g.id=s.gender', 'right');
 		$this->db->group_by('g.gender');
 		$gender_counts = $this->db->get()->result();
 
@@ -47,26 +47,31 @@ class Surveys extends DashboardController{
 		$this->db->select('g.gender');
 		$this->db->select_avg('s.age');
 		$this->db->from('survey s');
-		$this->db->join('gender g', 'g.gender=s.gender', 'right');
+		$this->db->join('gender g', 'g.id=s.gender', 'right');
 		$this->db->group_by('g.gender');
 
 		$average_ages = $this->db->get()->result();
 
 		if ($average_ages) {
 			$total_age_averages = 0;
+			$number_of_gender = 0;
 			foreach ($average_ages as $gender_age) {
 				$average_age = ($gender_age->age == null) ? 0 : $gender_age->age;
-
-				$total_age_averages += $average_age;
+				if($average_age != NULL){
+					$total_age_averages += $average_age;
+					$number_of_gender++;
+				}
 
 				$average_age_data[$gender_age->gender] = $average_age;
 			}
 
-			$response['data']['overall_average'] = round($total_age_averages / 3, 0);
+			$number_of_gender = ($number_of_gender == 0) ? 1 : $number_of_gender;
+
+			$response['data']['overall_average'] = round($total_age_averages / $number_of_gender, 0);
 		}
 
 		$monthly_counts = $this->db->query("SELECT g.gender, count(s.id) as age FROM survey s
-			RIGHT JOIN gender g ON g.gender = s.gender AND MONTH(s.date_of_entry) = " . date('n') ."
+			RIGHT JOIN gender g ON g.id = s.gender AND MONTH(s.date_of_entry) = " . date('n') ."
 			GROUP BY g.gender")->result();
 
 		if ($monthly_counts) {
