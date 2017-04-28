@@ -115,4 +115,17 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="col-lg-7">
+		<div class="hpanel">
+			<div class="panel-heading">
+				Monthly Surveys Conducted By Users (Gender)
+			</div>
+			<div class="panel-body">
+				<div>
+					<canvas id="genderBar" height="140"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
