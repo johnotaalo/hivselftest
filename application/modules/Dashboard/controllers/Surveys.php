@@ -11,6 +11,12 @@ class Surveys extends DashboardController{
 	}
 
 	function index(){
+
+		$data = [
+
+		];
+
+
 		$this->assets
 				->addJs('dashboard/vendor/jquery-flot/jquery.flot.js')
 				->addJs('dashboard/vendor/jquery-flot/jquery.flot.pie.js')
@@ -19,6 +25,22 @@ class Surveys extends DashboardController{
 		$this->template
 				->setPartial('Dashboard/surveys/index_v')
 				->adminTemplate();
+	}
+
+	function getInHouseSurveyCounters(){
+		$surveys = $this->db->get('survey')->num_rows();
+
+		$this->db->where('gender', 1);
+		$male_count = $this->db->get('survey')->num_rows();
+
+		$this->db->where('gender', 2);
+		$female_count = $this->db->get('survey')->num_rows();
+
+		return [
+			'surveys'		=>	$surveys,
+			'males'		=>	$male_count,
+			'females'		=>	$female_count
+		];
 	}
 
 	function getAnalyticsData(){
@@ -121,6 +143,8 @@ class Surveys extends DashboardController{
 		$response['data']['gender_counts'] = $gender_data;
 		$response['data']['gendernos'] = $gendernos;
 		$response['data']['monthly_count'] = $monthly_count_data;
+
+		//echo "<pre>";print_r($response);echo "</pre>";die();
 
 		return $this->output->set_content_type('application/json')->set_output(json_encode($response, JSON_NUMERIC_CHECK));
 	}
