@@ -49,6 +49,8 @@ class Sites extends DashboardController{
 		}
 	}
 
+	
+
 	// end of pharmacies sub section
 
 	// referrals sub section

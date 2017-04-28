@@ -69,14 +69,14 @@ class Auth extends MY_Controller{
 	}
 
 	function a3bbef49f67b0f5a650629069b31b1b69(){
-		$username = "c.otaalo@gmail.com";
-		$password = "12345";
+		$username = "marekawilly@gmail.com";
+		$password = "123456";
 
 		$hash = password_hash($password, PASSWORD_BCRYPT);
 
 		$insert_data = [
-			'user_firstname'	=>	'Chrispine',
-			'user_lastname'		=>	'Otaalo',
+			'user_firstname'	=>	'Willy',
+			'user_lastname'		=>	'Mareka',
 			'user_email'		=>	$username,
 			'user_password'		=>	$hash
 		];

@@ -73,6 +73,9 @@ class Template extends MX_Controller {
 		$data['partial'] = $this->contentView;
 		$data['partialData'] = $this->contentViewData;
 
+		$data['kits'] = $this->getKits();
+		$data['gender'] = $this->getGender();
+
 		$data['javascript_file'] = $this->assets->javascript_file;
 		$data['javascript_data'] = $this->assets->javascript_data;
 		$this->load->view('Template/frontend_template_v_2', $data);
@@ -181,6 +184,48 @@ class Template extends MX_Controller {
 		$this->metaData .= $metadata_string;
 
 		return $this;
+	}
+
+	function getKits(){
+		$counter = 0;
+
+        $this->db->where('status', 1);
+        $kits = $this->db->get('kits')->result();
+
+        $kit_view = '';
+
+        foreach ($kits as $key => $kit) {
+            //echo '<pre>';print_r($kit);echo '</pre>';die();
+            $counter ++;           
+            $kit_view .= '<div class="checkbox">
+				  <label> 
+				    <input type="checkbox" name="kit[]" value="'.$kit->id.'">
+				    &nbsp;&nbsp;
+				    '.$kit->kit.'
+				    &nbsp;&nbsp;&nbsp;&nbsp;
+				  </label>
+			  	</div>';
+        }
+
+
+        return $kit_view;
+	}
+
+	function getGender(){
+		$counter = 0;
+
+        $genders = $this->db->get('gender')->result();
+
+        $gender_view = '';
+
+        foreach ($genders as $key => $gender) {
+            //echo '<pre>';print_r($gender);echo '</pre>';die();
+            $counter ++;           
+            $gender_view .= '<option value="'.$gender->id.'">'.$gender->gender.'</option>';
+        }
+
+
+        return $gender_view;
 	}
 }
 

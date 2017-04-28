@@ -73,7 +73,6 @@
 															<th>#</th>
 															<th>Pharmacy Name</th>
 															<th>Contact Person</th>
-															<!-- <th>Phone Number</th> -->
 															<th>Location</th>
 															<th>Region</th>
 														</thead>

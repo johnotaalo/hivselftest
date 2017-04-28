@@ -41,4 +41,21 @@ class Dashboard extends DashboardController{
 			'referrals'		=>	$referrals
 		];
 	}
+
+	function addUser(){
+		if ($this->input->post()) {
+
+
+			$insertData = [
+				'user_firstname'	=>	$this->input->post('first_name'),
+				'user_lastname'	=>	$this->input->post('last_name'),
+				'user_email'	=>	$this->input->post('email'),
+				'user_password'	=>	password_hash($this->input->post('password'), PASSWORD_BCRYPT)
+			];
+
+			$this->db->insert('user', $insertData);
+
+			redirect('Dashboard');
+		}
+	}
 }

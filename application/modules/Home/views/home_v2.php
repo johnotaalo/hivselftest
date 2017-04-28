@@ -64,7 +64,7 @@
 																	<div class="aslider-content-inner">
 																		<h3 class="aslider-subtitle aslider-animation-element" data-aslider-element-delay="100"><span data-swiper-parallax-percentage="-0" data-swiper-parallax="0" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">Introducing the easy, safe and confidential way of HIV self testing</span></h3>
 																		<h1 class="aslider-title aslider-animation-element" data-aslider-element-delay="200"><span data-swiper-parallax-percentage="-3" data-swiper-parallax="-40" style="transform: translate3d(40px, 0px, 0px); transition-duration: 0ms;">Know your HIV status at your own comfort and in your own privacy</span></h1>
-																		<p class="aslider-description aslider-animation-element" data-aslider-element-delay="300"><span data-swiper-parallax-percentage="-6" data-swiper-parallax="-81" style="transform: translate3d(81px, 0px, 0px); transition-duration: 0ms;">Now available</span></p>
+																		<p class="aslider-description aslider-animation-element" data-aslider-element-delay="300"><span data-swiper-parallax-percentage="-6" data-swiper-parallax="-81" style="transform: translate3d(81px, 0px, 0px); transition-duration: 0ms;"><a href='<?= @base_url("Outlets");?>'>Now available here</a></span></p>
 																		<div class="aslider-buttons-wrapper aslider-animation-element" data-aslider-element-delay="400">
 																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(121px, 0px, 0px); transition-duration: 0ms;"><a href="<?= @base_url('Home/FAQ');?>" class="button aslider-button aslider-button-primary"><span>Discover More</span></a></div>
 																		</div>
@@ -89,7 +89,7 @@
 																	<div class="aslider-content-inner">
 																		<h3 class="aslider-subtitle aslider-animation-element" data-aslider-element-delay="100"><span data-swiper-parallax-percentage="-0" data-swiper-parallax="0" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">The HIV Self Testing Kit</span></h3>
 																		<h1 class="aslider-title aslider-animation-element" data-aslider-element-delay="200"><span data-swiper-parallax-percentage="-3" data-swiper-parallax="-40" style="transform: translate3d(40px, 0px, 0px); transition-duration: 0ms;">Be Self Sure</span></h1>
-																		<p class="aslider-description aslider-animation-element" data-aslider-element-delay="300"><span data-swiper-parallax-percentage="-6" data-swiper-parallax="-81" style="transform: translate3d(81px, 0px, 0px); transition-duration: 0ms;">Now available here</span></p>
+																		<p class="aslider-description aslider-animation-element" data-aslider-element-delay="300"><span data-swiper-parallax-percentage="-6" data-swiper-parallax="-81" style="transform: translate3d(81px, 0px, 0px); transition-duration: 0ms;"><a href='<?= @base_url("Outlets");?>'>Now available here</a></span></p>
 																		<div class="aslider-buttons-wrapper aslider-animation-element is-animated" data-aslider-element-delay="400">
 																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a href="<?= @base_url('Home/videos');?>" class="button aslider-button aslider-button-primary"><span>Get Started</span></a></div>
 																		</div>
@@ -112,7 +112,7 @@
 																	<div class="aslider-content-inner">
 																		<h3 class="aslider-subtitle aslider-animation-element" data-aslider-element-delay="100"><span data-swiper-parallax-percentage="-0" data-swiper-parallax="0" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">Introducing the easy, safe and confidential way of HIV self testing</span></h3>
 																		<h1 class="aslider-title aslider-animation-element" data-aslider-element-delay="200"><span data-swiper-parallax-percentage="-3" data-swiper-parallax="-40" style="transform: translate3d(40px, 0px, 0px); transition-duration: 0ms;">Know your HIV status at your own comfort and in your own privacy</span></h1>
-																		<p class="aslider-description aslider-animation-element" data-aslider-element-delay="300"><span data-swiper-parallax-percentage="-6" data-swiper-parallax="-81" style="transform: translate3d(81px, 0px, 0px); transition-duration: 0ms;">Now available</span></p>
+																		<p class="aslider-description aslider-animation-element" data-aslider-element-delay="300"><span data-swiper-parallax-percentage="-6" data-swiper-parallax="-81" style="transform: translate3d(81px, 0px, 0px); transition-duration: 0ms;"><a href='<?= @base_url("Outlets");?>'>Now available here</a></span></p>
 																		<div class="aslider-buttons-wrapper aslider-animation-element" data-aslider-element-delay="400">
 																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(121px, 0px, 0px); transition-duration: 0ms;"><a href="<?= @base_url('Home/FAQ');?>" class="button aslider-button aslider-button-primary"><span>Discover More</span></a></div>
 																		</div>
@@ -135,7 +135,7 @@
 																	<div class="aslider-content-inner">
 																		<h3 class="aslider-subtitle aslider-animation-element" data-aslider-element-delay="100"><span data-swiper-parallax-percentage="-0" data-swiper-parallax="0" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">The HIV Self Testing Kit</span></h3>
 																		<h1 class="aslider-title aslider-animation-element" data-aslider-element-delay="200"><span data-swiper-parallax-percentage="-3" data-swiper-parallax="-40" style="transform: translate3d(40px, 0px, 0px); transition-duration: 0ms;">Be Self Sure</span></h1>
-																		<p class="aslider-description aslider-animation-element" data-aslider-element-delay="300"><span data-swiper-parallax-percentage="-6" data-swiper-parallax="-81" style="transform: translate3d(81px, 0px, 0px); transition-duration: 0ms;">Now available here</span></p>
+																		<p class="aslider-description aslider-animation-element" data-aslider-element-delay="300"><span data-swiper-parallax-percentage="-6" data-swiper-parallax="-81" style="transform: translate3d(81px, 0px, 0px); transition-duration: 0ms;"><a href='<?= @base_url("Outlets");?>'>Now available here</a></span></p>
 																		<div class="aslider-buttons-wrapper aslider-animation-element is-animated" data-aslider-element-delay="400">
 																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a href=""<?= @base_url('Home/videos');?>" class="button aslider-button aslider-button-primary"><span>Get Started</span></a></div>
 																		</div>
@@ -181,7 +181,7 @@
 												<span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.5)"></span>
 												<span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.5)"></span>
 											</div>
-											<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,1)">You can get a kit from one of our many outlets in the country. Simply click on the <a href="<?= @base_url('Outlets');?>">get a kit</a> menu item</div>
+											<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,1)">You can get a kit from any of our outlets in the country. Click <a href="<?= @base_url('Map');?>">Here</a> to View Listing</div>
 										</div>
 									</div>
 								</div>
@@ -203,7 +203,7 @@
 												<span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.5)"></span>
 												<span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.5)"></span>
 											</div>
-											<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:#ffffff">Conduct the test by yourself with the help of videos in the Conduct A Test section</div>
+											<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:#ffffff">Conduct the test by yourself with the help of videos in the Conduct A Test section. Click <a style="color:#FFC107;" href="<?= @base_url('Home/videos');?>">Here</a> to View Videos</div>
 										</div>
 									</div>
 								</div>
@@ -225,7 +225,7 @@
 												<span class="separator-line heading-separator-line separator-line-left"></span>
 												<span class="separator-line heading-separator-line separator-line-right"></span>
 											</div>
-											<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color: #ffffff;">After knowing your status, you can visit any professional from the Health Professionals Section</div>
+											<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color: #ffffff;">After knowing your status, you can visit any professional from the Referral Sites Section. Click <a href="<?= @base_url('Referrals');?>">Here</a> to View Listing</div>
 										</div>
 									</div>
 								</div>
@@ -402,7 +402,7 @@
 														<div class="viba-portfolio-cover-wrapper">
 															<div class="viba-portfolio-media">
 																<a class="image-thumbnail viba-portfolio-link">
-																	<img style="background-size: 50px 50px;" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img" alt="c05kn4h8wkw-rawpixel-com" data-src="<?= @$this->config->item('assets_url'); ?>img/500x500/PSK-500X500.png">
+																	<img style="background-size: 50px 50px;" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img" alt="c05kn4h8wkw-rawpixel-com" data-src="<?= @$this->config->item('assets_url'); ?>img/500x500/PSK-500X500_2.png">
 																</a>
 															</div>
 															<span class="viba-portfolio-overlay"></span>
@@ -426,7 +426,7 @@
 														<div class="viba-portfolio-cover-wrapper">
 															<div class="viba-portfolio-media">
 																<a class="image-thumbnail viba-portfolio-link">
-																	<img style="background-size: 50px 50px;" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img" alt="c05kn4h8wkw-rawpixel-com" data-src="<?= @$this->config->item('assets_url'); ?>img/500x500/ONELVCT-500X500.png">
+																	<img style="background-size: 50px 50px;" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img" alt="c05kn4h8wkw-rawpixel-com" data-src="<?= @$this->config->item('assets_url'); ?>img/500x500/ONELVCT-500X500_2.png">
 																</a>
 															</div>
 															<span class="viba-portfolio-overlay"></span>
@@ -450,7 +450,7 @@
 														<div class="viba-portfolio-cover-wrapper">
 															<div class="viba-portfolio-media">
 																<a class="image-thumbnail viba-portfolio-link">
-																	<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img" alt="c05kn4h8wkw-rawpixel-com" data-src="<?= @$this->config->item('assets_url'); ?>img/500x500/MOH-500X500.png">
+																	<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img" alt="c05kn4h8wkw-rawpixel-com" data-src="<?= @$this->config->item('assets_url'); ?>img/500x500/MOH-500X500_2.png">
 																</a>
 															</div>
 															<span class="viba-portfolio-overlay"></span>
