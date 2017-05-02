@@ -2,6 +2,9 @@
     "require": {
         "google/apiclient": "2.0",
         "phpoffice/phpexcel": "^1.8",
-        "ircmaxell/password-compat": "^1.0"
+        "ircmaxell/password-compat": "^1.0",
+        "paulbunyannet/premailer": "^1.1",
+        "swiftmailer/swiftmailer": "^5.4",
+        "ircmaxell/random-lib": "^1.2"
     }
 }
