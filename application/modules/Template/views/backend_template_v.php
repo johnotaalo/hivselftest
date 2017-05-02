@@ -17,9 +17,9 @@
 
 	<?= @$page_css; ?>
 
-	<style type="text/css">
+	<!-- <style type="text/css">
 		div.dataTables_processing { z-index: 9999999999999999999999999999999999999; }
-	</style>
+	</style> -->
 	
 </head>
 <body class="fixed-navbar sidebar-scroll">
@@ -81,7 +81,7 @@
 
 					<div class="dropdown">
 						<a class="dropdown-toggle" href="#" data-toggle="dropdown">
-							<small class="text-muted">Admin <b class="caret"></b></small>
+							<small class="text-muted"><?= @$user_details->user_type; ?> <b class="caret"></b></small>
 						</a>
 						<ul class="dropdown-menu animated flipInX m-t-xs">
 							<li><a href="#">Profile</a></li>
@@ -117,6 +117,7 @@
 	</div>
 
 	<!-- Vendor scripts -->
+
 	<script src="<?= @$assets_url; ?>dashboard/vendor/jquery/dist/jquery.min.js"></script>
 	<script src="<?= @$assets_url; ?>dashboard/vendor/jquery-ui/jquery-ui.min.js"></script>
 	<script src="<?= @$assets_url; ?>dashboard/vendor/slimScroll/jquery.slimscroll.min.js"></script>

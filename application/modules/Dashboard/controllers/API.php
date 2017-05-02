@@ -114,6 +114,79 @@ class API extends MY_Controller{
 		}
 	}
 
+	function getUsers(){
+		$columns = [];
+		$limit = $offset = $search_value = $order = $order_direction = NULL;
+
+		if($this->input->is_ajax_request()){
+			$columns = [
+				2	=>	"user_firstname",
+				3	=>	"user_lastname",
+				4	=>	"user_email",
+				5	=>	"user_username"
+			];
+
+			$limit = $_REQUEST['length'];
+			$offset = $_REQUEST['start'];
+			$search_value = $_REQUEST['search']['value'];
+			$order = $columns[$_REQUEST['order'][0]['column']];
+			$order_direction = $_REQUEST['order'][0]['dir'];
+		}
+
+		$users = $this->M_API->searchUser($search_value, $limit, $offset, $order, $order_direction);
+
+		$data = [];
+
+		if ($users) {
+			$counter = $offset + 1;
+			foreach ($users as $user) {
+				if($user->uuid != $this->session->userdata('user_id')){
+					$avatar = ($user->user_avatar == NULL) ? $this->config->item('assets_url') . 'dashboard/images/no_profile.png' : base_url($user->user_avatar);
+					$status_label = ($user->user_is_active == 1) ? "<span class = 'badge badge-success'>Active</span>" : "<span class = 'badge badge-danger'>Inactive</span>";
+
+					$activation = "";
+					if ($user->user_is_active == 1 && $user->user_reset_token == NULL) {
+						$activation = "<li><a href='".base_url('Dashboard/User/deactivate/')."{$user->uuid}'>Deactivate Account</a></li>";
+					}else if($user->user_is_active == 0 && $user->user_reset_token == NULL){
+						$activation = "<li><a href='".base_url('Dashboard/User/activate/')."{$user->uuid}'>Activate Account</a></li>";
+					}
+					$data[] = [
+						$counter,
+						"<img style='width: 38px;height:38px;' src='{$avatar}' class='img-circle m-b' alt='logo'>",
+						"<span class = 'user_firstname' data-type = 'text' data-pk = '{$user->uuid}' data-url = '".base_url('Dashboard/API/updateUser')."' data-name = 'user_firstname' data-title = 'First Name'>{$user->user_firstname}</span>",
+						"<span class = 'user_lastname' data-type = 'text' data-pk = '{$user->uuid}' data-url = '".base_url('Dashboard/API/updateUser')."' data-name = 'user_lastname' data-title = 'Last Name'>$user->user_lastname</span>",
+						"<span class = 'user_email' data-type = 'text' data-pk = '{$user->uuid}' data-url = '".base_url('Dashboard/API/updateUser')."' data-name = 'user_email' data-title = 'Email Address'>$user->user_email</span>",
+						"<span class = 'user_type' data-type = 'select2' data-pk = '{$user->uuid}' data-url = '".base_url('Dashboard/API/updateUser')."' data-name = 'user_type' data-title = 'User Type'>$user->user_type</span>",
+						"<center>{$status_label}</center>",
+						'<div class="btn-group">
+							<button data-toggle="dropdown" class="btn btn-info btn-sm dropdown-toggle" aria-expanded="false">Action <span class="caret"></span></button>
+							<ul class="dropdown-menu">
+								'.$activation.'
+								<li><a href="'.base_url('Dashboard/User/resetpass/'). $user->uuid.'">Send Reset Link</a></li>
+							</ul>
+	                </div>'
+					];
+					$counter++;
+				}
+			}
+		}
+
+		if($this->input->is_ajax_request()){
+			$allusers = $this->M_API->searchUser();
+			$total_data = count($allusers);
+			$data_total = count($users);
+
+			$json_data = [
+				"draw"				=>	intval( $_REQUEST['draw']),
+				"recordsTotal"		=>	intval($total_data),
+				"recordsFiltered"	=>	intval(count($this->M_API->searchUser($search_value))),
+				"data"				=>	$data	
+			];
+
+			return $this->output->set_content_type('application/json')->set_output(json_encode($json_data));
+		}
+	}
+
 	function updateFacility(){
 		$response = [];
 		$update_data = [
@@ -159,6 +232,100 @@ class API extends MY_Controller{
 			];
 		}
 
+		return $this->output->set_content_type('application/json')->set_output(json_encode($response));
+	}
+
+	function updateUser(){
+		$response = [];
+		$update_data = [
+			$this->input->post('name')	=>	$this->input->post('value')
+		];
+		$this->db->where('uuid', $this->input->post('pk'));
+
+		$update = $this->db->update('user', $update_data);
+
+		if ($update) {
+			$response = [
+				'message'	=>	'Successfully updated data'
+			];
+		}else{
+			$this->output->set_status_header(500);
+			$response = [
+				'message'	=>	'There was an error trying to update this data'
+			];
+		}
+
+		return $this->output->set_content_type('application/json')->set_output(json_encode($response));
+	}
+
+	function checkEmailExists(){
+		$email = (isset($_REQUEST['email'])) ? $_REQUEST['email'] : $_REQUEST['user_email'];
+
+		$this->db->where('user_email', $email);
+		if(isset($_REQUEST['user_email'])){
+			$this->db->where('uuid != ', $this->session->userdata('user_id'));
+		}
+		$user = $this->db->get('user')->row();
+
+		$response = [];
+
+		if ($user) {
+			echo 'false';
+		}else{
+			echo 'true';
+		}
+	}
+
+	function checkUsernameExists(){
+		$username = $_REQUEST['user_username'];
+
+		$this->db->where('user_username', $username);
+		$this->db->where('uuid != ',$this->session->userdata('user_id'));
+		$user = $this->db->get('user')->row();
+
+		if ($user) {
+			echo 'false';
+		}else{
+			echo 'true';
+		}
+	}
+
+	function uploadUserImage(){
+		$status = 200;
+		$message = "";
+		if ($this->input->post()) {
+			if($_FILES){
+				$config['upload_path']          = './uploads/';
+				$config['allowed_types']        = 'gif|jpg|png';
+				$config['max_size']             = 100000000;
+				$config['encrypt_name']			= TRUE;
+
+				$this->load->library('upload', $config);
+
+				if ( ! $this->upload->do_upload('user_avatar')){
+					$status = 400;
+					$message = $this->upload->display_errors();
+				}else{
+					$data = array('upload_data' => $this->upload->data());
+					$user = new StdClass;
+
+					$user->user_avatar = 'uploads/' . $data['upload_data']['file_name'];
+					$this->db->where('uuid', $this->session->userdata('user_id'));
+					if($this->db->update('user', $user)){
+						$message = "Successfully updated profile picture";
+					}else{
+						$status = 400;
+						$message = "Database error"; 
+					}
+				}
+			}
+		}else{
+			$status = 405;
+			$message = "Your request could not be completed";
+		}
+
+		$this->output->set_status_header($status);
+		$response['message'] = $message;
 		return $this->output->set_content_type('application/json')->set_output(json_encode($response));
 	}
 }

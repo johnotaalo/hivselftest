@@ -22,8 +22,11 @@ class Template extends MX_Controller {
 		$data['page_js'] = $this->assets->js;
 
 		// $this->load->model('Auth/auth_m');
-		$user_details = $this->db->get_where('user', ['uuid'	=>	$this->session->userdata('user_id')])->row();
+		$user_details = $this->db->get_where('user', ['uuid'	=>	$this->session->userdata('user_id'), 'user_is_active'	=>	1])->row();
 		if($user_details){
+			if(!$this->session->userdata('type')){
+				$this->session->set_userdata('type', $user_details->user_type);
+			}
 			$data['javascript_file'] = $this->assets->javascript_file;
 			$data['javascript_data'] = $this->assets->javascript_data;
 			$data['user_details'] = $user_details;
@@ -43,6 +46,21 @@ class Template extends MX_Controller {
 		$this->load->view('Template/backend_template_v', $data);
 	}
 
+	function auth(){
+		$data['page_css'] = $this->assets->css;
+		$data['page_js'] = $this->assets->js;
+
+
+		$data['javascript_file'] = $this->assets->javascript_file;
+		$data['javascript_data'] = $this->assets->javascript_data;
+		
+		$data['pagetitle'] = $this->pageTitle;
+		$data['pagedescription'] = $this->pageDescription;
+		$data['partial'] = $this->contentView;
+		$data['partialData'] = $this->contentViewData;
+
+		$this->load->view('Template/besure_auth_template_v', $data);
+	}
 
 
 	function authTemplate(){
@@ -90,33 +108,44 @@ class Template extends MX_Controller {
 		$menus = [
 			'dashboard'	=> [
 				'text'	=>	'Dashboard',
-				'link'	=>	'Dashboard'
+				'link'	=>	'Dashboard',
+				'users'	=>	['superadmin', 'admin']
 			],
 			'surveys'	=>	[
 				'text'	=>	'Surveys',
-				'link'	=>	'Dashboard/Surveys'
+				'link'	=>	'Dashboard/Surveys',
+				'users'	=>	['superadmin', 'admin']
 			],
 			'pharmacies'	=> [
 				'text'	=>	'Pharmacies',
-				'link'	=>	'Dashboard/Sites/pharmacies'
+				'link'	=>	'Dashboard/Sites/pharmacies',
+				'users'	=>	['superadmin', 'admin']
 			],
 			'referral_sites'	=> [
 				'text'	=>	'Referral Sites',
-				'link'	=>	'Dashboard/Sites/referrals'
+				'link'	=>	'Dashboard/Sites/referrals',
+				'users'	=>	['superadmin', 'admin']
 			],
 			'profile'	=>	[
 				'text'	=>	'My Profile',
-				'link'	=>	'Dashboard/User/profile'
+				'link'	=>	'Dashboard/User/profile',
+				'users'	=>	['superadmin', 'admin']
+			],
+			'users'		=>	[
+				'text'	=>	'Users',
+				'link'	=>	'Dashboard/User',
+				'users'	=>	['superadmin']
 			],
 			'logout'	=>	[
 				'text'	=>	'Logout',
-				'link'	=>	'Auth/signout'
+				'link'	=>	'Auth/signout',
+				'users'	=>	['superadmin', 'admin']
 			]
 		];
 
 		if (count($menus) > 0) {
 			foreach ($menus as $key => $item) {
-				// if(in_array($this->session->userdata('type'), $item['users'])){
+				if(in_array($this->session->userdata('type'), $item['users'])){
 					$active = "";
 					if ($key == strtolower($class)) {
 						$active = "active";
@@ -142,7 +171,7 @@ class Template extends MX_Controller {
 						<a class = 'nav-link' href = '".base_url($item['link'])."'>{$item['text']}</a>
 					</li>";
 					}
-				// }
+				}
 			}
 		}
 
