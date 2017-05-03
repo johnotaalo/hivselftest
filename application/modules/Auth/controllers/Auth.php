@@ -90,7 +90,9 @@ class Auth extends MY_Controller{
 			'user_firstname'	=>	'Willy',
 			'user_lastname'		=>	'Mareka',
 			'user_email'		=>	$username,
-			'user_password'		=>	$hash
+			'user_password'		=>	$hash,
+			'user_type'		=>	'superadmin',
+			'user_is_active' => 1
 		];
 
 		$this->db->insert('user', $insert_data);
