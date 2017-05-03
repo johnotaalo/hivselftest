@@ -243,6 +243,7 @@ class Template extends MX_Controller {
 	function getGender(){
 		$counter = 0;
 
+		$this->db->where('status',1);
         $genders = $this->db->get('gender')->result();
 
         $gender_view = '';

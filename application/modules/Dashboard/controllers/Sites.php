@@ -81,9 +81,12 @@ class Sites extends DashboardController{
 
 	function importFacilities(){
 		$file_path = './docs/facilites_geo_codes.xlsx';
+		// $file_path = './docs/eHealth_facilities.xls';
 		$data = $this->excel->readExcel($file_path);
 		if (count($data) > 0) {
 			foreach ($data as $item => $itemData) {
+
+				// echo "<pre>"; print_r($itemData);echo "</pre>";die();
 				$headers = $itemData[0];
 				$dbColumns = $this->getDbColumnNames($item);
 				$cleaned_headers = array_replace($headers, $dbColumns);
@@ -105,6 +108,30 @@ class Sites extends DashboardController{
 		}
 	}
 
+	function importUpdateFacilities(){
+		// $file_path = './docs/facilites_geo_codes.xlsx';
+		$file_path = './docs/eHealth_facilities.xls';
+		$data = $this->excel->readExcel($file_path);
+		if (count($data) > 0) {
+			foreach ($data as $item => $itemData) {
+				foreach ($itemData as $key => $value) {
+					
+					if ($key != 0) {
+						// echo "<pre>"; print_r($value[0]);echo "</pre>";die();
+						$this->db->where('facility_code', $value[0]);
+						
+						$this->db->set('description', $value[2]);
+						$this->db->set('nearest_town', $value[3]);
+
+						$this->db->update('facilities');
+						// $this->db->insert_batch('facilities', $insertData);
+					}
+				}
+				
+			}
+		}
+	}
+
 	function getDbColumnNames($table = 'facilities'){
 		$dbColumns = [];
 		switch ($table) {
@@ -117,6 +144,7 @@ class Sites extends DashboardController{
 					4	=>	'latitude',
 					5	=>	'county_name'
 				];
+				
 			break;
 			default:
 				# code...
