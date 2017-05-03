@@ -11,7 +11,13 @@ class Referrals extends MY_Controller{
 
 		$data['counties'] = $this->getCounties();
 		$this->assets
+				->addCss('dashboard/vendor/bootstrap/dist/css/bootstrap.css')
 				->addCss('plugin/select2/css/select2.min.css')
+				->addCss('dashboard/vendor/datatables.net-bs/css/dataTables.bootstrap.min.css')
+				->addCss('plugin/bootstrap3-editable/css/bootstrap-editable.css')
+				->addJs('dashboard/vendor/bootstrap/dist/js/bootstrap.min.js')
+				->addJs('dashboard/vendor/datatables/media/js/jquery.dataTables.min.js')
+				->addJs('dashboard/vendor/datatables.net-bs/js/dataTables.bootstrap.min.js')
 				->addJs('plugin/select2/js/select2.min.js');
 		$this->assets->setJavascript('Referrals/map_js');
 		$this->template
@@ -59,8 +65,10 @@ class Referrals extends MY_Controller{
 
 					$table .= "<tr>
 					<td>{$counter}</td>
-					<td>{$facility->facility_code}</td>
 					<td>{$facility->facility_name}</td>
+					<td>{$facility->description}</td>
+					<td>{$facility->nearest_town}</td>
+					<td><a href = '#' class = 'view_map' data-title = '{$facility->facility_name}' data-lat = '{$facility->latitude}' data-lng = '{$facility->longitude}'>View on Map</a></td>
 					</tr>";
 
 					$counter++;
