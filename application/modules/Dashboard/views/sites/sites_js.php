@@ -28,6 +28,8 @@
 		fnRowCallback: function( nRow, mData, iDisplayIndex){
 			$('.facility_latitude', nRow).editable();
 			$('.facility_longitude', nRow).editable();
+			$('.facility_nearest_town', nRow).editable();
+			$('.facility_description', nRow).editable();
 			$('.facility_county', nRow).editable({
 				source: <?= @$counties; ?>
 			});

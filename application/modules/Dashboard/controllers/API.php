@@ -15,7 +15,7 @@ class API extends MY_Controller{
 			$columns = [
 				1	=>	"facility_code",
 				2	=>	"facility_name",
-				3	=>	"county_name"
+				3	=>	"county_name",
 			];
 
 			$limit = $_REQUEST['length'];
@@ -38,7 +38,9 @@ class API extends MY_Controller{
 					$facility->facility_name,
 					"<span data-value = '{$facility->county_name}' class = 'facility_county' data-type = 'select2' data-pk = '{$facility->uuid}' data-url = '".base_url('Dashboard/API/updateFacility')."' data-name = 'county_name' data-title = 'Select a County'>$facility->county_name</span>",
 					"<span class = 'facility_latitude' data-type = 'text' data-pk = '{$facility->uuid}' data-url = '".base_url('Dashboard/API/updateFacility')."' data-name = 'latitude' data-title = 'Enter the latitude of the facility'>$facility->latitude</span>",
-					"<span class = 'facility_longitude' data-type = 'text' data-pk = '{$facility->uuid}' data-url = '".base_url('Dashboard/API/updateFacility')."' data-name = 'longitude' data-title = 'Enter the longitude of the facility'>$facility->longitude</span>"
+					"<span class = 'facility_longitude' data-type = 'text' data-pk = '{$facility->uuid}' data-url = '".base_url('Dashboard/API/updateFacility')."' data-name = 'longitude' data-title = 'Enter the longitude of the facility'>$facility->longitude</span>",
+					"<span class = 'facility_nearest_town' data-type = 'text' data-pk = '{$facility->uuid}' data-url = '".base_url('Dashboard/API/updateFacility')."' data-name = 'nearest_town' data-title = 'Enter the nearest town of the facility'>$facility->nearest_town</span>",
+					"<span class = 'facility_description' data-type = 'text' data-pk = '{$facility->uuid}' data-url = '".base_url('Dashboard/API/updateFacility')."' data-name = 'description' data-title = 'Enter the description of the facility'>$facility->description</span>"
 				];
 
 				$counter++;
