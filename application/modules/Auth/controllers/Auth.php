@@ -82,7 +82,7 @@ class Auth extends MY_Controller{
 
 	function a3bbef49f67b0f5a650629069b31b1b69(){
 		$username = "marekawilly@gmail.com";
-		$password = "Willy0714135480";
+		$password = "123456";
 
 		$hash = password_hash($password, PASSWORD_BCRYPT);
 
