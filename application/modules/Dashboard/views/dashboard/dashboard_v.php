@@ -22,9 +22,9 @@
 						</h1>
 						<small>Page views in <span class = "number_of_days">Last 7 Days</span></small>
 						</div>
-						<div class="small m-t-xl">
+						<!-- <div class="small m-t-xl">
 							<i class="fa fa-clock-o"></i> <span class = "from_date">Data from January</span>
-						</div>
+						</div> -->
 					</div>
 					<div class="col-md-6">
 						<div class="text-center small">
@@ -44,18 +44,18 @@
 							</h1>
 							<small>Data From Google Analytics</small>
 						</div>
-						<div class="small m-t-xl">
-						<i class="fa fa-clock-o"></i> Last active in 12.10.2015
-						</div>
+						<!-- <div class="small m-t-xl">
+							<i class="fa fa-clock-o"></i> Last active in 12.10.2015
+						</div> -->
 					</div>
 				</div>
 			</div>
-			<div class="panel-footer">
+			<!-- <div class="panel-footer">
 			<span class="pull-right">
 			You have two new messages from <a href="#">Monica Bolt</a>
 			</span>
 			Last update: 21.05.2015
-			</div>
+			</div> -->
 		</div>
 	</div>
 </div>

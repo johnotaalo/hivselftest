@@ -102,7 +102,7 @@ class Auth extends MY_Controller{
 		$this->db->where('user_email', $user_email);
 		$user = $this->db->get('user')->row();
 
-		if ($user && $user->user_reset_token == urldecode($user_reset_token)) {
+		if ($user && $user->user_reset_token == $user_reset_token) {
 			if(!$this->input->post()){
 				$this->assets
 					->addJs("dashboard/vendor/jquery-validation/jquery.validate.min.js");
@@ -140,7 +140,7 @@ class Auth extends MY_Controller{
 		$this->db->where('user_email', $user_email);
 		$user = $this->db->get('user')->row();
 
-		if ($user && $user->user_activation_token == urldecode($user_activation_token)) {
+		if ($user && $user->user_activation_token == $user_activation_token) {
 			if(!$this->input->post()){
 				$this->assets
 					->addJs("dashboard/vendor/jquery-validation/jquery.validate.min.js");

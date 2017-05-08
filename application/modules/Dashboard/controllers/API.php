@@ -189,6 +189,60 @@ class API extends MY_Controller{
 		}
 	}
 
+
+	function getSurveyRawData(){
+		$columns = [];
+		$limit = $offset = $search_value = $order = $order_direction = NULL;
+
+		if($this->input->is_ajax_request()){
+			$columns = [
+				2	=>	"age",
+				5	=>	"date_of_entry"
+			];
+
+			$limit = $_REQUEST['length'];
+			$offset = $_REQUEST['start'];
+			$search_value = $_REQUEST['search']['value'];
+			$order = $columns[$_REQUEST['order'][0]['column']];
+			$order_direction = $_REQUEST['order'][0]['dir'];
+		}
+
+		$surveys = $this->M_API->searchSurvey($search_value, $limit, $offset, $order, $order_direction);
+
+		$data = [];
+
+		if ($surveys) {
+			$counter = $offset + 1;
+			foreach ($surveys as $survey) {
+				$data[] = [
+					$counter,
+					$survey->gender,
+					$survey->age,
+					$survey->kits,
+					$survey->comments,
+					date('dS F, Y \a\t h:i a', strtotime($survey->date_of_entry))
+				];
+
+				$counter++;
+			}
+		}
+
+		if($this->input->is_ajax_request()){
+			$allsurveys = $this->M_API->searchSurvey();
+			$total_data = count($allsurveys);
+			$data_total = count($surveys);
+
+			$json_data = [
+				"draw"				=>	intval( $_REQUEST['draw']),
+				"recordsTotal"		=>	intval($total_data),
+				"recordsFiltered"	=>	intval(count($this->M_API->searchSurvey($search_value))),
+				"data"				=>	$data	
+			];
+
+			return $this->output->set_content_type('application/json')->set_output(json_encode($json_data));
+		}
+	}
+
 	function updateFacility(){
 		$response = [];
 		$update_data = [

@@ -174,7 +174,7 @@
 								<table class="btn-primary" cellpadding="0" cellspacing="0" border="0">
 									<tr>
 									<td>
-										<a target="_blank" href="<?= @$this->config->item('server_url'); ?>Auth/completeReset/<?= @$user->user_email.'/'.urlencode($user->user_reset_token); ?>">Reset Password</a>
+										<a target="_blank" href="<?= @$this->config->item('server_url'); ?>Auth/completeReset/<?= @$user->user_email.'/'.$user->user_reset_token; ?>">Reset Password</a>
 									</td>
 									</tr>
 								</table>
