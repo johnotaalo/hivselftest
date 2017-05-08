@@ -11,6 +11,7 @@ class Referrals extends MY_Controller{
 
 		$data['counties'] = $this->getCounties();
 		$this->assets
+				->addCss('https://fonts.googleapis.com/css?family=Raleway|Lato|Open+Sans', true)
 				->addCss('dashboard/vendor/bootstrap/dist/css/bootstrap.css')
 				->addCss('plugin/select2/css/select2.min.css')
 				->addCss('dashboard/vendor/datatables.net-bs/css/dataTables.bootstrap.min.css')
@@ -23,24 +24,6 @@ class Referrals extends MY_Controller{
 		$this->template
 				->setPartial('Referrals/index', $data)
 				->frontEndTemplate();
-	}
-
-	function getCounties(){
-		$option_string = "";
-		$counties = $this->db->get('county')->result();
-
-		if($counties){
-			foreach ($counties as $county) {
-				$coordinates_json = $county->county_coordinates;
-				$coordinates_array = json_decode($coordinates_json);
-				$coordinates = $coordinates_array[0][0][1];
-
-				$option_string .= "<option data-lng = '{$coordinates[0]}' data-lat = '{$coordinates[1]}' value = '{$county->county_name}'>{$county->county_name}</option>";
-			}
-		}
-
-
-		return $option_string;
 	}
 
 	function getfacilities(){
@@ -68,7 +51,7 @@ class Referrals extends MY_Controller{
 					<td>{$facility->facility_name}</td>
 					<td>{$facility->description}</td>
 					<td>{$facility->nearest_town}</td>
-					<td><a href = '#' class = 'view_map' data-title = '{$facility->facility_name}' data-lat = '{$facility->latitude}' data-lng = '{$facility->longitude}'>View on Map</a></td>
+					<td><a href = '#' class = 'label label-success view_map' data-title = '{$facility->facility_name}' data-lat = '{$facility->latitude}' data-lng = '{$facility->longitude}'>View on Map</a></td>
 					</tr>";
 
 					$counter++;

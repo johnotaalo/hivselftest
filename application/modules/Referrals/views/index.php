@@ -38,6 +38,10 @@
 	.row{
 		margin-top: 15px !important;
 	}
+
+	#content{
+		font-family: 'Raleway', sans-serif;
+	}
 </style>
 <div id="content" class="site-content container">
 	<div id="primary" class="content-area">
@@ -62,7 +66,7 @@
 					<div class="row-container container">
 						<div class="row columns-equal-height columns-no-margins">
 							<div class="column col-sm-12">
-								<div class="column-inner custom-css-1488398861560 col-has-fill">
+								<div class="column-inner">
 									<div class="column-content">
 										<div data-animation="fadeInUp" class="animate-element animate-stagger is-animated fadeInUp">
 											<h4 class="heading">
