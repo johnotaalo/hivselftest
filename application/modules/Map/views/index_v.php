@@ -49,18 +49,21 @@
 
 											<div class="row">
 												<div class="col-sm-12">
-													<table id="pharmacy_table" class="table table-bodered" style="color: #555 !important;">
-														<thead>
-															<th>#</th>
-															<th>Pharmacy Name</th>
-															<th>Location</th>
-															<th>County</th>
-															<th>Map</th>
-														</thead>
-														<tbody>
-															<?= @$pharmacy_table; ?>
-														</tbody>
-													</table>
+													<div class="table-responsive">
+														<table id="pharmacy_table" class="table table-bodered" style="color: #555 !important;">
+															<thead>
+																<th>#</th>
+																<th>Pharmacy Name</th>
+																<th>Location</th>
+																<th>County</th>
+																<th>Map</th>
+															</thead>
+															<tbody>
+																<?= @$pharmacy_table; ?>
+															</tbody>
+														</table>
+													</div>
+													
 												</div>
 											</div>
 										</div>

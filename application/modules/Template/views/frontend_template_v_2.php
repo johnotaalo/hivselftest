@@ -65,6 +65,11 @@
 							<img class="logo-dark"  src="<?= @$assets_url; ?>img/psk-logo.png" alt="Besure-Logo">
 						</a>
 					</div>
+					<div class="site-actions">
+						<span class="mobile-menu-trigger hamburger-menu"><span></span></span>
+						<span class="mobile-menu-close-trigger site-action-close slide-out-action-close is-active"><span></span></span>
+						<span class="site-actions-overlay"></span>
+					</div>
 					<div class="site-header-inner">
 						<div class="header-search-form">
 							<form role="search" method="get" class="search-form" action="/">

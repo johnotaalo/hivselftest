@@ -85,17 +85,19 @@
 											
 											<div class="row">
 												<div class="col-sm-12">
-													<table class="table table-bodered" style="color: #555 !important;" id = "facilities_table">
-														<thead>
-															<th>#</th>
-															<th>Facility Name</th>
-															<th>Nearest Town</th>
-															<th>Description</th>
-															<th>Map</th>
-														</thead>
-														<tbody>
-														</tbody>
-													</table>
+													<div class="table-responsive">
+														<table class="table table-bodered" style="color: #555 !important;" id = "facilities_table">
+															<thead>
+																<th>#</th>
+																<th>Facility Name</th>
+																<th>Nearest Town</th>
+																<th>Description</th>
+																<th>Map</th>
+															</thead>
+															<tbody>
+															</tbody>
+														</table>
+													</div>
 												</div>
 											</div>
 										</div>
