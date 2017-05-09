@@ -5,6 +5,7 @@ class API extends MY_Controller{
 	{
 		parent::__construct();
 		$this->load->model('M_API');
+		$this->load->config('Dashboard/dashboardconfig');
 	}
 
 	function getFacilities(){
@@ -214,13 +215,14 @@ class API extends MY_Controller{
 		if ($surveys) {
 			$counter = $offset + 1;
 			foreach ($surveys as $survey) {
+				$date = new DateTime($survey->date_of_entry, new DateTimeZone($this->config->item('timezone')));
 				$data[] = [
 					$counter,
 					$survey->gender,
 					$survey->age,
 					$survey->kits,
 					$survey->comments,
-					date('dS F, Y \a\t h:i a', strtotime($survey->date_of_entry))
+					date_format($date, 'dS F, Y \a\t h:i a')
 				];
 
 				$counter++;

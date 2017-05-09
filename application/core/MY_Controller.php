@@ -1,5 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+date_default_timezone_set('Africa/Nairobi');
 
 class MY_Controller extends MX_Controller {
 	public function __construct(){
@@ -24,6 +25,22 @@ class MY_Controller extends MX_Controller {
 
 
 		return $option_string;
+	}
+
+	function setTimeZone(){
+		$now = new DateTime();
+		$mins = $now->getOffset() / 60;
+		$sgn = ($mins < 0 ? -1 : 1);
+		$mins = abs($mins);
+		$hrs = floor($mins / 60);
+		$mins -= $hrs * 60;
+		$offset = sprintf('%+d:%02d', $hrs*$sgn, $mins);
+
+		if($this->db->query("SET time_zone = '{$offset}'")){
+			echo "Successfully set timezone to {$offset}";
+		}else{
+			echo "There was an error setting up your timezone";
+		}
 	}
 	
 }
