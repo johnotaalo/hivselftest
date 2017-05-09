@@ -3,6 +3,7 @@
 	.custom-css-1487873249987{padding:50px 40px}
 	.custom-css-1488431315627{padding-bottom:90px;background-color:#fff}
 	.custom-css-1486607221785{padding-top:40px;padding-bottom:40px;background-color:#9373de}
+	.error{color: red;}
 </style>
 <div id="content" class="site-content container">
 	<div id="primary" class="content-area">

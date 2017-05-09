@@ -55,6 +55,9 @@
 			</style>
 
 			<style type="text/css">
+				body{
+					font-family: 'Raleway', sans-serif;
+				}
 				a:hover{
 					text-decoration: none;
 				}

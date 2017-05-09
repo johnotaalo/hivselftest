@@ -69,18 +69,14 @@
 								<div class="column-inner">
 									<div class="column-content">
 										<div data-animation="fadeInUp" class="animate-element animate-stagger is-animated fadeInUp">
-											<h4 class="heading">
+											<h2 style="margin-bottom: 15px;">
 												Referral Sites
-											</h4>
-											<div class="row" style="margin-bottom: 5%;">
-												<div class="col-md-12">
-													<div class="form-group">
-														<select class = "form-control" name="county" placeholder = "Please pick a county to continue">
-															<option value="">Select a County to continue</option>
-															<?= @$counties; ?>
-														</select>
-													</div>
-												</div>												
+											</h2>
+											<div class="form-group">
+												<select class = "form-control" name="county" placeholder = "Please pick a county to continue">
+													<option value="">Select a County to continue</option>
+													<?= @$counties; ?>
+												</select>
 											</div>
 											
 											<div class="row">
