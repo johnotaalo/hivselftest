@@ -5,6 +5,7 @@ class API extends MY_Controller{
 	{
 		parent::__construct();
 		$this->load->model('M_API');
+		$this->load->config('Dashboard/dashboardconfig');
 	}
 
 	function getFacilities(){
@@ -182,6 +183,61 @@ class API extends MY_Controller{
 				"draw"				=>	intval( $_REQUEST['draw']),
 				"recordsTotal"		=>	intval($total_data),
 				"recordsFiltered"	=>	intval(count($this->M_API->searchUser($search_value))),
+				"data"				=>	$data	
+			];
+
+			return $this->output->set_content_type('application/json')->set_output(json_encode($json_data));
+		}
+	}
+
+
+	function getSurveyRawData(){
+		$columns = [];
+		$limit = $offset = $search_value = $order = $order_direction = NULL;
+
+		if($this->input->is_ajax_request()){
+			$columns = [
+				2	=>	"age",
+				5	=>	"date_of_entry"
+			];
+
+			$limit = $_REQUEST['length'];
+			$offset = $_REQUEST['start'];
+			$search_value = $_REQUEST['search']['value'];
+			$order = $columns[$_REQUEST['order'][0]['column']];
+			$order_direction = $_REQUEST['order'][0]['dir'];
+		}
+
+		$surveys = $this->M_API->searchSurvey($search_value, $limit, $offset, $order, $order_direction);
+
+		$data = [];
+
+		if ($surveys) {
+			$counter = $offset + 1;
+			foreach ($surveys as $survey) {
+				$date = new DateTime($survey->date_of_entry, new DateTimeZone($this->config->item('timezone')));
+				$data[] = [
+					$counter,
+					$survey->gender,
+					$survey->age,
+					$survey->kits,
+					$survey->comments,
+					date_format($date, 'dS F, Y \a\t h:i a')
+				];
+
+				$counter++;
+			}
+		}
+
+		if($this->input->is_ajax_request()){
+			$allsurveys = $this->M_API->searchSurvey();
+			$total_data = count($allsurveys);
+			$data_total = count($surveys);
+
+			$json_data = [
+				"draw"				=>	intval( $_REQUEST['draw']),
+				"recordsTotal"		=>	intval($total_data),
+				"recordsFiltered"	=>	intval(count($this->M_API->searchSurvey($search_value))),
 				"data"				=>	$data	
 			];
 

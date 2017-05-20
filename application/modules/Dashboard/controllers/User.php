@@ -99,7 +99,7 @@ class User extends DashboardController{
 	function resetpass($uuid){
 		$user = $this->confirmUser($uuid);
 
-		$token = $this->hash->generateToken();
+		$token = md5($this->hash->generateToken());
 		$this->db->where('id', $user->id);
 		$this->db->update('user', ['user_reset_token'=>$token, 'user_is_active' => 0]);
 
@@ -130,7 +130,7 @@ class User extends DashboardController{
 			$user->user_email = $user_email;
 			$user->user_type = $user_type;
 			$user->user_is_active = 0;
-			$user->user_activation_token = $this->hash->generateToken();
+			$user->user_activation_token = md5($this->hash->generateToken());
 
 			$data['user'] = $user;
 			$html = $this->load->view('Auth/activate_account_v', $data, true);

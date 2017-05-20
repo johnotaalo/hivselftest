@@ -80,13 +80,13 @@
 	<div class="col-lg-3">
 		<div class="hpanel stats">
 			<div class="panel-body text-center h-200">
-				<i class="pe-7s-id fa-4x"></i>
-				<h1 class="m-xs"><span id = "overall_average_age">25</span> Years</h1>
-				<h3 class="font-extra-bold no-margins text-success">Average Age</h3>
-				<small>The average age is calculated as per the surveys</small>
+				<i class="pe-7s-coffee fa-4x"></i>
+				<h1 class="m-xs"><span id = "preferred_kit_no"><?= @$preferred_kit->number; ?></h1>
+				<h3 class="font-extra-bold no-margins text-success" id = "preferred_kit_name"><?= @$preferred_kit->kit; ?></h3>
+				<small>Most Preferred kit</small>
 			</div>
 			<div class="panel-footer text-center">
-				<div class="row">
+				<!-- <div class="row">
 					<div class="col-xs-4">
 						<span id = "age_counter_male">0</span> <br/>Male
 					</div>
@@ -96,14 +96,43 @@
 					<div class="col-xs-4">
 						<span id = "age_counter_other">0</span> <br/>Other
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
 </div>
 
 <div class="row">
-	<div class="col-lg-5">
+	<div class="col-lg-6">
+		<div class="hpanel">
+			<div class="panel-heading">
+				Age & Gender Kit Preferrence
+			</div>
+			<div class="panel-body">
+				<table class="table table-bordered">
+					<thead>
+						<th>Kit Name</th>
+						<th>Youngest</th>
+						<th>Oldest</th>
+					</thead>
+					<tbody>
+						<?= @$table['age_kit_table']; ?>
+					</tbody>
+				</table>
+
+				<table class="table table-bordered">
+					<thead>
+						<th>Kit Name</th>
+						<?= @$gender_header; ?>
+					</thead>
+					<tbody>
+						<?= @$table['gender_kit_table']; ?>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6">
 		<div class="hpanel">
 			<div class="panel-heading">
 				Monthly Surveys Conducted By Users
@@ -115,17 +144,33 @@
 			</div>
 		</div>
 	</div>
+</div>
 
-	<div class="col-lg-7">
-		<div class="hpanel">
-			<div class="panel-heading">
-				Monthly Surveys Conducted By Users (Gender)
+<!-- <div class="row">
+	<div class="col-lg-12"> -->
+		<div class="hpanel hblue">
+			<div class="panel-heading hbuilt">
+				Raw Data
+				<!-- <div class="pull-right">
+					<a href="#">Export Excel</a>
+				</div> -->
 			</div>
 			<div class="panel-body">
-				<div>
-					<canvas id="genderBar" height="140"></canvas>
-				</div>
+				<table class="table table-bordered" id = "survey_raw_data">
+					<thead>
+						<th style="width: 4%;">#</th>
+						<th>Gender</th>
+						<th>Age</th>
+						<th>Kit(s)</th>
+						<th style="width: 40%;">Comments</th>
+						<th>Date Submitted</th>
+					</thead>
+					<tbody>
+						
+					</tbody>
+				</table>
 			</div>
 		</div>
-	</div>
-</div>
+<!-- 	</div>
+	
+</div> -->

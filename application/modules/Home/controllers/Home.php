@@ -81,10 +81,6 @@ class Home extends MY_Controller {
 				$this->db->insert_batch('user_kit_results', $kit_insert);
 			}
 			
-
-			
-
-
 			$json_data = [
 				"type"				=>	"success",
 				"title"				=>	"Survey Sent",

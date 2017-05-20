@@ -70,4 +70,24 @@ class M_API extends CI_Model{
 
 		return $query->result();
 	}
+
+	function searchSurvey($search_value = NULL, $limit = NULL, $offset = NULL, $order = NULL, $order_direction = NULL){
+		if (isset($search_value)) {
+			$this->db->like('age', $search_value);
+			$this->db->or_like('gender', $search_value);
+			$this->db->or_like('kits', $search_value);
+		}
+
+		if (isset($limit) && isset($offset) && $limit != -1) {
+			$this->db->limit($limit, $offset);
+		}
+
+		if (isset($order) && isset($order_direction)) {
+			$this->db->order_by($order, $order_direction);
+		}
+
+		$query = $this->db->get('survey_v');
+
+		return $query->result();
+	}
 }

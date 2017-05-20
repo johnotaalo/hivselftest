@@ -1,11 +1,12 @@
 <script> 
    $(document).ready(function(){
-// alert("reached");
-    	$('#myModal').on('shown.bs.modal', function () {
-		  $('#myInput').focus()
-		});
-
-		$('#myModal').modal('show');
+		var survey = localStorage.getItem('survey') || -1;
+		if(survey === -1){
+	    	$('#myModal').on('shown.bs.modal', function () {
+			  $('#myInput').focus()
+			});
+			$('#myModal').modal('show');
+	    }
 
 		$('#survey-form').validate({
 			rules: {
@@ -29,16 +30,13 @@
 				kit: {
 					required: "Please select at least one kit"
 				}
+			},
+			submitHandler: function(form){
+				var formData = $('#survey-form').serialize();
+
+				surveySubmit(formData);
 			}
 		});
-
-		$('#survey-submit').click(function (e) { 
-			// alert(e);
-		 	e.preventDefault();
-	  		var formData = $('#survey-form').serialize();
-
-			surveySubmit(formData);
-	});
 
 
 	function surveySubmit(formData){
@@ -50,11 +48,10 @@
 			data: formData,
 		   success: function(response){   
 		   		if(response){
-					//alert("response");
-                	swal({title: response.title,text: response.message,timer: 3000,showConfirmButton: true, type:response.type});
-                	
-                	$('#myModal').modal('toggle');
-                }	
+					swal({title: response.title,text: response.message,timer: 3000,showConfirmButton: true, type:response.type});
+					localStorage.setItem('survey', 1);
+					$('#myModal').modal('toggle');
+                }
 		   },
 		   beforeSend:function()
 		   {

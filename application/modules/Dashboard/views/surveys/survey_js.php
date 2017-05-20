@@ -1,6 +1,9 @@
 <script type="text/javascript">
+	var rawDataTable = $('#survey_raw_data');
+
 	$(document).ready(function(){
 		createPieChart();
+		createDataTable();
 	});
 
 	function createPieChart(){
@@ -64,5 +67,38 @@
 			
 			$.plot($("#flot-users-chart"), pieChartData, pieChartOptions);
 		});
+	}
+
+	function createDataTable(){
+		if (rawDataTable[0]) {
+			var aoColumnDefs = [
+			{
+				"aTargets": [0, 1, 3, 4],
+				"bSortable": false
+			}];
+
+			raw_data_table_options = {
+				"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
+				dom: "<'row'<'col-sm-4'l><'col-sm-4 text-center'B><'col-sm-4'f>>rtp",
+				aaSorting: [[5, 'desc']],
+				buttons: [
+					{extend: 'csv',title: 'Surveys Raw Data', className: 'btn-sm'},
+					{extend: 'pdf', title: 'Surveys Raw Data', className: 'btn-sm'},
+					{extend: 'print',className: 'btn-sm'}
+				],
+				"aoColumnDefs": aoColumnDefs,
+				serverSide: true,
+				processing: true,
+				ajax: {
+					url: "<?= @base_url('Dashboard/API/getSurveyRawData'); ?>",
+					type: "POST",
+					error: function(){
+						console.log("There was an error pulling in your data");
+					}
+				}
+			};
+
+			var oTable = rawDataTable.DataTable(raw_data_table_options);
+		}
 	}
 </script>
