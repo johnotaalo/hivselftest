@@ -344,6 +344,13 @@
 				</div>
 
 
+
+
+
+<div class="row-wrapper">
+					<div class="row-container container">
+						<div class="row">
+
 <div class="content-element blog-container row columns-medium-margins columns-masonry">
 
 
@@ -824,4 +831,13 @@
 
 
 </div>
+
+</div>
+</div>
+</div>
+
+
+
+
+
 
