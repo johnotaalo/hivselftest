@@ -30,7 +30,7 @@
 	<div class="column-inner">
 	<div class="column-content">
 
-	<a href="https://www.avert.org/">
+	<a target="blank" href="https://www.avert.org/">
 	<div class="content-element team-wrapper team-align-left team-boxed">
 	<div class="image-thumbnail" style="padding-bottom:100%">
 	<img src="<?= @$this->config->item('assets_url'); ?>img/resources/avert.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Avert" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
@@ -53,7 +53,7 @@
 	<div class="column-inner">
 	<div class="column-content">
 
-	<a href="http://www.one2onekenya.org/site/">
+	<a target="blank" href="http://www.one2onekenya.org/site/">
 	<div class="content-element team-wrapper team-align-left team-boxed">
 	<div class="image-thumbnail" style="padding-bottom:100%">
 	<img src="<?= @$this->config->item('assets_url'); ?>img/resources/one2one.png" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="One2one Kenya" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
@@ -77,7 +77,7 @@
 	<div class="column-inner">
 	<div class="column-content">
 
-	<a href="http://nephak.or.ke/">
+	<a target="blank" href="http://nephak.or.ke/">
 	<div class="content-element team-wrapper team-align-left team-boxed">
 	<div class="image-thumbnail" style="padding-bottom:100%">
 	<img style="margin-top:40%;height:30%;" src="<?= @$this->config->item('assets_url'); ?>img/resources/nephak.PNG" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Whatisprep" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
@@ -100,7 +100,7 @@
 	<div class="column-inner">
 	<div class="column-content">
 
-	<a href="http://nacc.or.ke/">
+	<a target="blank" href="http://nacc.or.ke/">
 	<div class="content-element team-wrapper team-align-left team-boxed">
 	<div class="image-thumbnail" style="padding-bottom:100%">
 	<img style="margin-top:40%;height:30%;" src="<?= @$this->config->item('assets_url'); ?>img/resources/nacc.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Nacc" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
@@ -123,7 +123,7 @@
 	<div class="column-inner">
 	<div class="column-content">
 
-	<a href="http://www.biolytical.com/">
+	<a target="blank" href="http://www.biolytical.com/">
 	<div class="content-element team-wrapper team-align-left team-boxed">
 	<div class="image-thumbnail" style="padding-bottom:100%">
 	<img style="margin-top:40%;height:30%;" src="<?= @$this->config->item('assets_url'); ?>img/resources/biolytical.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Manufacturer Websites" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
@@ -146,7 +146,7 @@
 	<div class="column-inner">
 	<div class="column-content">
 
-	<a href="http://www.nascop.or.ke/">
+	<a target="blank" href="http://www.nascop.or.ke/">
 	<div class="content-element team-wrapper team-align-left team-boxed">
 	<div class="image-thumbnail" style="padding-bottom:100%">
 	<img style="margin-top:30%;height:54%;" src="<?= @$this->config->item('assets_url'); ?>img/resources/nascop.PNG" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Nascop" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
@@ -169,7 +169,7 @@
 	<div class="column-inner">
 	<div class="column-content">
 
-	<a href="http://whatisprep.org/">
+	<a target="blank" href="http://whatisprep.org/">
 	<div class="content-element team-wrapper team-align-left team-boxed">
 	<div class="image-thumbnail" style="padding-bottom:100%">
 	<img style="margin-top:40%;height:30%;" style="background-size: center center" src="<?= @$this->config->item('assets_url'); ?>img/resources/whatisprep.PNG" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Whatisprep" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
@@ -256,12 +256,12 @@
 
 
 				<div class="content-element column-sm-12 separator">
-							<span class="separator-line separator-line-left"></span>
-							<div class="separator-content">
-								<h4 class="separator-title"><b>OTHER LAUNCH LINKS</b></h4>
-							</div>
-							<span class="separator-line separator-line-right"></span>
-						</div>
+					<span class="separator-line separator-line-left"></span>
+					<div class="separator-content">
+						<h4 class="separator-title"><b>OTHER LAUNCH LINKS</b></h4>
+					</div>
+					<span class="separator-line separator-line-right"></span>
+				</div>
 
 
 <div class="row-wrapper">
@@ -271,7 +271,7 @@
 	<div class="column-inner">
 	<div class="column-content">
 
-	<a href="http://www.nation.co.ke/news/Govt-launches-two-approaches-to-fight-HIV-Aids/1056-3914614-8p6ubc/">
+	<a target="blank" href="http://www.nation.co.ke/news/Govt-launches-two-approaches-to-fight-HIV-Aids/1056-3914614-8p6ubc/">
 	<div class="content-element team-wrapper team-align-left team-boxed">
 	<div class="image-thumbnail" style="padding-bottom:100%">
 	<img src="<?= @$this->config->item('assets_url'); ?>img/resources/govt_launch.PNG" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Government Launch" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
@@ -294,10 +294,10 @@
 	<div class="column-inner">
 	<div class="column-content">
 
-	<a href="https://www.standardmedia.co.ke/health/article/2001238625/hiv-home-test-kits-now-in-kenya">
+	<a target="blank" href="https://www.standardmedia.co.ke/health/article/2001238625/hiv-home-test-kits-now-in-kenya">
 	<div class="content-element team-wrapper team-align-left team-boxed">
 	<div class="image-thumbnail" style="padding-bottom:100%">
-	<img src="<?= @$this->config->item('assets_url'); ?>img/resources/standard_home_kits.png" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Home Test Kits" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+	<img src="<?= @$this->config->item('assets_url'); ?>img/resources/standard_home_kits.PNG" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Home Test Kits" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
 	</div>
 	<div class="team-info">
 	<h5 class="team-name">Stardand Digital Home Test Kits</h5></a>
@@ -312,10 +312,10 @@
 	<div class="column-inner">
 	<div class="column-content">
 
-	<a href="http://www.unaids.org/en/resources/presscentre/featurestories/2017/may/20170505_kenya">
+	<a target="blank" href="http://www.unaids.org/en/resources/presscentre/featurestories/2017/may/20170505_kenya">
 	<div class="content-element team-wrapper team-align-left team-boxed">
 	<div class="image-thumbnail" style="padding-bottom:100%">
-	<img src="<?= @$this->config->item('assets_url'); ?>img/resources/unaids_self_test.png" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Home Test Kits" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+	<img src="<?= @$this->config->item('assets_url'); ?>img/resources/unaids_self_test.PNG" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Kenya Launch Kits" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
 	</div>
 	<div class="team-info">
 	<h5 class="team-name">Kenya Launches Self Test Kits</h5></a>
@@ -326,25 +326,178 @@
 	</div>
 	</div>
 
-	<!-- <div class="column col-sm-3">
-	<div class="column-inner">
-	<div class="column-content">
-	<a href="http://nacc.or.ke/">
-	<div class="content-element team-wrapper team-align-left team-boxed">
-	<div class="image-thumbnail" style="padding-bottom:100%">
-	<img style="margin-top:40%;height:30%;" src="<?= @$this->config->item('assets_url'); ?>img/resources/unaids_self_test.PNG" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Nacc" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
-	</div>
-	<div class="team-info">
-	<a href="http://nacc.or.ke/"><h5 class="team-name">Kenya Luanches self test kits</h5></a>
-	</div>
-	</div>
-	</div>
-	</div>
-	</div> -->
+	
 
 
 
 
 </div>
 </div>
+</div>
+
+				<div class="content-element column-sm-12 separator">
+					<span class="separator-line separator-line-left"></span>
+					<div class="separator-content">
+						<h4 class="separator-title"><b>AUDIO LOGS</b></h4>
+					</div>
+					<span class="separator-line separator-line-right"></span>
+				</div>
+
+
+<div class="content-element blog-container row columns-medium-margins columns-masonry">
+
+
+<article class="blog-post column col-xs-12 col-sm-6 col-md-4 col-lg-3 animate-element animate-stagger">
+<a class="blog-post-link" >
+<div class="blog-post-media">
+<div class="blog-post-thumbnail image-thumbnail" style="padding-bottom:66.6%">
+
+<img src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Audio Log" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+
+</div>
+	<audio controls>
+	  <source src="<?= @$this->config->item('assets_url'); ?>audio/Govt_to_distribute_Prep_pill.mp3" type="audio/mpeg">
+	</audio> 
+</div>
+
+<div class="blog-post-content">
+<div class="blog-post-meta">
+<span class="blog-post-cats"><b>Station : </b>XFM <br /><b>Companies Mentioned </b>: Population Services Kenya (PS Kenya)</span>
+<span class="blog-post-date"><b>Date </b>: Friday, May 05 2017</span>
+</div>
+<h3 class="blog-post-title">Government to distribute Prep Pill</h3>
+<p>Government has moved to provide the Pre-Exposure Prophylaxis pill at cheep price.</p>
+</div>
+</a>
+</article>
+
+
+<article class="blog-post column col-xs-12 col-sm-6 col-md-4 col-lg-3 animate-element animate-stagger">
+<a class="blog-post-link">
+<div class="blog-post-media">
+<div class="blog-post-thumbnail image-thumbnail" style="padding-bottom:66.6%">
+
+<img src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Audio Log" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+
+</div>
+	<audio controls>
+	  <source src="<?= @$this->config->item('assets_url'); ?>audio/Public_advised_on_HIV_test.mp3" type="audio/mpeg">
+	</audio> 
+</div>
+
+<div class="blog-post-content">
+<div class="blog-post-meta">
+<span class="blog-post-cats"><b>Station : </b>XFM <br /><b>Companies Mentioned </b>: Population Services Kenya (PS Kenya) </span>
+
+<span class="blog-post-date"><b>Date </b>: Friday, May 05 2017</span>
+</div>
+<h3 class="blog-post-title">Public advised on HIV test</h3>
+<p>Public has been advised not to be forced to take a HIV test and that the test is voluntary.</p>
+</div>
+</a>
+</article>
+
+<article class="blog-post column col-xs-12 col-sm-6 col-md-4 col-lg-3 animate-element animate-stagger">
+<a class="blog-post-link">
+<div class="blog-post-media">
+<div class="blog-post-thumbnail image-thumbnail" style="padding-bottom:66.6%">
+
+<img src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Audio Log" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+
+</div>
+	<audio controls>
+	  <source src="<?= @$this->config->item('assets_url'); ?>audio/Kenya_rolls_out_Prep_drugs_to_fight_HIV.mp3" type="audio/mpeg">
+	</audio> 
+</div>
+
+<div class="blog-post-content">
+<div class="blog-post-meta">
+<span class="blog-post-cats"><b>Station : </b>Radio Jambo <br /><b>Companies Mentioned </b>: National AIDS & STD Control Programme (NASCOP) , Population Services Kenya (PS Kenya) </span>
+<span class="blog-post-date"><b>Date </b>: Friday, May 05 2017</span>
+</div>
+<h3 class="blog-post-title">Kenya rolls out PreP drugs to fight HIV</h3>
+<p>Kenya launched the use of the Pre-Exposure Prophylactic drugs as one of the ways to reduce the spread of the HIV virus among the married and unmarried people.</p>
+
+</div>
+</a>
+</article>
+
+<article class="blog-post column col-xs-12 col-sm-6 col-md-4 col-lg-3 animate-element animate-stagger">
+<a class="blog-post-link">
+<div class="blog-post-media">
+<div class="blog-post-thumbnail image-thumbnail" style="padding-bottom:66.6%">
+
+<img src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Audio Log" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+
+</div>
+	<audio controls>
+	  <source src="<?= @$this->config->item('assets_url'); ?>audio/NASCOP_says_HIV_tests_is_voluntary.mp3" type="audio/mpeg">
+	</audio> 
+</div>
+
+<div class="blog-post-content">
+<div class="blog-post-meta">
+<span class="blog-post-cats"><b>Station : </b>Radio Jambo <br /><b>Companies Mentioned </b>: National AIDS & STD Control Programme (NASCOP) , Population Services Kenya (PS Kenya)</span>
+<span class="blog-post-date"><b>Date</b> : Friday, May 05 2017</span>
+</div>
+<h3 class="blog-post-title">NASCOP says HIV tests is voluntary</h3>
+<p>NASCOP officer informs Kenyans that they should not be forced to take HIV tests because the test is voluntary.</p>
+
+</div>
+</a>
+</article>
+
+<article class="blog-post column col-xs-12 col-sm-6 col-md-4 col-lg-3 animate-element animate-stagger">
+<a class="blog-post-link">
+<div class="blog-post-media">
+<div class="blog-post-thumbnail image-thumbnail" style="padding-bottom:66.6%">
+
+<img src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Audio Log" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+
+</div>
+	<audio controls>
+	  <source src="<?= @$this->config->item('assets_url'); ?>audio/Govt_to_roll_out_HIV_prevention_drugs.mp3" type="audio/mpeg">
+	</audio> 
+</div>
+
+<div class="blog-post-content">
+<div class="blog-post-meta">
+<span class="blog-post-cats"><b>Station : </b>Pwani FM<br />
+							<b>Companies Mentioned </b>: Population Services Kenya (PS Kenya) </span>
+<span class="blog-post-date"><b>Date</b> : Friday, May 05 2017</span>
+</div>
+<h3 class="blog-post-title">Govt to roll out HIV prevention drugs</h3>
+<p>The Kenyan Government will soon rolled out a drug that will be taken by HIV negative people who are mostly at risk of HIV infection.</p>
+
+</div>
+</a>
+</article>
+
+<article class="blog-post column col-xs-12 col-sm-6 col-md-4 col-lg-3 animate-element animate-stagger">
+<a class="blog-post-link">
+<div class="blog-post-media">
+<div class="blog-post-thumbnail image-thumbnail" style="padding-bottom:66.6%">
+
+<img src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Audio Log" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+
+</div>
+	<audio controls>
+	  <source src="<?= @$this->config->item('assets_url'); ?>audio/Govt_launches_free_HIV_prevention_drugs.mp3" type="audio/mpeg">
+	</audio> 
+</div>
+
+<div class="blog-post-content">
+<div class="blog-post-meta">
+<span class="blog-post-cats"><b>Station : </b>Baraka FM<br />
+							<b>Companies Mentioned </b>: Ministry of Health , Population Services Kenya (PS Kenya) </span>
+<span class="blog-post-date"><b>Date</b> : Friday, May 05 2017</span>
+</div>
+<h3 class="blog-post-title">Govt launches free HIV prevention drugs</h3>
+<p>Government through the ministry of health has launched new medicine that will prevent spread and infection of HIV and AIDS</p>
+
+</div>
+</a>
+</article>
+
+
 </div>
