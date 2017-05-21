@@ -500,4 +500,328 @@
 </article>
 
 
+<article class="blog-post column col-xs-12 col-sm-6 col-md-4 col-lg-3 animate-element animate-stagger">
+<a class="blog-post-link">
+<div class="blog-post-media">
+<div class="blog-post-thumbnail image-thumbnail" style="padding-bottom:66.6%">
+
+<img src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Audio Log" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+
 </div>
+	<audio controls>
+	  <source src="<?= @$this->config->item('assets_url'); ?>audio/Govt_gives_HIV_prevention_medicine_for_free.mp3" type="audio/mpeg">
+	</audio> 
+</div>
+
+<div class="blog-post-content">
+<div class="blog-post-meta">
+<span class="blog-post-cats"><b>Station : </b>Mbaitu FM<br />
+							<b>Companies Mentioned </b>: Population Services Kenya (PS Kenya) </span>
+<span class="blog-post-date"><b>Date</b> : Friday, May 05 2017</span>
+</div>
+<h3 class="blog-post-title">Govt gives HIV prevention medicine for free</h3>
+<p>The government has started giving out the HIV prevention pills for free</p>
+
+</div>
+</a>
+</article>
+
+
+<article class="blog-post column col-xs-12 col-sm-6 col-md-4 col-lg-3 animate-element animate-stagger">
+<a class="blog-post-link">
+<div class="blog-post-media">
+<div class="blog-post-thumbnail image-thumbnail" style="padding-bottom:66.6%">
+
+<img src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Audio Log" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+
+</div>
+	<audio controls>
+	  <source src="<?= @$this->config->item('assets_url'); ?>audio/Govt_launches_new_HIV_AIDS_drug_self_testin_kit.mp3" type="audio/mpeg">
+	</audio> 
+</div>
+
+<div class="blog-post-content">
+<div class="blog-post-meta">
+<span class="blog-post-cats"><b>Station : </b>West FM<br />
+							<b>Companies Mentioned </b>: Population Services Kenya (PS Kenya) </span>
+<span class="blog-post-date"><b>Date</b> : Friday, May 05 2017</span>
+</div>
+<h3 class="blog-post-title">Govt launches new HIV/AIDS drug,self testing kit</h3>
+<p>Government has began distributing new drug and self testing kit to aid HIV/AIDS prevention and treatment interventions</p>
+
+</div>
+</a>
+</article>
+
+
+<article class="blog-post column col-xs-12 col-sm-6 col-md-4 col-lg-3 animate-element animate-stagger">
+<a class="blog-post-link">
+<div class="blog-post-media">
+<div class="blog-post-thumbnail image-thumbnail" style="padding-bottom:66.6%">
+
+<img src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Audio Log" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+
+</div>
+	<audio controls>
+	  <source src="<?= @$this->config->item('assets_url'); ?>audio/Kenya_rolls_out_HIV_prevention_drugs.mp3" type="audio/mpeg">
+	</audio> 
+</div>
+
+<div class="blog-post-content">
+<div class="blog-post-meta">
+<span class="blog-post-cats"><b>Station : </b>Ghetto Radio<br />
+							<b>Companies Mentioned </b>: Population Services Kenya (PS Kenya) </span>
+<span class="blog-post-date"><b>Date</b> : Friday, May 05 2017</span>
+</div>
+<h3 class="blog-post-title">Kenya rolls out HIV prevention drugs</h3>
+<p>The Government has rolled out a drug that will be taken daily by HIV negative people who are mostly at risk of HIV infection</p>
+
+</div>
+</a>
+</article>
+
+
+<article class="blog-post column col-xs-12 col-sm-6 col-md-4 col-lg-3 animate-element animate-stagger">
+<a class="blog-post-link">
+<div class="blog-post-media">
+<div class="blog-post-thumbnail image-thumbnail" style="padding-bottom:66.6%">
+
+<img src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Audio Log" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+
+</div>
+	<audio controls>
+	  <source src="<?= @$this->config->item('assets_url'); ?>audio/Govt_launches_free_HIV_prevention_drugs_2.mp3" type="audio/mpeg">
+	</audio> 
+</div>
+
+<div class="blog-post-content">
+<div class="blog-post-meta">
+<span class="blog-post-cats"><b>Station : </b>ONE FM<br />
+							<b>Companies Mentioned </b>: Population Services Kenya (PS Kenya) </span>
+<span class="blog-post-date"><b>Date</b> : Friday, May 05 2017</span>
+</div>
+<h3 class="blog-post-title">Govt launches free HIV prevention drugs</h3>
+<p>Individuals at substantial on going risk in contracting HIV and AIDS will now be able to access free exposure prophylaxis PREP after the government launched the cost free HIV prevention drugs</p>
+
+</div>
+</a>
+</article>
+
+
+<article class="blog-post column col-xs-12 col-sm-6 col-md-4 col-lg-3 animate-element animate-stagger">
+<a class="blog-post-link">
+<div class="blog-post-media">
+<div class="blog-post-thumbnail image-thumbnail" style="padding-bottom:66.6%">
+
+<img src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Audio Log" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+
+</div>
+	<audio controls>
+	  <source src="<?= @$this->config->item('assets_url'); ?>audio/People_at_risk_of_getting_HIV_can_now_access_PrEP.mp3" type="audio/mpeg">
+	</audio> 
+</div>
+
+<div class="blog-post-content">
+<div class="blog-post-meta">
+<span class="blog-post-cats"><b>Station : </b>BAHARI FM<br />
+							<b>Companies Mentioned </b>: Population Services Kenya (PS Kenya) </span>
+<span class="blog-post-date"><b>Date</b> : Friday, May 05 2017</span>
+</div>
+<h3 class="blog-post-title">People at risk of getting HIV can now access PrEP</h3>
+<p>HIV negative people who are at a higher risk of contrasting HIV can now access Pre-Exposure Prophylaxis</p>
+
+</div>
+</a>
+</article>
+
+
+<article class="blog-post column col-xs-12 col-sm-6 col-md-4 col-lg-3 animate-element animate-stagger">
+<a class="blog-post-link">
+<div class="blog-post-media">
+<div class="blog-post-thumbnail image-thumbnail" style="padding-bottom:66.6%">
+
+<img src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Audio Log" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+
+</div>
+	<audio controls>
+	  <source src="<?= @$this->config->item('assets_url'); ?>audio/Govt_to_roll_out_HIV_prevention_drugs_2.mp3" type="audio/mpeg">
+	</audio> 
+</div>
+
+<div class="blog-post-content">
+<div class="blog-post-meta">
+<span class="blog-post-cats"><b>Station : </b>Classic 105<br />
+							<b>Companies Mentioned </b>: Population Services Kenya (PS Kenya) </span>
+<span class="blog-post-date"><b>Date</b> : Friday, May 05 2017</span>
+</div>
+<h3 class="blog-post-title">Govt to roll out HIV prevention drugs</h3>
+<p>The Kenyan Government will soon rolled out a drug that will be taken by HIV negative people who are mostly at risk of HIV infection</p>
+
+</div>
+</a>
+</article>
+
+<article class="blog-post column col-xs-12 col-sm-6 col-md-4 col-lg-3 animate-element animate-stagger">
+<a class="blog-post-link">
+<div class="blog-post-media">
+<div class="blog-post-thumbnail image-thumbnail" style="padding-bottom:66.6%">
+
+<img src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Audio Log" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+
+</div>
+	<audio controls>
+	  <source src="<?= @$this->config->item('assets_url'); ?>audio/Kenyans_urged_to_acquire_HIV_self_test_kits.mp3" type="audio/mpeg">
+	</audio> 
+</div>
+
+<div class="blog-post-content">
+<div class="blog-post-meta">
+<span class="blog-post-cats"><b>Station : </b>Classic 105<br />
+							<b>Companies Mentioned </b>: Population Services Kenya (PS Kenya) </span>
+<span class="blog-post-date"><b>Date</b> : Friday, May 05 2017</span>
+</div>
+<h3 class="blog-post-title">Kenyans urged to acquire HIV self test kits</h3>
+<p>Bar hostess workers chairperson has urged Kenyans to acquire HIV self test kits</p>
+
+</div>
+</a>
+</article>
+
+
+<article class="blog-post column col-xs-12 col-sm-6 col-md-4 col-lg-3 animate-element animate-stagger">
+<a class="blog-post-link">
+<div class="blog-post-media">
+<div class="blog-post-thumbnail image-thumbnail" style="padding-bottom:66.6%">
+
+<img src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Audio Log" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+
+</div>
+	<audio controls>
+	  <source src="<?= @$this->config->item('assets_url'); ?>audio/NASCOP_says_HIV_tests_are_voluntary.mp3" type="audio/mpeg">
+	</audio> 
+</div>
+
+<div class="blog-post-content">
+<div class="blog-post-meta">
+<span class="blog-post-cats"><b>Station : </b>Classic 105<br />
+							<b>Companies Mentioned </b>: Population Services Kenya (PS Kenya) , National AIDS & STD Control Programme (NASCOP) </span>
+<span class="blog-post-date"><b>Date</b> : Friday, May 05 2017</span>
+</div>
+<h3 class="blog-post-title">NASCOP says HIV tests are voluntary</h3>
+<p>NASCOP officer informs Kenyans that they should not be forced to take HIV tests because they are voluntary</p>
+
+</div>
+</a>
+</article>
+
+
+<article class="blog-post column col-xs-12 col-sm-6 col-md-4 col-lg-3 animate-element animate-stagger">
+<a class="blog-post-link">
+<div class="blog-post-media">
+<div class="blog-post-thumbnail image-thumbnail" style="padding-bottom:66.6%">
+
+<img src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Audio Log" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+
+</div>
+	<audio controls>
+	  <source src="<?= @$this->config->item('assets_url'); ?>audio/NASCOP_launches_PrEP_to_boost_war_against_HIV.mp3" type="audio/mpeg">
+	</audio> 
+</div>
+
+<div class="blog-post-content">
+<div class="blog-post-meta">
+<span class="blog-post-cats"><b>Station : </b>Radio Waumini<br />
+							<b>Companies Mentioned </b>: National AIDS & STD Control Programme (NASCOP) , Population Services Kenya (PS Kenya) </span>
+<span class="blog-post-date"><b>Date</b> : Friday, May 05 2017</span>
+</div>
+<h3 class="blog-post-title">NASCOP launches PrEP to boost war against HIV</h3>
+<p>NASCOP has stepped up its war against the new HIV infections with the launch of Pre-Exposure Prophylaxis treatment</p>
+
+</div>
+</a>
+</article>
+
+
+<article class="blog-post column col-xs-12 col-sm-6 col-md-4 col-lg-3 animate-element animate-stagger">
+<a class="blog-post-link">
+<div class="blog-post-media">
+<div class="blog-post-thumbnail image-thumbnail" style="padding-bottom:66.6%">
+
+<img src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Audio Log" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+
+</div>
+	<audio controls>
+	  <source src="<?= @$this->config->item('assets_url'); ?>audio/HIV_home_test_kits_now_in_Kenya.mp3" type="audio/mpeg">
+	</audio> 
+</div>
+
+<div class="blog-post-content">
+<div class="blog-post-meta">
+<span class="blog-post-cats"><b>Station : </b>Urban Radio<br />
+							<b>Companies Mentioned </b>: Population Services Kenya (PS Kenya) </span>
+<span class="blog-post-date"><b>Date</b> : Friday, May 05 2017</span>
+</div>
+<h3 class="blog-post-title">HIV home test kits now in Kenya</h3>
+<p>As the HIV and Aids epidemic begins to hit more young people, the Government has rolled out an HIV home testing kit</p>
+
+</div>
+</a>
+</article>
+
+
+<article class="blog-post column col-xs-12 col-sm-6 col-md-4 col-lg-3 animate-element animate-stagger">
+<a class="blog-post-link">
+<div class="blog-post-media">
+<div class="blog-post-thumbnail image-thumbnail" style="padding-bottom:66.6%">
+
+<img src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Audio Log" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+
+</div>
+	<audio controls>
+	  <source src="<?= @$this->config->item('assets_url'); ?>audio/Kenyans_urged_to_take_HIV_tests_voluntarily.mp3" type="audio/mpeg">
+	</audio> 
+</div>
+
+<div class="blog-post-content">
+<div class="blog-post-meta">
+<span class="blog-post-cats"><b>Station : </b>Kiss FM<br />
+							<b>Companies Mentioned </b>: Population Services Kenya (PS Kenya) </span>
+<span class="blog-post-date"><b>Date</b> : Friday, May 05 2017</span>
+</div>
+<h3 class="blog-post-title">Kenyans urged to take HIV tests voluntarily</h3>
+<p>Kenyans have being urged not to allow to be be forced to take an HIV test for it is a voluntary test</p>
+
+</div>
+</a>
+</article>
+
+
+<article class="blog-post column col-xs-12 col-sm-6 col-md-4 col-lg-3 animate-element animate-stagger">
+<a class="blog-post-link">
+<div class="blog-post-media">
+<div class="blog-post-thumbnail image-thumbnail" style="padding-bottom:66.6%">
+
+<img src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg" class="preload-image team-image lazy-load-img is-loaded is-ready" alt="Audio Log" data-src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="viba-portfolio-thumbnail preload-image lazy-load-img">
+
+</div>
+	<audio controls>
+	  <source src="<?= @$this->config->item('assets_url'); ?>audio/Sex_workers_happy_over_the_HIV_prevention_pills.mp3" type="audio/mpeg">
+	</audio> 
+</div>
+
+<div class="blog-post-content">
+<div class="blog-post-meta">
+<span class="blog-post-cats"><b>Station : </b>Kiss FM<br />
+							<b>Companies Mentioned </b>: Population Services Kenya (PS Kenya) </span>
+<span class="blog-post-date"><b>Date</b> : Friday, May 05 2017</span>
+</div>
+<h3 class="blog-post-title">Sex workers happy over the HIV prevention pills</h3>
+<p>The government has started giving out the HIV prevention pills for free</p>
+
+</div>
+</a>
+</article>
+
+
+</div>
+
