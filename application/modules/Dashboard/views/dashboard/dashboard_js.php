@@ -252,6 +252,10 @@
 
 	});
 
+	$('#auth-logout').click(function(){
+		gapi.analytics.auth.signOut();
+	});
+
 	function getViewsData(){
 		var numberBox = $('.google_numbers');
 

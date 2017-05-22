@@ -79,7 +79,7 @@ class Map extends MY_Controller{
 		$this->db->where('p.pharmacy_latitude IS NOT NULL', NULL, FALSE);
 		$this->db->where('p.pharmacy_longitude IS NOT NULL', NULL, FALSE);
 		$this->db->from('pharmacies p');
-		$this->db->join('county c', 'c.id = p.county_id');
+		$this->db->join('county c', 'c.id = p.county_id', 'left');
 		if ($this->input->post('county')) {
 			$county = $this->input->post('county');
 			$this->db->where('c.id', $county);

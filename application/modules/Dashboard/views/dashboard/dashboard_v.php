@@ -337,6 +337,7 @@ gapi.analytics.ready(function() {
 
 			<div class="panel-footer">
 				<div id="embed-api-auth-container"></div>
+				<button id = 'auth-logout'>Logout</button>
 			</div>
 		</div>	
 	</div>
