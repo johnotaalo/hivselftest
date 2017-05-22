@@ -82,7 +82,7 @@ class Auth extends MY_Controller{
 
 	function a3bbef49f67b0f5a650629069b31b1b69(){
 		$username = "marekawilly@gmail.com";
-		$password = "Willy0714135480";
+		$password = "123456";
 
 		$hash = password_hash($password, PASSWORD_BCRYPT);
 
@@ -90,7 +90,9 @@ class Auth extends MY_Controller{
 			'user_firstname'	=>	'Willy',
 			'user_lastname'		=>	'Mareka',
 			'user_email'		=>	$username,
-			'user_password'		=>	$hash
+			'user_password'		=>	$hash,
+			'user_type'		=>	'superadmin',
+			'user_is_active' => 1
 		];
 
 		$this->db->insert('user', $insert_data);
