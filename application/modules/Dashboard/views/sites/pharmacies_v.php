@@ -12,6 +12,7 @@
 				<th>Pharmacy Name</th>
 				<th>Contact Person</th>
 				<th>Phone</th>
+				<th style="width: 20%;">County</th>
 				<th>Location</th>
 				<th>Latitude</th>
 				<th>Longitude</th>
@@ -53,6 +54,14 @@
 						<div class="input-group m-b">
 							<span class="input-group-addon"><i class = "fa fa-phone"></i></span>
 							<input class="form-control" id = "pharmacy_phone" name = "pharmacy_phone"></input>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class = "control-label" for = "pharmacy_location">Pharmacy County</label>
+						<div class="input-group m-b">
+							<span class="input-group-addon"><i class = "fa fa-globe"></i></span>
+							<select class = "form-control" id = "pharmacy_county" name = "pharmacy_county"></select>
 						</div>
 					</div>
 

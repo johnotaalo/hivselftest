@@ -217,6 +217,7 @@ class Surveys extends DashboardController{
 		$response['data']['gender_counts'] = $gender_data;
 		$response['data']['gendernos'] = $gendernos;
 		$response['data']['monthly_count'] = $monthly_count_data;
+		$response['data']['median_age'] = $this->M_Dashboard->getSurveyMedianAge()->median_age;
 
 		//echo "<pre>";print_r($response);echo "</pre>";die();
 

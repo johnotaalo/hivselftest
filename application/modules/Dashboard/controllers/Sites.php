@@ -10,7 +10,7 @@ class Sites extends DashboardController{
 	// pharmacies sub section
 
 	function pharmacies(){
-		$js_data['counties'] = $this->getCounties();
+		$js_data['counties'] = $this->getCounties(true);
 		$this->assets
 				->addCss('dashboard/vendor/datatables.net-bs/css/dataTables.bootstrap.min.css')
 				->addCss('plugin/bootstrap3-editable/css/bootstrap-editable.css')
@@ -32,6 +32,24 @@ class Sites extends DashboardController{
 					->adminTemplate();
 	}
 
+	function getPharmacyCountyListing(){
+		$option_string = "";
+		$counties = $this->db->get('county')->result();
+
+		if($counties){
+			foreach ($counties as $county) {
+				$coordinates_json = $county->county_coordinates;
+				$coordinates_array = json_decode($coordinates_json);
+				$coordinates = $coordinates_array[0][0][1];
+
+				$option_string .= "<option data-lng = '{$coordinates[0]}' data-lat = '{$coordinates[1]}' value = '{$county->id}'>{$county->county_name}</option>";
+			}
+		}
+
+
+		return $option_string;
+	}
+
 	function addPharmacy(){
 		if ($this->input->post()) {
 			$insertData = [
@@ -40,7 +58,8 @@ class Sites extends DashboardController{
 				'pharmacy_phone'	=>	$this->input->post('pharmacy_phone'),
 				'pharmacy_location'	=>	$this->input->post('pharmacy_location'),
 				'pharmacy_longitude'	=>	$this->input->post('pharmacy_longitude'),
-				'pharmacy_latitude'	=>	$this->input->post('pharmacy_latitude')
+				'pharmacy_latitude'	=>	$this->input->post('pharmacy_latitude'),
+				'county_id'			=>	$this->input->post('pharmacy_county')
 			];
 
 			$insert = $this->db->insert('pharmacies', $insertData);

@@ -29,9 +29,10 @@ class M_API extends CI_Model{
 
 	function searchPharmacy($search_value = NULL, $limit = NULL, $offset = NULL, $order = NULL, $order_direction = NULL){
 		if (isset($search_value)) {
-			$this->db->like('pharmacy_name', $search_value);
-			$this->db->or_like('pharmacy_contact_person', $search_value);
-			$this->db->or_like('pharmacy_location', $search_value);
+			$this->db->like('p.pharmacy_name', $search_value);
+			$this->db->or_like('p.pharmacy_contact_person', $search_value);
+			$this->db->or_like('p.pharmacy_location', $search_value);
+			$this->db->or_like('c.county_name', $search_value);
 		}
 
 		if (isset($limit) && isset($offset) && $limit != -1) {
@@ -42,7 +43,11 @@ class M_API extends CI_Model{
 			$this->db->order_by($order, $order_direction);
 		}
 
-		$query = $this->db->get("pharmacies");
+		$this->db->select('p.*, c.county_name');
+		$this->db->from('pharmacies p');
+		$this->db->join('county c', 'c.id = p.county_id', 'left');
+
+		$query = $this->db->get();
 
 		return $query->result();
 	}

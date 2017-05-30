@@ -52,6 +52,7 @@
 			$('#gender_number_counter_other').text(res.data.gendernos.Other);
 
 			$('#overall_average_age').text(res.data.overall_average);
+			$('#median_age').text(res.data.median_age);
 			$("#age_counter_male").text(res.data.average_ages.Male);
 			$("#age_counter_female").text(res.data.average_ages.Female);
 			$("#age_counter_other").text(res.data.average_ages.Other);

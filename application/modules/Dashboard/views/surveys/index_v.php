@@ -1,5 +1,5 @@
 <div class="row">
-	<div class="col-lg-3">
+	<div class="col-lg-4">
 		<div class="hpanel stats">
 			<div class="panel-body text-center h-200">
 				<i class="pe-7s-display1 fa-4x"></i>
@@ -16,14 +16,14 @@
 						<span id = "month_counter_female">0</span> <br/>Female
 					</div>
 					<div class="col-xs-4">
-						<span id = "month_counter_other">0</span> <br/>Other
+						<span id = "month_counter_other">0</span> <br/>Not Specified
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="col-lg-3">
+	<div class="col-lg-4">
 		<div class="hpanel stats">
 			<div class="panel-body h-200">
 				<div class="stats-title pull-left">
@@ -46,14 +46,14 @@
 						<span id = "gender_number_counter_female">0</span> <br/>Female
 					</div>
 					<div class="col-xs-4">
-						<span id = "gender_number_counter_other">0</span> <br/>Other
+						<span id = "gender_number_counter_other">0</span> <br/>Not Specified
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="col-lg-3">
+	<div class="col-lg-4">
 		<div class="hpanel stats">
 			<div class="panel-body text-center h-200">
 				<i class="pe-7s-id fa-4x"></i>
@@ -70,7 +70,7 @@
 						<span id = "age_counter_female">0</span> <br/>Female
 					</div>
 					<div class="col-xs-4">
-						<span id = "age_counter_other">0</span> <br/>Other
+						<span id = "age_counter_other">0</span> <br/>Not Specified
 					</div>
 				</div>
 			</div>
@@ -85,18 +85,15 @@
 				<h3 class="font-extra-bold no-margins text-success" id = "preferred_kit_name"><?= @$preferred_kit->kit; ?></h3>
 				<small>Most Preferred kit</small>
 			</div>
-			<div class="panel-footer text-center">
-				<!-- <div class="row">
-					<div class="col-xs-4">
-						<span id = "age_counter_male">0</span> <br/>Male
-					</div>
-					<div class="col-xs-4">
-						<span id = "age_counter_female">0</span> <br/>Female
-					</div>
-					<div class="col-xs-4">
-						<span id = "age_counter_other">0</span> <br/>Other
-					</div>
-				</div> -->
+		</div>
+	</div>
+	<div class="col-lg-3">
+		<div class="hpanel stats">
+			<div class="panel-body text-center h-200">
+				<i class="pe-7s-id fa-4x"></i>
+				<h1 class="m-xs"><span id = "median_age">25</span> Years</h1>
+				<h3 class="font-extra-bold no-margins text-success">Median Age</h3>
+				<small>The median age is calculated as per the surveys</small>
 			</div>
 		</div>
 	</div>
@@ -112,8 +109,8 @@
 				<table class="table table-bordered">
 					<thead>
 						<th>Kit Name</th>
-						<th>Youngest</th>
 						<th>Oldest</th>
+						<th>Youngest</th>
 					</thead>
 					<tbody>
 						<?= @$table['age_kit_table']; ?>

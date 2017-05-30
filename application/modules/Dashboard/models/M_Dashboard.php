@@ -42,4 +42,24 @@ class M_Dashboard extends CI_Model{
 
 		return $this->db->get()->row();
 	}
+
+	function getSurveyMedianAge(){
+		$sql = "SELECT avg(t1.age) as median_age FROM (
+		SELECT @rownum:=@rownum+1 as `row_number`, s.age
+		  FROM survey s,  (SELECT @rownum:=0) r
+		  WHERE 1
+		  -- put some where clause here
+		  ORDER BY s.age
+		) as t1, 
+		(
+		  SELECT count(*) as total_rows
+		  FROM survey s
+		  WHERE 1
+		  -- put same where clause here
+		) as t2
+		WHERE 1
+		AND t1.row_number in ( floor((total_rows+1)/2), floor((total_rows+2)/2) );";
+
+		return $this->db->query($sql)->row();
+	}
 }
