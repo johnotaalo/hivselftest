@@ -307,6 +307,15 @@ gapi.analytics.ready(function() {
 						</li>
 					</ul>
 					<div id="view-selector-container"></div>
+					<div class = "row">
+						<div class = "col-md-8">
+						</div>
+						<div class = "col-md-4">
+							<div class = "form-group">
+								<input type = 'text' name = 'date-ranges' class = 'form-control'/>
+							</div>
+						</div>
+					</div>
 				</header>
 				<div class="row">
 					<div class="col-md-6">

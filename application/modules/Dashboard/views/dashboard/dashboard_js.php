@@ -44,6 +44,7 @@
 		viewSelector.on('viewChange', function(data) {
 			var title = document.getElementById('view-name');
 			title.textContent = data.property.name + ' (' + data.view.name + ')';
+			$('#view-selector-container').hide();
 
 			// Start tracking active users for this view.
 			activeUsers.set(data).execute();

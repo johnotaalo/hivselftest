@@ -12,11 +12,14 @@ class Dashboard extends DashboardController{
 
 		$this->assets
 					->addJs('https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js', true)
+					->addJs('dashboard/vendor/daterangepicker/daterangepicker.js')
 					->addJs('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js', true)
 					->addJs('dashboard/google-analytics/view-selector2.js')
 					->addJs('dashboard/google-analytics/date-range-selector.js')
 					->addJs('dashboard/google-analytics/active-users.js');
-		$this->assets->addCss('dashboard/google-analytics/chartjs-visualizations.css');
+		$this->assets
+				->addCss('dashboard/vendor/daterangepicker/daterangepicker.css')
+				->addCss('dashboard/google-analytics/chartjs-visualizations.css');
 		$this->assets->setJavascript('Dashboard/dashboard/dashboard_js');
 		$this->template
 				->setPartial('Dashboard/dashboard/dashboard_v', $data)
