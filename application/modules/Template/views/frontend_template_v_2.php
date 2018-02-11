@@ -14,11 +14,11 @@
 		</script>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name = "url" property="og:url"           content="http://<?= @$_SERVER['SERVER_NAME']; ?>/" />
-		<meta name = "type" property="og:type"          content="website" />
-		<meta name = "title" property="og:title"         content="BE SELF SURE" />
-		<meta name = "description" property="og:description"   content="The best thing one can do is to be self sure. We need you to know your status today" />
-		<meta name = "image" property="og:image"         content="http://www.besure.co.ke/assets/img/banners/banner-1600x900-4-purple.png" />
+		<meta property="og:url"           content="http://<?= @$_SERVER['SERVER_NAME']; ?>/" />
+		<meta property="og:type"          content="website" />
+		<meta property="og:title"         content="BE SELF SURE" />
+		<meta property="og:description"   content="The best thing one can do is to be self sure. We need you to know your status today" />
+		<meta property="og:image"         content="http://www.besure.co.ke/assets/img/banners/banner-1600x900-4-purple.png" />
 
 		<title>HIV Self Test :: Home</title>
 
