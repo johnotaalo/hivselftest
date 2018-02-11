@@ -16,6 +16,7 @@
 				<th>Location</th>
 				<th>Latitude</th>
 				<th>Longitude</th>
+				<th>Actions</th>
 			</thead>
 			<tbody></tbody>
 		</table>

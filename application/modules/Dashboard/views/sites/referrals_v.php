@@ -13,6 +13,7 @@
 				<th style="width: 15%;">Longitude</th>
 				<th style="width: 15%;">Nearest Town</th>
 				<th style="width: 15%;">Description</th>
+				<th>Actions</th>
 			</thead>
 			<tbody></tbody>
 		</table>

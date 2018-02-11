@@ -41,7 +41,8 @@ class API extends MY_Controller{
 					"<span class = 'facility_latitude' data-type = 'text' data-pk = '{$facility->uuid}' data-url = '".base_url('Dashboard/API/updateFacility')."' data-name = 'latitude' data-title = 'Enter the latitude of the facility'>$facility->latitude</span>",
 					"<span class = 'facility_longitude' data-type = 'text' data-pk = '{$facility->uuid}' data-url = '".base_url('Dashboard/API/updateFacility')."' data-name = 'longitude' data-title = 'Enter the longitude of the facility'>$facility->longitude</span>",
 					"<span class = 'facility_nearest_town' data-type = 'text' data-pk = '{$facility->uuid}' data-url = '".base_url('Dashboard/API/updateFacility')."' data-name = 'nearest_town' data-title = 'Enter the nearest town of the facility'>$facility->nearest_town</span>",
-					"<span class = 'facility_description' data-type = 'text' data-pk = '{$facility->uuid}' data-url = '".base_url('Dashboard/API/updateFacility')."' data-name = 'description' data-title = 'Enter the description of the facility'>$facility->description</span>"
+					"<span class = 'facility_description' data-type = 'text' data-pk = '{$facility->uuid}' data-url = '".base_url('Dashboard/API/updateFacility')."' data-name = 'description' data-title = 'Enter the description of the facility'>$facility->description</span>",
+					"<a class = 'btn btn-danger btn-xs remove-facility' data-id = '{$facility->uuid}'><i class = 'fa fa-trash-o'></i>&nbsp;Remove</a>"
 				];
 
 				$counter++;
@@ -95,7 +96,8 @@ class API extends MY_Controller{
 					"<span data-value = '{$pharmacy->county_id}' class = 'sel_pharmacy_county' data-type = 'select2' data-pk = '{$pharmacy->id}' data-url = '".base_url('Dashboard/API/updatePharmacy')."' data-name = 'county_id' data-title = 'Select a County'>{$pharmacy->county_name}</span>",
 					"<span data-type = 'text' class = 'pharmacy_location' data-pk = '{$pharmacy->id}' data-url = '".base_url('Dashboard/API/updatePharmacy')."' data-name = 'pharmacy_location' data-title = 'Enter Pharmacy Location'>$pharmacy->pharmacy_location</span>",
 					"<span data-type = 'text' class = 'pharmacy_latitude' data-pk = '{$pharmacy->id}' data-url = '".base_url('Dashboard/API/updatePharmacy')."' data-name = 'pharmacy_latitude' data-title = 'Enter Pharmacy Latitude'>$pharmacy->pharmacy_latitude</span>",
-					"<span data-type = 'text' class = 'pharmacy_longitude' data-pk = '{$pharmacy->id}' data-url = '".base_url('Dashboard/API/updatePharmacy')."' data-name = 'pharmacy_longitude' data-title = 'Enter Pharmacy Longitude'>$pharmacy->pharmacy_longitude</span>"
+					"<span data-type = 'text' class = 'pharmacy_longitude' data-pk = '{$pharmacy->id}' data-url = '".base_url('Dashboard/API/updatePharmacy')."' data-name = 'pharmacy_longitude' data-title = 'Enter Pharmacy Longitude'>$pharmacy->pharmacy_longitude</span>",
+					"<a class = 'btn btn-danger btn-xs remove' data-id = '{$pharmacy->id}'><i class = 'fa fa-trash-o'></i>&nbsp;Remove</a>"
 				];
 
 				$counter++;

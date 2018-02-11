@@ -74,7 +74,65 @@
 	$('#pharmacy_county').select2({
 		data: <?= @$counties; ?>
 	});
-	$('#add-pharmacy').click(function(){
-		
+	$('#add-pharmacy').click(function(){	
+	});
+
+	$('#facilities_list').on('click', '.remove-facility', function(){
+		var id = $(this).attr('data-id');
+		swal({
+			title: "Are you sure?!",
+			text: "By removing this entry, the data will be completely lost. Continue?",
+			type: "info",
+			showCancelButton: true,
+			closeOnConfirm: false,
+			showLoaderOnConfirm: false,
+		}, function(){
+			$.ajax({
+				'url' 		: 	"<?= @base_url('Dashboard/Sites/removeFacility/'); ?>",
+				'method'	:	"POST",
+				'data'		:	{
+					'id'		:	id,
+					'confirmed' :	true
+				},
+				success: function(res){
+					swal('Success', 'Successfully removed referral site', 'success');
+					location.reload();
+				},
+				error : function(xhr, status, error){
+					swal('Error', 'There was an error:' + xhr.responseJSON.message, 'error');
+				}
+			});
+			// window.location = "/Dashboard/Sites/remove/" + id;
+		});
+	});
+
+	$('#pharmacy_list').on('click', '.remove', function(){
+		var id = $(this).attr('data-id');
+		swal({
+			title: "Are you sure?!",
+			text: "By removing this entry, the data will be completely lost. Continue?",
+			type: "info",
+			showCancelButton: true,
+			closeOnConfirm: false,
+			showLoaderOnConfirm: false,
+		}, function(){
+			$.ajax({
+				'url' 		: 	"<?= @base_url('Dashboard/Sites/remove/'); ?>",
+				'method'	:	"POST",
+				'data'		:	{
+					'id'		:	id,
+					'confirmed' :	true
+				},
+				success: function(res){
+					swal('Success', 'Successfully removed pharmacy', 'success');
+					location.reload();
+				},
+				error : function(xhr, status, error){
+					swal('Error', 'There was an error:' + xhr.responseJSON.message, 'error');
+				}
+			});
+			// window.location = "/Dashboard/Sites/remove/" + id;
+		});
+
 	});
 </script>

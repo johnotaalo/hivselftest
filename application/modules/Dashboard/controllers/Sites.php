@@ -12,11 +12,13 @@ class Sites extends DashboardController{
 	function pharmacies(){
 		$js_data['counties'] = $this->getCounties(true);
 		$this->assets
+				->addCss('dashboard/vendor/sweetalert/lib/sweet-alert.css')
 				->addCss('dashboard/vendor/datatables.net-bs/css/dataTables.bootstrap.min.css')
 				->addCss('plugin/bootstrap3-editable/css/bootstrap-editable.css')
 				->addCss('plugin/select2/css/select2.min.css');
 
 		$this->assets
+				->addJs('dashboard/vendor/sweetalert/lib/sweet-alert.min.js')
 				->addJs('plugin/select2/js/select2.full.min.js')
 				->addJs('dashboard/vendor/datatables/media/js/jquery.dataTables.min.js')
 				->addJs('dashboard/vendor/datatables.net-bs/js/dataTables.bootstrap.min.js')
@@ -50,6 +52,60 @@ class Sites extends DashboardController{
 		return $option_string;
 	}
 
+	function remove(){
+		$response = [];
+		if($this->input->is_ajax_request()){
+			if($this->input->post()){
+				if($this->input->post('confirmed')){
+					$id = $this->input->post('id');
+					if($this->db->delete('pharmacies', ['id'=>$id])){
+						$response['message'] = "Successfully removed pharmacy id {$id}";
+					}else{
+						$this->output->set_status_header(404);
+						$response['message'] = "Could not delete this pharmacy";
+					}
+				}else{
+					$this->output->set_status_header(400);
+					$response['message'] = 'This request cannnot be confirmed';
+				}
+			}else{
+				$this->output->set_status_header(405);
+				$response['message'] = 'This method is not allowed';
+			}
+		}else{
+			$this->output->set_status_header(405);
+			$response['message'] = 'You are not allowed to access this directly from the browser';
+		}
+		return $this->output->set_content_type('application/json')->set_output(json_encode($response));
+	}
+
+	function removeFacility(){
+		$response = [];
+		if($this->input->is_ajax_request()){
+			if($this->input->post()){
+				if($this->input->post('confirmed')){
+					$id = $this->input->post('id');
+					if($this->db->delete('facilities', ['uuid'=>$id])){
+						$response['message'] = "Successfully removed referral site id {$id}";
+					}else{
+						$this->output->set_status_header(404);
+						$response['message'] = "Could not delete this referral site";
+					}
+				}else{
+					$this->output->set_status_header(400);
+					$response['message'] = 'This request cannnot be confirmed';
+				}
+			}else{
+				$this->output->set_status_header(405);
+				$response['message'] = 'This method is not allowed';
+			}
+		}else{
+			$this->output->set_status_header(405);
+			$response['message'] = 'You are not allowed to access this directly from the browser';
+		}
+		return $this->output->set_content_type('application/json')->set_output(json_encode($response));
+	}
+
 	function addPharmacy(){
 		if ($this->input->post()) {
 			$insertData = [
@@ -76,11 +132,13 @@ class Sites extends DashboardController{
 	function referrals(){
 		$js_data['counties'] = $this->getCounties();
 		$this->assets
+				->addCss('dashboard/vendor/sweetalert/lib/sweet-alert.css')
 				->addCss('dashboard/vendor/datatables.net-bs/css/dataTables.bootstrap.min.css')
 				->addCss('plugin/bootstrap3-editable/css/bootstrap-editable.css')
 				->addCss('plugin/select2/css/select2.min.css');
 
 		$this->assets
+				->addJs('dashboard/vendor/sweetalert/lib/sweet-alert.min.js')
 				->addJs('plugin/select2/js/select2.full.min.js')
 				->addJs('dashboard/vendor/datatables/media/js/jquery.dataTables.min.js')
 				->addJs('dashboard/vendor/datatables.net-bs/js/dataTables.bootstrap.min.js')
