@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="title" content = "Some content"/>
 
 	<title>HIV Self-Test::<?= @$pagetitle; ?></title>
 	<link rel="stylesheet" href="<?= @$assets_url; ?>dashboard/vendor/fontawesome/css/font-awesome.css" />
