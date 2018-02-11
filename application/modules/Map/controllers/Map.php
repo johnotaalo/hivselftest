@@ -127,4 +127,10 @@ class Map extends MY_Controller{
 			return $this->output->set_content_type('application/json')->set_output(json_encode($response));
 		}
 	}
+
+	function getMetaData(){
+		$tags = get_meta_tags('http://www.stackoverflow.com/');
+		echo "<pre>";
+		print_r($tags);
+	}
 }
