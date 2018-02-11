@@ -4,10 +4,22 @@ class Dashboard extends DashboardController{
 	function __construct()
 	{
 		parent::__construct();
+		$this->load->library('GAnalytics');
 	}
 
 	function index(){
 		$data['stats']	= $this->getInHouseCounters();
+
+		$this->assets
+					->addJs('https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js', true)
+					->addJs('dashboard/vendor/daterangepicker/daterangepicker.js')
+					->addJs('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js', true)
+					->addJs('dashboard/google-analytics/view-selector2.js')
+					->addJs('dashboard/google-analytics/date-range-selector.js')
+					->addJs('dashboard/google-analytics/active-users.js');
+		$this->assets
+				->addCss('dashboard/vendor/daterangepicker/daterangepicker.css')
+				->addCss('dashboard/google-analytics/chartjs-visualizations.css');
 		$this->assets->setJavascript('Dashboard/dashboard/dashboard_js');
 		$this->template
 				->setPartial('Dashboard/dashboard/dashboard_v', $data)
@@ -15,7 +27,6 @@ class Dashboard extends DashboardController{
 	}
 
 	function getSessions(){
-		$this->load->library('GAnalytics');
 		$sessions = $this->ganalytics->getResults();
 
 		$response = [
@@ -40,22 +51,5 @@ class Dashboard extends DashboardController{
 			'pharmacies'	=>	$pharmacies,
 			'referrals'		=>	$referrals
 		];
-	}
-
-	function addUser(){
-		if ($this->input->post()) {
-
-
-			$insertData = [
-				'user_firstname'	=>	$this->input->post('first_name'),
-				'user_lastname'	=>	$this->input->post('last_name'),
-				'user_email'	=>	$this->input->post('email'),
-				'user_password'	=>	password_hash($this->input->post('password'), PASSWORD_BCRYPT)
-			];
-
-			$this->db->insert('user', $insertData);
-
-			redirect('Dashboard');
-		}
 	}
 }

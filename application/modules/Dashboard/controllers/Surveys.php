@@ -11,14 +11,110 @@ class Surveys extends DashboardController{
 	}
 
 	function index(){
+
+		$data = [
+			'preferred_kit'		=>	$this->getMostPreferredKit(),
+			'table'				=>	$this->createAgeKitTable(),
+			'gender_header'		=>	$this->createGenderHeader(),
+			'totals'			=>	$this->getInHouseSurveyCounters()
+		];
+
 		$this->assets
+				->addCss('dashboard/vendor/datatables.net-bs/css/dataTables.bootstrap.min.css');
+		$this->assets
+				->addJs('dashboard/vendor/datatables/media/js/jquery.dataTables.min.js')
+				->addJs('dashboard/vendor/datatables.net-bs/js/dataTables.bootstrap.min.js')
+				->addJs('dashboard/vendor/datatables.net-buttons/js/buttons.html5.min.js')
+				->addJs('dashboard/vendor/datatables.net-buttons/js/buttons.print.min.js')
+				->addJs('dashboard/vendor/datatables.net-buttons/js/dataTables.buttons.min.js')
+				->addJs('dashboard/vendor/datatables.net-buttons-bs/js/buttons.bootstrap.min.js')
 				->addJs('dashboard/vendor/jquery-flot/jquery.flot.js')
 				->addJs('dashboard/vendor/jquery-flot/jquery.flot.pie.js')
 				->addJs('dashboard/vendor/chartjs/Chart.min.js')
 				->setJavascript('Dashboard/surveys/survey_js');
 		$this->template
-				->setPartial('Dashboard/surveys/index_v')
+				->setPartial('Dashboard/surveys/index_v', $data)
 				->adminTemplate();
+	}
+
+	function getTotalSurveys(){
+		$query = $this->db->get('survey');
+	}
+
+	function getMostPreferredKit(){
+		$numbers = $this->M_Dashboard->getPreferredKit();
+
+		if ($numbers) {
+			return $numbers;
+		}
+
+		show_404();
+	}
+
+	function createAgeKitTable(){
+		$age_kit_numbers = $this->M_Dashboard->getAgeKitNumbers();
+		$table = [];
+		$age_kit_table = $gender_kit_table = '';
+		if ($age_kit_numbers) {
+			foreach ($age_kit_numbers as $number) {
+				$age_kit_table .= "<tr>
+					<td>$number->kit</td>
+					<td>$number->oldest</td>
+					<td>$number->youngest</td>
+				</tr>";
+			}
+		}
+
+		$kits = $this->db->get('kits')->result();
+		$gender = $this->db->get('gender')->result();
+		if ($kits) {
+			foreach ($kits as $kit) {
+				$gender_kit_table .= '<tr>';
+				$gender_kit_table .= "<td>{$kit->kit}</td>";
+				foreach ($gender as $sex) {
+					$gender_kit_numbers = $this->M_Dashboard->getGenderKitNumbers($kit->id, $sex->id);
+					if($gender_kit_numbers){
+						$gender_kit_table .= "<td>{$gender_kit_numbers->numbers}</td>";
+					}else{
+						$gender_kit_table .= "<td>0</td>";
+					}
+				}				
+				$gender_kit_table .= '</tr>';
+			}
+		}
+
+		$table = [
+			'age_kit_table' 	=> $age_kit_table,
+			'gender_kit_table'	=>	$gender_kit_table
+		];
+
+		return $table;
+	}
+
+	function createGenderHeader(){
+		$gender = $this->db->get('gender')->result();
+		$gender_header = "";
+		foreach ($gender as $sex) {
+			$gender_header .= "<th>{$sex->gender}</th>";
+		}
+
+		return $gender_header;
+	}
+
+	function getInHouseSurveyCounters(){
+		$surveys = $this->db->get('survey')->num_rows();
+
+		$this->db->where('gender', 1);
+		$male_count = $this->db->get('survey')->num_rows();
+
+		$this->db->where('gender', 2);
+		$female_count = $this->db->get('survey')->num_rows();
+
+		return [
+			'surveys'		=>	$surveys,
+			'males'			=>	$male_count,
+			'females'		=>	$female_count
+		];
 	}
 
 	function getAnalyticsData(){
@@ -90,14 +186,16 @@ class Surveys extends DashboardController{
 		$to_date = date('Y-m-d');
 
 		$sql = "SELECT 
-					DATE_FORMAT(date_of_entry, '%M') as `month`,
+					DATE_FORMAT(date_of_entry, '%M %Y') as `month`,
 					count(id) as surveys
 				FROM survey
 				GROUP BY DATE_FORMAT(date_of_entry, '%M %Y')
 				ORDER BY date_of_entry ASC
-				LIMIT 6;";
+				LIMIT 12;";
 
 		$monthly_data = $this->db->query($sql)->result();
+		
+		// echo "<pre>";print_r($monthly_data);die;
 
 		if ($monthly_data) {
 			$outer_key = 0;
@@ -126,6 +224,9 @@ class Surveys extends DashboardController{
 		$response['data']['gender_counts'] = $gender_data;
 		$response['data']['gendernos'] = $gendernos;
 		$response['data']['monthly_count'] = $monthly_count_data;
+		$response['data']['median_age'] = $this->M_Dashboard->getSurveyMedianAge()->median_age;
+
+		//echo "<pre>";print_r($response);echo "</pre>";die();
 
 		return $this->output->set_content_type('application/json')->set_output(json_encode($response, JSON_NUMERIC_CHECK));
 	}

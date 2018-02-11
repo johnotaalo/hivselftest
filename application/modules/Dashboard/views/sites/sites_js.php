@@ -1,3 +1,8 @@
+<style type="text/css">
+	.select2, .editable-input{
+		width: 100% !important;
+	}
+</style>
 <script type="text/javascript">
 	// $('#wrapper div.content').removeClass('animate-panel');
 	$.fn.editable.defaults.mode = 'inline';
@@ -28,6 +33,8 @@
 		fnRowCallback: function( nRow, mData, iDisplayIndex){
 			$('.facility_latitude', nRow).editable();
 			$('.facility_longitude', nRow).editable();
+			$('.facility_nearest_town', nRow).editable();
+			$('.facility_description', nRow).editable();
 			$('.facility_county', nRow).editable({
 				source: <?= @$counties; ?>
 			});
@@ -57,10 +64,16 @@
 		},
 		fnRowCallback: function( nRow, mData, iDisplayIndex){
 			$('span[class^="pharmacy_"]', nRow).editable();
+			$('span.sel_pharmacy_county', nRow).editable({
+				source: <?= @$counties; ?>
+			});
 			return nRow;
 		}
 	});
 
+	$('#pharmacy_county').select2({
+		data: <?= @$counties; ?>
+	});
 	$('#add-pharmacy').click(function(){
 		
 	});

@@ -3,6 +3,8 @@
 	.custom-css-1487873249987{padding:50px 40px}
 	.custom-css-1488431315627{padding-bottom:90px;background-color:#fff}
 	.custom-css-1486607221785{padding-top:40px;padding-bottom:40px;background-color:#9373de}
+	.error{color: red;}
+	.fixedactionbuttons{position: fixed;}
 </style>
 <div id="content" class="site-content container">
 	<div id="primary" class="content-area">
@@ -41,7 +43,7 @@
 																		<h1 class="aslider-title aslider-animation-element is-animated" data-aslider-element-delay="200"><span data-swiper-parallax-percentage="-3" data-swiper-parallax="-40" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">SMS OR CALL THE HELPLINE ON 1190 FROM YOUR SAFARICOM LINE</span></h1>
 																		<p class="aslider-description aslider-animation-element is-animated" data-aslider-element-delay="300"><span data-swiper-parallax-percentage="-6" data-swiper-parallax="-81" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">ANY TIME FROM 8AM TO 8PM</span></p>
 																		<div class="aslider-buttons-wrapper aslider-animation-element is-animated" data-aslider-element-delay="400">
-																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a href="<?= @base_url('Home/videos');?>" class="button aslider-button aslider-button-primary"><span>Get Started</span></a></div>
+																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a href="<?= @base_url('Map');?>" class="button aslider-button aslider-button-primary"><span>Get a Kit</span></a></div>
 																		</div>
 																	</div>
 																</div>
@@ -87,11 +89,11 @@
 															<div class="aslider-content-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale(1, 1);">
 																<div class="aslider-content">
 																	<div class="aslider-content-inner">
-																		<h3 class="aslider-subtitle aslider-animation-element" data-aslider-element-delay="100"><span data-swiper-parallax-percentage="-0" data-swiper-parallax="0" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">The HIV Self Testing Kit</span></h3>
-																		<h1 class="aslider-title aslider-animation-element" data-aslider-element-delay="200"><span data-swiper-parallax-percentage="-3" data-swiper-parallax="-40" style="transform: translate3d(40px, 0px, 0px); transition-duration: 0ms;">Be Self Sure</span></h1>
-																		<p class="aslider-description aslider-animation-element" data-aslider-element-delay="300"><span data-swiper-parallax-percentage="-6" data-swiper-parallax="-81" style="transform: translate3d(81px, 0px, 0px); transition-duration: 0ms;"><a href='<?= @base_url("Outlets");?>'>Now available here</a></span></p>
+																		<h3 class="aslider-subtitle aslider-animation-element is-animated" data-aslider-element-delay="100"><span data-swiper-parallax-percentage="-0" data-swiper-parallax="0" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">GET IN TOUCH</span></h3>
+																		<h1 class="aslider-title aslider-animation-element is-animated" data-aslider-element-delay="200"><span data-swiper-parallax-percentage="-3" data-swiper-parallax="-40" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">SMS OR CALL THE HELPLINE ON 1190 FROM YOUR SAFARICOM LINE</span></h1>
+																		<p class="aslider-description aslider-animation-element is-animated" data-aslider-element-delay="300"><span data-swiper-parallax-percentage="-6" data-swiper-parallax="-81" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">ANY TIME FROM 8AM TO 8PM</span></p>
 																		<div class="aslider-buttons-wrapper aslider-animation-element is-animated" data-aslider-element-delay="400">
-																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a href="<?= @base_url('Home/videos');?>" class="button aslider-button aslider-button-primary"><span>Get Started</span></a></div>
+																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a href="<?= @base_url('Home/videos');?>" class="button aslider-button aslider-button-primary"><span>Conduct a Test</span></a></div>
 																		</div>
 																	</div>
 																</div>
@@ -133,11 +135,11 @@
 															<div class="aslider-content-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale(1, 1);">
 																<div class="aslider-content">
 																	<div class="aslider-content-inner">
-																		<h3 class="aslider-subtitle aslider-animation-element" data-aslider-element-delay="100"><span data-swiper-parallax-percentage="-0" data-swiper-parallax="0" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">The HIV Self Testing Kit</span></h3>
-																		<h1 class="aslider-title aslider-animation-element" data-aslider-element-delay="200"><span data-swiper-parallax-percentage="-3" data-swiper-parallax="-40" style="transform: translate3d(40px, 0px, 0px); transition-duration: 0ms;">Be Self Sure</span></h1>
-																		<p class="aslider-description aslider-animation-element" data-aslider-element-delay="300"><span data-swiper-parallax-percentage="-6" data-swiper-parallax="-81" style="transform: translate3d(81px, 0px, 0px); transition-duration: 0ms;"><a href='<?= @base_url("Outlets");?>'>Now available here</a></span></p>
+																		<h3 class="aslider-subtitle aslider-animation-element is-animated" data-aslider-element-delay="100"><span data-swiper-parallax-percentage="-0" data-swiper-parallax="0" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">GET IN TOUCH</span></h3>
+																		<h1 class="aslider-title aslider-animation-element is-animated" data-aslider-element-delay="200"><span data-swiper-parallax-percentage="-3" data-swiper-parallax="-40" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">SMS OR CALL THE HELPLINE ON 1190 FROM YOUR SAFARICOM LINE</span></h1>
+																		<p class="aslider-description aslider-animation-element is-animated" data-aslider-element-delay="300"><span data-swiper-parallax-percentage="-6" data-swiper-parallax="-81" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">ANY TIME FROM 8AM TO 8PM</span></p>
 																		<div class="aslider-buttons-wrapper aslider-animation-element is-animated" data-aslider-element-delay="400">
-																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a href=""<?= @base_url('Home/videos');?>" class="button aslider-button aslider-button-primary"><span>Get Started</span></a></div>
+																			<div class="aslider-buttons-parallax" data-swiper-parallax-percentage="-9" data-swiper-parallax="-121" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a href="<?= @base_url('Referrals');?>" class="button aslider-button aslider-button-primary"><span>Referral Sites</span></a></div>
 																		</div>
 																	</div>
 																</div>
@@ -233,6 +235,98 @@
 						</div>
 					</div>
 				</div>
+
+
+
+				<div class="row-wrapper row-no-bottom-margin">
+
+					<div class="row-container container row-full-width row-no-padding">
+						<div class="row columns-equal-height columns-no-margins">
+
+							
+							<div class="column col-sm-4">
+								<div class="column-inner custom-css-1488041425297">
+								<a style="color:#FFC107;" href="<?= @base_url('Home/Resources#launch-videos');?>">
+									<div class="bg-media">
+										<div class="bg-media-container skrollable skrollable-between" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)" style="transform: translate3d(0px, 6.25677%, 0px);">
+											<!-- <div style="background-image: url('<?= @$this->config->item('assets_url'); ?>img/banners/1200x1200/banner-center-1.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;" class="preload-bg-image bg-image lazy-load-bg-img is-loaded is-ready" data-src="<?= @$this->config->item('assets_url'); ?>img/banners/1200x1200/banner-center-1.png"></div> width="560" height="315"-->
+											<iframe style="width:100%;height:100%;background-size: cover; background-position: center center;" src="https://www.youtube.com/embed/9I0_e1Igg2U" frameborder="0" allowfullscreen></iframe>
+										</div>
+										<div class="bg-media-overlay" style="background-color: rgba(147,115,222,0.85)"></div>
+									</div>
+									
+									<div class="column-content">
+										<div class="content-element heading-wrapper heading-align-left">
+											<h4 data-animation="fadeInUp" class="subheading animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">Launch Videos</h4>
+											<h3 data-animation="fadeInUp" class="heading animate-element animate-stagger" style="color:#ffffff">Videos of the HIV Self Testing and Prep Launch</h3>
+											<div data-animation="fadeInUp" class="separator heading-separator heading-below-separator animate-element animate-stagger">
+												<span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.5)"></span>
+												<span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.5)"></span>
+											</div>
+											<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:#ffffff">Click Here to View Launch Videos</div>
+										</div>
+									</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="column col-sm-4">
+								<div class="column-inner custom-css-1488041425297">
+								<a href="<?= @base_url('Home/Resources#launch-links');?>">
+									<div class="bg-media">
+										<div class="bg-media-container skrollable skrollable-between" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)" style="transform: translate3d(0px, 6.25677%, 0px);">
+											<div style="width:100%;height:100%;background-image: url('<?= @$this->config->item('assets_url'); ?>img/resources/unaids_self_test.PNG'); background-repeat: no-repeat; background-size: cover; background-position: center center;" class="preload-bg-image bg-image lazy-load-bg-img is-loaded is-ready" data-src="<?= @$this->config->item('assets_url'); ?>img/resources/unaids_self_test.PNG"></div>
+										</div>
+										<div class="bg-media-overlay" style="background-color: rgba(254,223,0,0.85)"></div>
+									</div>
+									<div class="column-content">
+									
+										<div class="content-element heading-wrapper heading-align-left">
+											<h4 data-animation="fadeInUp" class="subheading animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">Launch Links</h4>
+											<h3 data-animation="fadeInUp" class="heading animate-element animate-stagger" style="color: #ffffff;"><a target="blank" href="http://www.unaids.org/en/resources/presscentre/featurestories/2017/may/20170505_kenya">Links to news on the self test launch</a></h3>
+											<div data-animation="fadeInUp" class="separator heading-separator heading-below-separator animate-element animate-stagger">
+												<span class="separator-line heading-separator-line separator-line-left"></span>
+												<span class="separator-line heading-separator-line separator-line-right"></span>
+											</div>
+											<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color: #ffffff;">Click Here to View Launch Links</div>
+										</div>
+									</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="column col-sm-4">
+								<div class="column-inner custom-css-1488041425297">
+								<a style="color:#FFC107;" href="<?= @base_url('Home/Resources#launch-audios');?>">
+									<div class="bg-media">
+										<div class="bg-media-container skrollable skrollable-between" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,55%,0)" style="transform: translate3d(0px, 6.25677%, 0px);">
+											<div style="width:100%;height:100%;background-image: url('<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;" class="preload-bg-image bg-image lazy-load-bg-img is-loaded is-ready" data-src="<?= @$this->config->item('assets_url'); ?>audio/audio_icon.jpg"></div>
+										</div>
+										<div class="bg-media-overlay" style="background-color: rgba(147,115,222,0.85)"></div>
+									</div>
+									<div class="column-content">
+										
+										<div class="content-element heading-wrapper heading-align-left">
+											<h4 data-animation="fadeInUp" class="subheading animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">Launch Audios</h4>
+											<h3 data-animation="fadeInUp" class="heading animate-element animate-stagger" style="color:#ffffff">Audios from Radio Stations held on the Self Test Launch</h3>
+											<div data-animation="fadeInUp" class="separator heading-separator heading-below-separator animate-element animate-stagger">
+												<span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.5)"></span>
+												<span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.5)"></span>
+											</div>
+											<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:#ffffff">Click Here to View Audios</div>
+										</div>
+									</div>
+									</a>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+
+
+
 				<div class="row-wrapper custom-css-1487878467842 row-no-bottom-margin">
 					<div class="row-container container">
 						<div class="row">
@@ -518,3 +612,19 @@
 		</main>
 	</div>
 </div>
+
+
+
+<div data-animation="fadeInUp" class="cta-button-wrapper animate-element fixedactionbuttons" style="top: 76%;left:1%;z-index: 2;">
+	<a href="<?= @base_url('Map');?>" class="button button-secondary button-rounded button-size-md"><span class="button-text">Get a Kit</span></a>
+</div>
+
+<div data-animation="fadeInUp" class="cta-button-wrapper animate-element fixedactionbuttons" style="top: 83%;left:1%;z-index: 2;">
+	<a href="<?= @base_url('Home/videos/');?>" class="button button-secondary button-rounded button-size-md"><span class="button-text">Conduct a Test</span></a>
+</div>
+
+<div data-animation="fadeInUp" class="cta-button-wrapper animate-element fixedactionbuttons" style="top: 90%;left:1%;z-index: 2;">
+	<a href="<?= @base_url('Home/Resources'); ?>" class="button button-secondary button-rounded button-size-md"><span class="button-text">Self Test Launch</span></a>
+</div>
+
+

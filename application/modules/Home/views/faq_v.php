@@ -28,7 +28,7 @@
 <div class="column-inner custom-css-1488422976635 col-has-fill">
 <div class="column-content">
 <div class="content-element heading-wrapper heading-align-left">
-<h3 data-animation="fadeInUp" class="heading animate-element animate-stagger" style="color:#fcfcfc">What is HIV self -testing</h3>
+<h3 data-animation="fadeInUp" class="heading animate-element animate-stagger" style="color:#fcfcfc">What is HIV self-testing</h3>
 <div data-animation="fadeInUp" class="separator heading-separator heading-below-separator animate-element animate-stagger">
 <span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
 <span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
@@ -42,7 +42,7 @@
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size: cover; background-position:center center;background-size: 700px 500px;margin-top: 30px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/selftest.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size: cover; background-position:center center;background-size: 100% 80%;margin-top: 30px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/atomo.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -63,7 +63,7 @@
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;background-size: 800px 550px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/rightchoice.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-position:center center;background-size: 100% 60%; margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/rightchoice.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -121,6 +121,9 @@
 				<td>
 					<img src="<?= @$assets_url; ?>img/faq/quiki.png" alt="ORAQUICK" style="width:200px;height:50px;">
 				</td>
+				<td>
+					<img src="<?= @$assets_url; ?>img/faq/atomo.png" alt="Atomo" style="width:200px;height:50px;">
+				</td>
 			</tr>
 
 			<tr>
@@ -132,6 +135,9 @@
 				</td>
 				<td>
 					Saliva
+				</td>
+				<td>
+					Blood
 				</td>
 			</tr>
 
@@ -145,6 +151,9 @@
 				<td>
 					Oral swab
 				</td>
+				<td>
+					Finger prick
+				</td>
 			</tr>
 
 			<tr>
@@ -157,6 +166,9 @@
 				<td>
 					20 minutes
 				</td>
+				<td>
+					15 minutes
+				</td>
 			</tr>
 		</table>
 	</div>
@@ -168,7 +180,7 @@
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center;background-size: 700px 550px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/available.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center;background-size:  100% 60%;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/available.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -189,7 +201,7 @@
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/saliva.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 100% 60%;margin-top: 60px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/saliva.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -233,7 +245,7 @@ HIV self-tests detect if your body has been previously exposed to HIV. If it has
 </div>
 <div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">For HIV self-tests using a blood sample, you will be required to conduct a quick finger-prick to obtain a blood sample and conduct the test according the manufacturer’s instructions found in the test pack. 
 For self-tests using a saliva sample, you will be required to swab your gums with the provided sample collection kit and conduct the test according to the manufacturer’s instructions found in the test pack. 
-All the approved HIV self-test kits come with simple and clear instructions on how to test yourself and interpret the results.  In case you are not sure of the instructions, you should contact the provider who issued you with the test kit or any health provider at nearest health facility. You can also view instructions on how to take either the blood or oral HIV self-test at <a href="http://www.besure.or.ke">www.besure.or.ke</a>
+All the approved HIV self-test kits come with simple and clear instructions on how to test yourself and interpret the results.  In case you are not sure of the instructions, you should contact the provider who issued you with the test kit or any health provider at nearest health facility. You can also view instructions on how to take either the blood or oral HIV self-test at <a href="http://www.besure.co.ke">www.besure.co.ke</a>
 </div>
 </div>
 </div>
@@ -243,7 +255,7 @@ All the approved HIV self-test kits come with simple and clear instructions on h
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;margin-top: 60px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/conduct.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 100% 60%;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/conduct.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -263,8 +275,8 @@ All the approved HIV self-test kits come with simple and clear instructions on h
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 700px 550px;margin-top: 80px;margin-right:150px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/positive.png"></div>
+<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,10%,0)">
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 100% 70%;margin-top: 80px;margin-right:150px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/positive.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -280,7 +292,7 @@ All the approved HIV self-test kits come with simple and clear instructions on h
 <span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
 <span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
 </div>
-<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">If you interpret a HIV positive result, it is important that you have this result confirmed by a health provider before concluding that your HIV status is truly positive. You can visit the place you obtained the test kit who can refer you to a health facility or visit any health facility or VCT centre where a confirmatory test will be conducted. A list of sites that can conduct a confirmatory test is available at <a href="http://www.besure.or.ke">www.besure.or.ke</a></div>
+<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">If you interpret a HIV positive result, it is important that you have this result confirmed by a health provider before concluding that your HIV status is truly positive. You can visit the place you obtained the test kit who can refer you to a health facility or visit any health facility or VCT centre where a confirmatory test will be conducted. A list of sites that can conduct a confirmatory test is available at <a href="http://www.besure.co.ke">www.besure.co.ke</a></div>
 </div>
 </div>
 </div>
@@ -316,8 +328,8 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 700px 550px;margin-top: 80px;margin-right:150px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/negative.png"></div>
+<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,15%,0)">
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 100% 70%;margin-top: 80px;margin-right:150px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/negative.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -337,8 +349,8 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,35%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;margin-top: 50px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/reliable.png"></div>
+<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,15%,0)">
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 100% 70%;margin-top: 50px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/reliable.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -377,7 +389,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
 <span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
 </div>
-<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">Quality assured HIV self-test kits are available at selected pharmacies including Green Cross and Pharmnet branded pharmacies. You can also view a list of pharmacies online at <a href="http://www.besure.or.ke/Map">www.besure.or.ke</a></div>
+<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">Quality assured HIV self-test kits are available at selected pharmacies including Green Cross and Pharmnet branded pharmacies. You can also view a list of pharmacies online at <a href="http://www.besure.co.ke/Map">www.besure.co.ke</a></div>
 </div>
 </div>
 </div>
@@ -386,7 +398,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/getkit.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 100% 70%;margin-top: 50px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/getkit.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -407,7 +419,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/quality.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 100% 70%;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/quality.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -423,7 +435,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <span class="separator-line heading-separator-line separator-line-left" style="background-color:rgba(255,255,255,0.4)"></span>
 <span class="separator-line heading-separator-line separator-line-right" style="background-color:rgba(255,255,255,0.4)"></span>
 </div>
-<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">If you have purchased an HIV self-test kit, you can determine its authenticity by calling the <img src="<?= @$assets_url; ?>img/faq/smone.png" alt="one2one" style="width:80px;height:20px;"> toll-free number 1190 of visiting <a href="http://www.besure.or.ke">www.besure.or.ke</a>. All HIV self-test kits available at any Green Cross or Pharmnet branded pharmacies are internationally approved and quality-assured. </div>
+<div data-animation="fadeInUp" class="heading-desc animate-element animate-stagger" style="color:rgba(255,255,255,0.8)">If you have purchased an HIV self-test kit, you can determine its authenticity by calling the <img src="<?= @$assets_url; ?>img/faq/smone.png" alt="one2one" style="width:80px;height:20px;"> toll-free number 1190 of visiting <a href="http://www.besure.co.ke">www.besure.co.ke</a>. All HIV self-test kits available at any Green Cross or Pharmnet branded pharmacies are internationally approved and quality-assured. </div>
 </div>
 </div>
 </div>
@@ -455,7 +467,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 700px 450px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/allfiveselftests.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 100% 70%;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/allfiveselftests.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -476,7 +488,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/force.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 100% 70%;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/force.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -523,8 +535,8 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column col-sm-6">
 <div class="column-inner custom-css-1488423931362">
 <div class="bg-media">
-<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 800px 550px;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/info.png"></div>
+<div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,15%,0)">
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 100% 70%;margin-top: 80px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/info.png"></div>
 </div>
 </div>
 <div class="column-content">
@@ -546,7 +558,7 @@ You can contact a health provider or visit a health facility of VCT centre, or c
 <div class="column-inner custom-css-1488423939872">
 <div class="bg-media">
 <div class="bg-media-container" data-bottom-top="transform: translate3d(0,0%,0)" data-top-bottom="transform: translate3d(0,25%,0)">
-<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 700px 350px;margin-top: 40px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/remeber.png"></div>
+<div style="background-image:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=);background-repeat:no-repeat;background-size:cover;background-position:center center;background-size: 100% 70%;margin-top: 40px;" class="preload-bg-image bg-image lazy-load-bg-img" data-src="<?= @$assets_url; ?>img/faq/remeber.png"></div>
 </div>
 </div>
 <div class="column-content">

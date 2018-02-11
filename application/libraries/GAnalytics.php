@@ -53,20 +53,34 @@ class GAnalytics{
 
 	function getResults($quota = NULL){
 		$page_views = NULL;
-		$quota = ($quota == NULL) ? "7daysAgo" : $quota;
+		$total_views = $week_views = "";
+		$quota = ($quota == NULL) ? "all" : $quota;
 
 		$results = $this->analytics->data_ga->get(
 				'ga:' . $this->profileId,
-				$quota,
+				'2008-01-01',
 				'today',
 				'ga:sessions'
 		);
 
 		if (count($results->getRows()) > 0) {
 			$rows = $results->getRows();
-			$page_views = $rows[0][0];
+			$total_views = $rows[0][0];
 		}
 
+		$results = $this->analytics->data_ga->get(
+			'ga:' . $this->profileId,
+			'7daysAgo',
+			'today',
+			'ga:sessions'
+		);
+
+		if (count($results->getRows()) > 0) {
+			$rows = $results->getRows();
+			$week_views = $rows[0][0];
+		}
+
+		$page_views = $week_views . '/' . $total_views;
 		return $page_views;
 	}
 }

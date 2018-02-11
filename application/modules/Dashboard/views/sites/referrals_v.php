@@ -3,7 +3,7 @@
 		Referral Sites
 	</div>
 	<div class="panel-body">
-		<table class = "table table-bordered" id = "facilities_list">
+		<table class = "table table-bordered table-responsive" id = "facilities_list">
 			<thead>
 				<th style="width: 8%;">#</th>
 				<th style="width: 10%;">MFL Code</th>
@@ -11,6 +11,8 @@
 				<th>County</th>
 				<th style="width: 15%;">Latitude</th>
 				<th style="width: 15%;">Longitude</th>
+				<th style="width: 15%;">Nearest Town</th>
+				<th style="width: 15%;">Description</th>
 			</thead>
 			<tbody></tbody>
 		</table>

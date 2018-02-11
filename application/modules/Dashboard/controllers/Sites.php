@@ -10,7 +10,7 @@ class Sites extends DashboardController{
 	// pharmacies sub section
 
 	function pharmacies(){
-		$js_data['counties'] = $this->getCounties();
+		$js_data['counties'] = $this->getCounties(true);
 		$this->assets
 				->addCss('dashboard/vendor/datatables.net-bs/css/dataTables.bootstrap.min.css')
 				->addCss('plugin/bootstrap3-editable/css/bootstrap-editable.css')
@@ -32,6 +32,24 @@ class Sites extends DashboardController{
 					->adminTemplate();
 	}
 
+	function getPharmacyCountyListing(){
+		$option_string = "";
+		$counties = $this->db->get('county')->result();
+
+		if($counties){
+			foreach ($counties as $county) {
+				$coordinates_json = $county->county_coordinates;
+				$coordinates_array = json_decode($coordinates_json);
+				$coordinates = $coordinates_array[0][0][1];
+
+				$option_string .= "<option data-lng = '{$coordinates[0]}' data-lat = '{$coordinates[1]}' value = '{$county->id}'>{$county->county_name}</option>";
+			}
+		}
+
+
+		return $option_string;
+	}
+
 	function addPharmacy(){
 		if ($this->input->post()) {
 			$insertData = [
@@ -40,7 +58,8 @@ class Sites extends DashboardController{
 				'pharmacy_phone'	=>	$this->input->post('pharmacy_phone'),
 				'pharmacy_location'	=>	$this->input->post('pharmacy_location'),
 				'pharmacy_longitude'	=>	$this->input->post('pharmacy_longitude'),
-				'pharmacy_latitude'	=>	$this->input->post('pharmacy_latitude')
+				'pharmacy_latitude'	=>	$this->input->post('pharmacy_latitude'),
+				'county_id'			=>	$this->input->post('pharmacy_county')
 			];
 
 			$insert = $this->db->insert('pharmacies', $insertData);
@@ -81,9 +100,12 @@ class Sites extends DashboardController{
 
 	function importFacilities(){
 		$file_path = './docs/facilites_geo_codes.xlsx';
+		// $file_path = './docs/eHealth_facilities.xls';
 		$data = $this->excel->readExcel($file_path);
 		if (count($data) > 0) {
 			foreach ($data as $item => $itemData) {
+
+				// echo "<pre>"; print_r($itemData);echo "</pre>";die();
 				$headers = $itemData[0];
 				$dbColumns = $this->getDbColumnNames($item);
 				$cleaned_headers = array_replace($headers, $dbColumns);
@@ -105,6 +127,30 @@ class Sites extends DashboardController{
 		}
 	}
 
+	function importUpdateFacilities(){
+		// $file_path = './docs/facilites_geo_codes.xlsx';
+		$file_path = './docs/eHealth_facilities.xls';
+		$data = $this->excel->readExcel($file_path);
+		if (count($data) > 0) {
+			foreach ($data as $item => $itemData) {
+				foreach ($itemData as $key => $value) {
+					
+					if ($key != 0) {
+						// echo "<pre>"; print_r($value[0]);echo "</pre>";die();
+						$this->db->where('facility_code', $value[0]);
+						
+						$this->db->set('description', $value[2]);
+						$this->db->set('nearest_town', $value[3]);
+
+						$this->db->update('facilities');
+						// $this->db->insert_batch('facilities', $insertData);
+					}
+				}
+				
+			}
+		}
+	}
+
 	function getDbColumnNames($table = 'facilities'){
 		$dbColumns = [];
 		switch ($table) {
@@ -117,6 +163,7 @@ class Sites extends DashboardController{
 					4	=>	'latitude',
 					5	=>	'county_name'
 				];
+				
 			break;
 			default:
 				# code...

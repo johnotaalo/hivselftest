@@ -7,12 +7,13 @@ class DashboardController extends MY_Controller{
 		$this->auth->checkLogin();
 	}
 
-	function getCounties(){
+	function getCounties($numerical = false){
 		$data = [];
 		$counties = $this->db->get('county')->result();
 		foreach ($counties as $county) {
+			$id = ($numerical == true) ? $county->id : $county->county_name;
 			$data[] = [
-				'id'	=>	$county->county_name,
+				'id'	=>	$id,
 				'text'	=>	$county->county_name
 			];
 		}

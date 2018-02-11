@@ -1,64 +1,153 @@
-<div class="row">
-<div class="pull-right">
-	<a class="btn btn-default btn-xs" id="add-user" data-toggle="modal" data-target="#myModal15">Add User</a>
-</div>
+<style type="text/css">
+	select.FormField{
+		display: block;
+		width: 100%;
+		height: 34px;
+		padding: 6px 12px;
+		font-size: 14px;
+		line-height: 1.42857143;
+		color: #555;
+		background-color: #fff;
+		background-image: none;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+		box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+		-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+		-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	}
 
+	.Dashboard-footer, .Dashboard-header {
+		margin: -1.5em -1.5em 1.5em;
+		padding: 1.5em;
+	}
 
-<div class="modal fade hmodal-danger" id="myModal15" tabindex="-1" role="dialog"  aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<form class = "form-horizontal" action = "<?= @base_url('Dashboard/addUser/'); ?>" method = "POST">
-				<!-- <div class="color-line"></div> -->
-				<div class="modal-header">
-					<h4 class="modal-title">Add User</h4>
-					<small class="font-bold">Add a new user as an admin</small>
-				</div>
-				<div class="modal-body">
-					<div class="form-group">
-						<label class="control-label" for="first_name">First Name</label>
-						<div class="input-group m-b">
-							<span class="input-group-addon"><i class = "fa fa-user"></i></span>
-							<input class="form-control" id = "first_name" name = "first_name"></input>
-						</div>						
-					</div>
+	.Dashboard-header {
+		border-bottom: 1px solid #d4d2d0;
+	}
 
-					<div class="form-group">
-						<label class = "control-label" for = "last_name">Last Name</label>
-						<div class="input-group m-b">
-							<span class="input-group-addon"><i class = "fa fa-user"></i></span>
-							<input class="form-control" id = "last_name" name = "last_name"></input>
-						</div>
-					</div>
+	@media (min-width: 1024px){
+		.FlexGrid {
+			margin: 0 0 -2em -2em !important;
+		}
+	}
 
-					<div class="form-group">
-						<label class = "control-label" for = "email">Email</label>
-						<div class="input-group m-b">
-							<span class="input-group-addon"><i class = "fa fa-phone"></i></span>
-							<input class="form-control" id = "email" name = "email"></input>
-						</div>
-					</div>
+	.FlexGrid {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		list-style: none;
+		margin: 0 0 -1.5em -1.5em;
+		padding: 0;
+	}
 
-					<div class="form-group">
-						<label class = "control-label" for = "password">Password</label>
-						<div class="input-group m-b">
-							<span class="input-group-addon"><i class = "fa fa-globe"></i></span>
-							<input class="form-control" id = "password" name = "password"></input>
-						</div>
-					</div>
-				</div>
-				<div class="modal-footer">
-					<a type="button" class="btn btn-default" data-dismiss="modal">Close</a>
-					<button class="btn btn-primary">Save changes</button>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
+	@media (min-width: 1024px){
+		.FlexGrid-item {
+			margin: 0 0 2em 2em !important;
+		}
+	}
 
+	@media (min-width: 570px){
+		.FlexGrid-item {
+			-webkit-flex-basis: 200px !important;
+			-ms-flex-preferred-size: 200px !important;
+			flex-basis: 200px !important;
+		}
+	}
 
+	.FlexGrid-item {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1 0 -webkit-calc(100% - 1.5em);
+		-ms-flex: 1 0 calc(100% - 1.5em);
+		flex: 1 0 calc(100% - 1.5em);
+		margin: 0 0 1.5em 1.5em;
+		float: left;
+	}
 
+	.FlexGrid-item--fixed {
+		-webkit-box-flex: 0!important;
+		-webkit-flex: 0 0 auto!important;
+		-ms-flex: 0 0 auto!important;
+		flex: 0 0 auto!important;
+	}
 
+	.Titles {
+		font-weight: 300;
+		line-height: 1.2;
+		margin: 0 0 1.5em;
+	}
 
+	.Titles-main {
+		font-size: 1.4em !important;
+	}
+
+	.Titles-main, .Titles-sub {
+		color: inherit;
+		font: inherit;
+		margin: 0;
+	}
+
+	.Titles-sub {
+		opacity: .6;
+		margin-top: .2em;
+	}
+	@media (min-width: 570px){
+		.ViewSelector, .ViewSelector2 {
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+			margin: 0 0 -1em -1em;
+			width: -webkit-calc(100% + 1em);
+			width: calc(100% + 1em);
+		}
+	}
+
+	@media (min-width: 570px){
+		.ViewSelector2-item, .ViewSelector table {
+			-webkit-box-flex: 1;
+			-webkit-flex: 1 1 -webkit-calc(100%/3 - 1em);
+			-ms-flex: 1 1 calc(100%/3 - 1em);
+			flex: 1 1 calc(100%/3 - 1em);
+			margin-left: 1em;
+		}
+	}
+
+	.ViewSelector2-item, .ViewSelector table {
+		display: block;
+		margin-bottom: 1em;
+		width: 100%;
+	}
+
+	.ViewSelector2-item>label, .ViewSelector td:first-child {
+		font-weight: 700;
+		margin: 0 .25em .25em 0;
+		display: block;
+	}
+</style>
+<script>
+(function(w,d,s,g,js,fs){
+	g=w.gapi||(w.gapi={});g.analytics={q:[],ready:function(f){this.q.push(f);}};
+	js=d.createElement(s);fs=d.getElementsByTagName(s)[0];
+	js.src='https://apis.google.com/js/platform.js';
+	fs.parentNode.insertBefore(js,fs);js.onload=function(){g.load('analytics');};
+}(window,document,'script'));
+
+gapi.analytics.ready(function() {
+	var CLIENT_ID = '<?= @$this->config->item('client_id'); ?>';
+
+	gapi.analytics.auth.authorize({
+		container: 'embed-api-auth-container',
+		clientid: CLIENT_ID,
+	});
+});
+</script>
+<!-- <div class="row">
 	<div class="col-lg-12">
 
 		<div class="hpanel">
@@ -82,16 +171,13 @@
 						</h1>
 						<small>Page views in <span class = "number_of_days">Last 7 Days</span></small>
 						</div>
-						<div class="small m-t-xl">
-							<i class="fa fa-clock-o"></i> <span class = "from_date">Data from January</span>
-						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="text-center small">
-							<i class="fa fa-laptop"></i> Active users in current month (December)
+							<i class="fa fa-laptop"></i> Active users in current month (<?= @date('F'); ?>)
 						</div>
 						<div class="flot-chart" style="height: 160px">
-							<div class="flot-chart-content" id="flot-line-chart"></div>
+							
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
@@ -104,21 +190,12 @@
 							</h1>
 							<small>Data From Google Analytics</small>
 						</div>
-						<div class="small m-t-xl">
-						<i class="fa fa-clock-o"></i> Last active in 12.10.2015
-						</div>
 					</div>
 				</div>
 			</div>
-			<div class="panel-footer">
-			<span class="pull-right">
-			You have two new messages from <a href="#">Monica Bolt</a>
-			</span>
-			Last update: 21.05.2015
-			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 <div class="row">
 	<div class="col-lg-3">
 		<div class="hpanel">
@@ -137,7 +214,7 @@
 					<br>
 					<small>
 						There are statistics from Google Analytics.<br>
-						Data from last 7 Days
+						Past Week/All hits
 					</small>
 				</div>
 			</div>
@@ -160,7 +237,7 @@
 					<br>
 					<small>
 						Users have filled in some surveys<br>
-						Data from last 7 Days
+						All surveys
 					</small>
 				</div>
 			</div>
@@ -173,7 +250,7 @@
 					<h4>PHARMACIES</h4>
 				</div>
 				<div class="stats-icon pull-right">
-					<i class="fa fa-medikit fa-4x"></i>
+					<i class="fa fa-medkit fa-4x"></i>
 				</div>
 				<div class="m-t-xl">
 					<h1 class="text-success"><span id = "numbers"><?= @$stats['pharmacies']; ?></span></h1>
@@ -210,5 +287,67 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="hpanel">
+			<div class="panel-body h-200">
+				<header class = "Dashboard-header">
+					<ul class="FlexGrid">
+						<li class="FlexGrid-item">
+							<div class="Titles">
+								<h1 class="Titles-main" id="view-name"></h1>
+								<div class="Titles-sub">Various visualizations</div>
+							</div>
+						</li>
+						<li class="FlexGrid-item FlexGrid-item--fixed">
+							<div id="active-users-container"></div>
+						</li>
+					</ul>
+					<div id="view-selector-container"></div>
+					<div class = "row">
+						<div class = "col-md-8">
+						</div>
+						<div class = "col-md-4">
+							<div class = "form-group">
+								<input type = 'text' name = 'date-ranges' class = 'form-control'/>
+							</div>
+						</div>
+					</div>
+				</header>
+				<div class="row">
+					<div class="col-md-6">
+						<h3>This Week vs Last Week (by sessions)</h3>
+						<figure class="Chartjs-figure" id="chart-1-container"></figure>
+						<ol class="Chartjs-legend" id="legend-1-container"></ol>
+					</div>
+					<div class="col-md-6">
+						<h3>This Year vs Last Year (by users)</h3>
+						<figure class="Chartjs-figure" id="chart-2-container"></figure>
+						<ol class="Chartjs-legend" id="legend-2-container"></ol>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<h3>Top Browsers (by pageview)</h3>
+						<figure class="Chartjs-figure" id="chart-3-container"></figure>
+						<ol class="Chartjs-legend" id="legend-3-container"></ol>
+					</div>
+					<div class="col-md-6">
+						<h3>Top Countries (by sessions)</h3>
+						<figure class="Chartjs-figure" id="chart-4-container"></figure>
+						<ol class="Chartjs-legend" id="legend-4-container"></ol>
+					</div>
+				</div>
+				
+			</div>
+
+			<div class="panel-footer">
+				<div id="embed-api-auth-container"></div>
+				<button id = 'auth-logout'>Logout</button>
+			</div>
+		</div>	
 	</div>
 </div>

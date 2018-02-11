@@ -53,6 +53,26 @@
 		<style type="text/css">.custom-css-1488241484908{padding-top:90px;padding-bottom:90px}.custom-css-1488239830737{background-color:#fff;background-color:#fff}.custom-css-1488241938953{background-color:#28353d}.custom-css-1488244328363{padding:90px 20px 20px}.custom-css-1488245476729{padding-top:50px;padding-bottom:50px;background-color:#fff}.custom-css-1488041420143{background-color:#28353d;padding:80px 12%}.custom-css-1488041425297{padding:80px 12%}.custom-css-1488041385976{padding:80px 12%}.custom-css-1488239923758{border-color:#eee;border-style:solid;border-width:10px;padding:80px 12%}.custom-css-1488241686986{padding-top:200px}.custom-css-1488241607219{padding-top:200px}.custom-css-1488239923758{border-color:#eee;border-style:solid;border-width:10px;padding:80px 12%}.custom-css-1488242558389{padding:80px 12%}.custom-css-1488243026145{padding-top:200px}.custom-css-1488243053150{padding-top:200px}.custom-css-1488242590341{padding:80px 12%}.custom-css-1488245539123{background-color:rgba(255,255,255,0.01);*background-color:#fff;padding:0}.custom-css-1488423852758{padding-top:300px;}.custom-css-1488423872205{padding-top:50px;padding-right:12%;padding-bottom:50px;padding-left:12%;}.custom-css-1488422976635{padding-top:50px;padding-right:12%;padding-bottom:50px;padding-left:12%;background-color:#FFC107;}.custom-css-1488423931362{padding-top:200px;}.custom-css-1488423939872{padding-top:200px;}.custom-css-1488423223527{padding-top:50px;padding-right:12%;padding-bottom:50px;padding-left:12%;background-color:#9373de;
 
 			</style>
+
+			<style type="text/css">
+				body{
+					font-family: 'Raleway', sans-serif;
+				}
+				a:hover{
+					text-decoration: none;
+				}
+
+				.social-icons ul{
+					list-style-type: none;
+					margin: 0;
+					padding: 0;
+					font-family: Raleway;
+				}
+
+				.social-icons ul li a {
+					display: block;
+				}
+			</style>
 	</head>
 	<body class="header-transparent no-page-heading fluid-width no-top-content-padding no-bottom-content-padding">
 		<div id="page" class="site">
@@ -64,6 +84,11 @@
 							<img class="logo-light"  src="<?= @$assets_url; ?>img/psk-logo.png" alt="Besure-Logo">
 							<img class="logo-dark"  src="<?= @$assets_url; ?>img/psk-logo.png" alt="Besure-Logo">
 						</a>
+					</div>
+					<div class="site-actions">
+						<span class="mobile-menu-trigger hamburger-menu"><span></span></span>
+						<span class="mobile-menu-close-trigger site-action-close slide-out-action-close is-active"><span></span></span>
+						<span class="site-actions-overlay"></span>
 					</div>
 					<div class="site-header-inner">
 						<div class="header-search-form">
@@ -102,27 +127,29 @@
 									<a href="<?= @base_url('Referrals'); ?>"><span><span class="menu-item-label">Referral Sites</span></span></a>
 								</li>
 
-								<!-- <li class="menu-item menu-item-has-children menu-no-link"><a href="<?= @base_url('Home/Resources/');?>"><span><span class="menu-item-label">Resources</span></span></a></li> -->
+								<li class="menu-item menu-item-has-children menu-no-link">
+									<a href="<?= @base_url('Home/Resources'); ?>"><span><span class="menu-item-label">Resources</span></span></a>
+								</li>
 
-								<li class="menu-item menu-item-has-children menu-no-link mega-menu mm-col-2 mega-menu-center is-mega-menu-centered"><a href="<?= @base_url('Home/Resources'); ?>"><span><span class="menu-item-label">Resources</span></span><i class="mobile-sub-menu-trigger apalodi-icon-right-circled-alt"></i></a>
+								<!-- <li class="menu-item menu-item-has-children menu-no-link mega-menu mm-col-2 mega-menu-center is-mega-menu-centered"><a href="<?= @base_url('Home/Resources'); ?>"><span><span class="menu-item-label">Resources</span></span><i class="mobile-sub-menu-trigger apalodi-icon-right-circled-alt"></i></a>
 									<ul class="sub-menu">
 									<li class="menu-item menu-item-has-children menu-no-link menu-no-label"><a><span></span><i class="mobile-sub-menu-trigger apalodi-icon-right-circled-alt"></i></a>
 									<ul class="sub-menu">
-										<li class="menu-item"><a href="https://www.avert.org/" target="_blank"><span><span class="menu-item-label">Avert</span></span></a></li>
-										<li class="menu-item"><a href="http://www.one2onekenya.org/site/" target="_blank"><span><span class="menu-item-label">One2one Kenya</span></span></a></li>
-										<li class="menu-item"><a href="http://nephak.or.ke/" target="_blank"><span><span class="menu-item-label">Nephak</span></span></a></li>
-										<li class="menu-item"><a href="http://nacc.or.ke/" target="_blank"><span><span class="menu-item-label">Nacc</span></span></a></li>
+										<li class="menu-item"><a target="_blank" href="https://www.avert.org/" target="_blank"><span><span class="menu-item-label">Avert</span></span></a></li>
+										<li class="menu-item"><a target="blank" href="http://www.one2onekenya.org/site/" target="_blank"><span><span class="menu-item-label">One2one Kenya</span></span></a></li>
+										<li class="menu-item"><a target="_blank" href="http://nephak.or.ke/" target="_blank"><span><span class="menu-item-label">Nephak</span></span></a></li>
+										<li class="menu-item"><a target="_blank" href="http://nacc.or.ke/" target="_blank"><span><span class="menu-item-label">Nacc</span></span></a></li>
 									</ul>
 									</li>
 									<li class="menu-item menu-item-has-children menu-no-link menu-no-label"><a><span></span><i class="mobile-sub-menu-trigger apalodi-icon-right-circled-alt"></i></a>
 									<ul class="sub-menu">
-										<li class="menu-item"><a href="http://www.biolytical.com/" target="_blank"><span><span class="menu-item-label">Manufacturer Websites</span></span></a></li>
-										<li class="menu-item"><a href="http://www.nascop.or.ke/" target="_blank"><span><span class="menu-item-label">Nascop</span></span></a></li>
-										<li class="menu-item"><a href="http://whatisprep.org/" target="_blank"><span><span class="menu-item-label">Whatisprep</span></span></a></li>
+										<li class="menu-item"><a target="_blank" href="http://www.biolytical.com/" target="_blank"><span><span class="menu-item-label">Manufacturer Websites</span></span></a></li>
+										<li class="menu-item"><a target="_blank" href="http://www.nascop.or.ke/" target="_blank"><span><span class="menu-item-label">Nascop</span></span></a></li>
+										<li class="menu-item"><a target="_blank" href="http://whatisprep.org/" target="_blank"><span><span class="menu-item-label">Whatisprep</span></span></a></li>
 									</ul>
 									</li>
 									</ul>
-									</li>
+									</li> -->
 
 
 
@@ -212,16 +239,36 @@
 							<p>© <a href="http://www.one2onekenya.org/site/" target="_blank">One 2 One</a> and <a href="" target="_blank">LVCTHealth</a></p>
 						</div>
 					</div>
-					<div class="footer-social">
-						<div class="social-icons">
+					<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway|Lato|Open+Sans">
+					<div class="footer-social" style="text-align: left;font-size: 1.5em;">
+						<div class="social-icons" style = "float: left;">
+							<ul>
+								<li>
+									<a href="<?= @$assets_url; ?>img/whatsapp.png" target="_blank">
+										<!-- <img style="width:30px; height:30px;" src="<?= @$assets_url; ?>img/whatsapp.png"/> -->
+										<i class = "fa fa-whatsapp"></i>&nbsp;&nbsp;0700-121-121
+									</a>
+								</li>
 
-							<p><a class="social-icon" href="<?= @$assets_url; ?>img/whatsapp.png" target="_blank"><img style="width:30px; height:30px;" src="<?= @$assets_url; ?>img/whatsapp.png"/>&nbsp;&nbsp;Whatsapp: 0700-121-121</a></p>
+								<li>
+									<a href="https://www.facebook.com/One2one-ke-144444975612410/?hc_location=ufi" target="_blank">
+										<!-- <img style="width:30px; height:30px;" src="<?= @$assets_url; ?>img/facebook.png"/> -->
+										<i class = "fa fa-facebook"></i>&nbsp;&nbsp;One2one ke
+									</a>
+								</li>
 
-							<p><a class="social-icon" href="https://www.facebook.com/One2one-ke-144444975612410/?hc_location=ufi" target="_blank"><img style="width:30px; height:30px;" src="<?= @$assets_url; ?>img/facebook.png"/>&nbsp;&nbsp;Facebook: One2one ke</a></p>
+								<li>
+									<a href="https://twitter.com/one2oneke?lang=en" target="_blank">
+									<!-- <img style="width:30px; height:30px;" src="<?= @$assets_url; ?>img/twitter.png"/> -->
+									<i class = "fa fa-twitter"></i>&nbsp;&nbsp;@one2oneKE</a>
+								</li>
 
-							<p><a class="social-icon" href="https://twitter.com/one2oneke?lang=en" target="_blank"><img style="width:30px; height:30px;" src="<?= @$assets_url; ?>img/twitter.png"/>&nbsp;&nbsp;Twitter: @one2oneKE</a></p>
-
-							<p><a class="social-icon" href="https://www.instagram.com/onetooneke/?hl=en" target="_blank"><img style="width:30px; height:30px;" src="<?= @$assets_url; ?>img/instagram.png"/>&nbsp;&nbsp;Instagram: Onetoone Ke</a></p>
+								<li>
+									<a href="https://www.instagram.com/onetooneke/?hl=en" target="_blank">
+									<!-- <img style="width:30px; height:30px;" src="<?= @$assets_url; ?>img/instagram.png"/> -->
+									<i class = "fa fa-instagram"></i>&nbsp;&nbsp;onetoone Ke</a>
+									</li>
+							</ul>
 
 
 						</div>
@@ -241,6 +288,7 @@
 		<script type="text/javascript" src="<?= @$assets_url; ?>js/vendor/jquery-migrate.min.js"></script>
 		<!-- <script type="text/javascript" src="<?= @$assets_url; ?>dist/js/bootstrap.min.js"></script> -->
 		<script type="text/javascript" src="<?= @$assets_url; ?>js/vendor/modernizr.min.js"></script>
+		<script type="text/javascript" src="<?= @$assets_url; ?>js/vendor/isotope.pkgd.min.js"></script>
 		<script type="text/javascript">
 			var base_url = "<?= @base_url(); ?>";
 		</script>

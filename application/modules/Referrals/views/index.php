@@ -34,6 +34,14 @@
 	table thead th{
 		color: #555 !important;
 	}
+
+	.row{
+		margin-top: 15px !important;
+	}
+
+	#content{
+		font-family: 'Raleway', sans-serif;
+	}
 </style>
 <div id="content" class="site-content container">
 	<div id="primary" class="content-area">
@@ -46,7 +54,7 @@
 								<div class="column-inner">
 									<div class="column-content">
 										<div class="content-element google-map-wrapper">
-											<div id="map" class = "google-map gmap-ratio-4-1 is-ready" style="position: relative; overflow: hidden;"></div>
+											<div id="map" class = "google-map gmap-ratio-4-1 is-ready" style="position: relative; overflow: hidden;height: 500px;"></div>
 										</div>
 									</div>
 								</div>
@@ -58,29 +66,34 @@
 					<div class="row-container container">
 						<div class="row columns-equal-height columns-no-margins">
 							<div class="column col-sm-12">
-								<div class="column-inner custom-css-1488398861560 col-has-fill">
+								<div class="column-inner">
 									<div class="column-content">
 										<div data-animation="fadeInUp" class="animate-element animate-stagger is-animated fadeInUp">
-											<h4 class="heading" style="margin-bottom: 15px;">
+											<h2 style="margin-bottom: 15px;">
 												Referral Sites
-											</h4>
+											</h2>
 											<div class="form-group">
 												<select class = "form-control" name="county" placeholder = "Please pick a county to continue">
 													<option value="">Select a County to continue</option>
 													<?= @$counties; ?>
 												</select>
 											</div>
+											
 											<div class="row">
 												<div class="col-sm-12">
-													<table class="table table-bodered" style="color: #555 !important;" id = "facilities_table">
-														<thead>
-															<th>#</th>
-															<th>MFL Code</th>
-															<th>Facility Name</th>
-														</thead>
-														<tbody>
-														</tbody>
-													</table>
+													<div class="table-responsive">
+														<table class="table table-bodered" style="color: #555 !important;" id = "facilities_table">
+															<thead>
+																<th>#</th>
+																<th>Facility Name</th>
+																<th>Nearest Town</th>
+																<th>Description</th>
+																<th>Map</th>
+															</thead>
+															<tbody>
+															</tbody>
+														</table>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -95,3 +108,4 @@
 	</div>
 </div>
 <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script> -->
+<!-- <div id="map"></div> -->
